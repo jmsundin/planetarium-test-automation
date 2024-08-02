@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Login {
     private WebDriver driver;
-    private String url = "http://localhost:8080/";
+    private final String URL = "http://localhost:8080/";
 
     @FindBy(id = "usernameInput")
     private WebElement usernameInput;
@@ -17,6 +17,8 @@ public class Login {
     private WebElement loginButton;
     @FindBy(tagName = "a")
     private WebElement createAnAccountLink;
+    @FindBy(id = "logoutButton")
+    private WebElement logoutButton;
 
     public Login(WebDriver driver){
         this.driver = driver;
@@ -24,7 +26,7 @@ public class Login {
     }
 
     public void goToLoginPage(){
-        driver.get(url);
+        driver.get(URL);
     }
 
     public void sendUsernameToUsernameInput(String username){
@@ -41,6 +43,10 @@ public class Login {
 
     public void clickCreateAnAccountLink(){
         createAnAccountLink.click();
+    }
+
+    public void clickLogoutButton(){
+        logoutButton.click();
     }
 
 }
