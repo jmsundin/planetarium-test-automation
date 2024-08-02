@@ -5,27 +5,23 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Login {
+public class Register {
     private WebDriver driver;
-    private final String URL = "http://localhost:8080/";
+    private final String URL = "http://localhost:8080/register";
 
     @FindBy(id = "usernameInput")
     private WebElement usernameInput;
     @FindBy(id = "passwordInput")
     private WebElement passwordInput;
     @FindBy(xpath = "//*[@id=\"loginForm\"]/input[3]")
-    private WebElement loginButton;
-    @FindBy(tagName = "a")
-    private WebElement createAnAccountLink;
-    @FindBy(id = "logoutButton")
-    private WebElement logoutButton;
+    private WebElement createButton;
 
-    public Login(WebDriver driver){
+    public Register(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
-    public void goToLoginPage(){
+    public void goToRegistrationPage(){
         driver.get(URL);
     }
 
@@ -37,16 +33,9 @@ public class Login {
         passwordInput.sendKeys(password);
     }
 
-    public void clickLoginButton(){
-        loginButton.click();
-    }
-
-    public void clickCreateAnAccountLink(){
-        createAnAccountLink.click();
-    }
-
-    public void clickLogoutButton(){
-        logoutButton.click();
+    public void clickCreateButton(){
+        createButton.click();
     }
 
 }
+
