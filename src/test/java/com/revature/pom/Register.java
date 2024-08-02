@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Register {
     private WebDriver driver;
-    private String url = "http://localhost:8080/register";
+    private final String URL = "http://localhost:8080/register";
 
     @FindBy(id = "usernameInput")
     private WebElement usernameInput;
@@ -22,7 +22,7 @@ public class Register {
     }
 
     public void goToRegistrationPage(){
-        driver.get(url);
+        driver.get(URL);
     }
 
     public void sendUsernameToUsernameInput(String username){
