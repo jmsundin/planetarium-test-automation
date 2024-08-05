@@ -82,5 +82,4 @@ public class Planetarium {
         submitButton.click();
     }
 
-
 }
