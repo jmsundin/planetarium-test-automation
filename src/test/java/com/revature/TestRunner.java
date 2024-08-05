@@ -10,6 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.revature.pom.Login;
+import com.revature.pom.Planetarium;
+import com.revature.pom.Register;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -20,14 +22,16 @@ import io.cucumber.junit.CucumberOptions;
     glue = "com.revature.step",
     plugin = {
         "pretty",
-        "html:src/test/resources/html-report.html",
-        "json:src/test/resources/json-report.json"
+        "html:src/test/resources/reports/html-report.html",
+        "json:src/test/resources/reports/json-report.json"
     }
 )
-class TestRunner {
+public class TestRunner {
     public static WebDriver driver;
     public static WebDriverWait wait;
     public static Login login;
+    public static Register register;
+    public static Planetarium planetarium;
 
     @BeforeClass
     public static void setup(){
@@ -35,6 +39,8 @@ class TestRunner {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         login = new Login(driver);
+        register = new Register(driver);
+        planetarium = new Planetarium(driver);
         wait = new WebDriverWait(driver, Duration.ofSeconds(5));
     }
 
