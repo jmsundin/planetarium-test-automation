@@ -14,7 +14,6 @@ public class Planetarium {
 
     @FindBy(id = "locationSelect")
     private WebElement locationSelect;
-    private Select optionSelect = new Select(locationSelect);
     @FindBy(id = "deleteInput")
     private WebElement deleteInput;
     @FindBy(id="deleteButton")
@@ -45,6 +44,7 @@ public class Planetarium {
     }
 
     public void selectOptionFromLocationSelect(String celestialBody){
+        Select optionSelect = new Select(locationSelect);
         optionSelect.selectByVisibleText(celestialBody);
     }
 
