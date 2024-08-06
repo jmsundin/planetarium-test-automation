@@ -23,4 +23,9 @@ public class PlanetAdditionSteps {
     public void the_user_selects_the_planet_option_from_the_dropdown() {
        TestRunner.planetarium.selectOptionFromLocationSelect("Planet");
     }
+
+    @When("The user enters {string} as the planet name")
+    public void the_user_enters_as_the_planet_name(String planetName) {
+        TestRunner.planetarium.sendPlanetNameToPlanetNameInput(planetName);
+    }
 }
