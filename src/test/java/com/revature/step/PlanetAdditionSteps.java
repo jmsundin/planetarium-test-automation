@@ -33,4 +33,9 @@ public class PlanetAdditionSteps {
     public void the_user_uploads_as_the_image(String planetImage) {
         TestRunner.planetarium.planetImageUpload(planetImage);
     }
+
+    @When("The user clicks on the Submit Planet button")
+    public void the_user_clicks_on_the_Submit_Planet_button() {
+        TestRunner.planetarium.clickSubmitButton();
+    }
 }
