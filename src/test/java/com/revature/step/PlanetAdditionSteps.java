@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import com.revature.TestRunner;
 
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class PlanetAdditionSteps {
@@ -37,5 +38,13 @@ public class PlanetAdditionSteps {
     @When("The user clicks on the Submit Planet button")
     public void the_user_clicks_on_the_Submit_Planet_button() {
         TestRunner.planetarium.clickSubmitButton();
+    }
+
+    @Then("The user should be informed that the planet addition failed")
+    public void the_user_should_be_informed_that_the_planet_addition_failed() {
+        TestRunner.wait.until(ExpectedConditions.alertIsPresent());
+        String alert = TestRunner.driver.switchTo().alert().getText();
+        TestRunner.driver.switchTo().alert().accept();
+        Assert.assertTrue(alert.contains("please try again"));
     }
 }
