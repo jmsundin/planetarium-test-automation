@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import com.revature.TestRunner;
 
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
 
 public class PlanetAdditionSteps {
     @Given("The user is logged in")
@@ -16,5 +17,10 @@ public class PlanetAdditionSteps {
         TestRunner.login.clickLoginButton();
         TestRunner.wait.until(ExpectedConditions.titleIs("Home"));
         Assert.assertEquals("Home", TestRunner.driver.getTitle());
+    }
+
+    @When("The user selects the planet option from the dropdown")
+    public void the_user_selects_the_planet_option_from_the_dropdown() {
+       TestRunner.planetarium.selectOptionFromLocationSelect("Planet");
     }
 }
