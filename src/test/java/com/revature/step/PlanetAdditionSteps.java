@@ -28,4 +28,9 @@ public class PlanetAdditionSteps {
     public void the_user_enters_as_the_planet_name(String planetName) {
         TestRunner.planetarium.sendPlanetNameToPlanetNameInput(planetName);
     }
+
+    @When("The user uploads {string} as the image")
+    public void the_user_uploads_as_the_image(String planetImage) {
+        TestRunner.planetarium.planetImageUpload(planetImage);
+    }
 }
