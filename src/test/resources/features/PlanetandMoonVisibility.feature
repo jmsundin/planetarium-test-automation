@@ -4,14 +4,14 @@ Feature: PlanetandMoonVisibility
 	@PTA-TC-49 @JREQ-PTA-62
 	Scenario Outline: As a user, I should not be able to view planets and moons without being logged-in, so that the Planetarium Home page content is visible by registered users only
 	The system should check if the user is logged-in before showing planets and moons.
-		Given The user is not logged-in
-		When The User enters the "<URL>" for the Home page of Planetarium
-		Then The user should be redirected to the Login page at "<URL>"
+		Given The user is on the login page "<URL>"
+		When The user directly goes to the Home page of Planetarium "<URL>"
+		Then TThe user should be informed they need to login first
 
 	Examples: 
 		| URL                               |
-		| http://localhost:8080/planetarium |
 		| http://localhost:8080/login       |
+		| http://localhost:8080/planetarium |
 
 	@PTA-TC-51 @JREQ-PTA-42
 	Scenario Outline: As a user, I want to be able to view moons other users have added, so I can follow moons tracked by other users on the Planetarium
