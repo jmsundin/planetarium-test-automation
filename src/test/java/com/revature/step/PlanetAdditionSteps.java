@@ -1,6 +1,8 @@
 package com.revature.step;
 
+import com.revature.Setup;
 import org.junit.Assert;
+import org.junit.Before;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.revature.TestRunner;
@@ -10,6 +12,9 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class PlanetAdditionSteps {
+
+
+
     @Given("The user is logged in")
     public void the_user_is_logged_in() {
         TestRunner.login.goToLoginPage();

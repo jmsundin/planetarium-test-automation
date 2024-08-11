@@ -10,9 +10,9 @@ Feature: MoonAddition
 		When The user enters "<Planet foreign key>" as the Orbited Planet ID
 		When The user uploads "<Celestial body file name>" as Image
 		When The user clicks on the Submit Moon button
-		Then The moon should be added to the planetarium
+		Then The moon "<New moon name>" should be added to the planetarium
 
-	Examples: 
+	Examples:
 		| New moon name                  | Planet foreign key | Celestial body file name |
 		| ThisIsTheSupererestMoonName!!! | 2                  | moon-1.jpg               |
 		| A                              | 1                  | moon-1.jpg               |
@@ -25,25 +25,25 @@ Feature: MoonAddition
 		When The user enters "<New moon name>" as the Moon Name
 		When The user enters "<Planet foreign key>" as the Orbited Planet ID
 		When The user clicks on the Submit Moon button
-		Then The moon should be added to the planetarium
+		Then The moon "<New moon name>" should be added to the planetarium
 
-	Examples: 
+	Examples:
 		| New moon name                  | Planet foreign key |
 		| ThisIsTheSupererestMoonName!!! | 2                  |
 		| A                              | 1                  |
 
 	@PTA-TC-65 @JREQ-PTA-65
 	Scenario Outline: As a user, I want to receive an error when I attempt to use an already existing planet name while attempting to create a moon so that I know that the moon was not created
-	This is to verify that the user cannot use the name of a existent planet to create a moon, and that the user receives an error message 
+	This is to verify that the user cannot use the name of a existent planet to create a moon, and that the user receives an error message
 		Given The user is logged in
 		And The user sets the dropdown to display the moon creation menu
-		When The user enters "<Pre-existing planet>"
+		When The user enters "<Pre-existing planet>" as the Moon Name
 		When The user enters "<Planet foreign key>" as the Orbited Planet ID
 		When The user uploads "<Celestial body file name>" as Image
 		When The user clicks on the Submit Moon button
 		Then The user should be informed that the moon addition failed
 
-	Examples: 
+	Examples:
 		| Pre-existing planet |
 		| Mars                |
 		| Earth               |
@@ -59,7 +59,7 @@ Feature: MoonAddition
 		When The user clicks on the Submit Moon button
 		Then The user should be informed that the moon creation failed
 
-	Examples: 
+	Examples:
 		| Pre-existing moon | Planet foreign key | Celestial body file name |
 		| Titan             | 2                  | moon-1.jpg               |
 		| Luna              | 1                  | moon-1.jpg               |
@@ -75,7 +75,7 @@ Feature: MoonAddition
 		When The user clicks on the Submit Moon button
 		Then The user should be informed that the moon addition failed
 
-	Examples: 
+	Examples:
 		| New moon name                  | Invalid foreign key | Celestial body file name |
 		| ThisIsTheSupererestMoonName!!! | 0                   | moon-1.jpg               |
 		| A                              | 1000000             | moon-1.jpg               |
@@ -91,7 +91,7 @@ Feature: MoonAddition
 		When The user clicks on the Submit Moon button
 		Then The user should be informed that the moon addition failed
 
-	Examples: 
+	Examples:
 		| Planet foreign key | Celestial body file name |
 		| 1                  | moon-1.jpg               |
 		| 2                  | moon-1.jpg               |
@@ -107,7 +107,7 @@ Feature: MoonAddition
 		When The user clicks on the Submit Moon button
 		Then The user should be informed that the moon addition failed
 
-	Examples: 
+	Examples:
 		| Thirty one char long name       | Planet foreign key | Celestial body file name |
 		| ThisCelestialBodyNameIsTooLong! | 1                  | moon-1.jpg               |
 
@@ -122,7 +122,7 @@ Feature: MoonAddition
 		When The user clicks on the Submit Moon button
 		Then The user should be informed that the moon addition failed
 
-	Examples: 
+	Examples:
 		| New moon name                  | Planet foreign key | Celestial body too large file |
 		| ThisIsTheSupererestMoonName!!! | 1                  | Large-picture.jpg             |
 		| A                              | 2                  | Large-picture.jpg             |
