@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-08-11T17:37:57.171Z",
+        "start_timestamp": "2024-08-11T18:24:13.364Z",
         "before": [
           {
             "result": {
-              "duration": 692655800,
+              "duration": 720258700,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 197471300,
+              "duration": 194046900,
               "status": "passed"
             },
             "line": 7,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 289012900,
+              "duration": 286947600,
               "status": "passed"
             },
             "line": 8,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 47022900,
+              "duration": 49866800,
               "status": "passed"
             },
             "line": 9,
@@ -66,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 33910200,
+              "duration": 34906400,
               "status": "passed"
             },
             "line": 10,
@@ -84,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 20944200,
+              "duration": 20943400,
               "status": "passed"
             },
             "line": 11,
@@ -102,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 28178900,
+              "duration": 27925000,
               "status": "passed"
             },
             "line": 12,
@@ -114,7 +114,7 @@
           },
           {
             "result": {
-              "duration": 3468829800,
+              "duration": 3537934700,
               "status": "passed"
             },
             "line": 13,
@@ -144,11 +144,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:01.992Z",
+        "start_timestamp": "2024-08-11T18:24:18.279Z",
         "before": [
           {
             "result": {
-              "duration": 593876900,
+              "duration": 509636800,
               "status": "passed"
             },
             "match": {
@@ -165,7 +165,7 @@
         "steps": [
           {
             "result": {
-              "duration": 626468000,
+              "duration": 121675200,
               "status": "passed"
             },
             "line": 7,
@@ -177,7 +177,7 @@
           },
           {
             "result": {
-              "duration": 107712400,
+              "duration": 205450400,
               "status": "passed"
             },
             "line": 8,
@@ -189,7 +189,7 @@
           },
           {
             "result": {
-              "duration": 26927400,
+              "duration": 24933200,
               "status": "passed"
             },
             "line": 9,
@@ -207,7 +207,7 @@
           },
           {
             "result": {
-              "duration": 26930000,
+              "duration": 27925800,
               "status": "passed"
             },
             "line": 10,
@@ -225,7 +225,7 @@
           },
           {
             "result": {
-              "duration": 15650800,
+              "duration": 14959400,
               "status": "passed"
             },
             "line": 11,
@@ -243,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 21940700,
+              "duration": 20943500,
               "status": "passed"
             },
             "line": 12,
@@ -255,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 3410952400,
+              "duration": 3465016200,
               "status": "passed"
             },
             "line": 13,
@@ -285,11 +285,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:06.829Z",
+        "start_timestamp": "2024-08-11T18:24:22.675Z",
         "before": [
           {
             "result": {
-              "duration": 543475000,
+              "duration": 515322400,
               "status": "passed"
             },
             "match": {
@@ -306,7 +306,7 @@
         "steps": [
           {
             "result": {
-              "duration": 638570800,
+              "duration": 156581100,
               "status": "passed"
             },
             "line": 23,
@@ -318,7 +318,7 @@
           },
           {
             "result": {
-              "duration": 99732200,
+              "duration": 248335800,
               "status": "passed"
             },
             "line": 24,
@@ -330,7 +330,7 @@
           },
           {
             "result": {
-              "duration": 30918200,
+              "duration": 39893100,
               "status": "passed"
             },
             "line": 25,
@@ -348,7 +348,7 @@
           },
           {
             "result": {
-              "duration": 26928300,
+              "duration": 27925500,
               "status": "passed"
             },
             "line": 26,
@@ -366,7 +366,7 @@
           },
           {
             "result": {
-              "duration": 20944400,
+              "duration": 22937800,
               "status": "passed"
             },
             "line": 27,
@@ -378,8 +378,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //tr[td[1][text()\u003d\u0027moon\u0027] and td[3][text()\u003d\u0027ThisIsTheSupererestMoonName!!!\u0027]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51914/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 08ca978d1d9cb4b685d99daa9e81a67f\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(MoonAdditionSteps.java:58)\r\n\tat ✽.The moon \"ThisIsTheSupererestMoonName!!!\" should be added to the planetarium(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:28)\r\n",
-              "duration": 5727939800,
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //tr[td[1][text()\u003d\u0027moon\u0027] and td[3][text()\u003d\u0027ThisIsTheSupererestMoonName!!!\u0027]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52582/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dce6d350090ae1fb248be31babe416be\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(MoonAdditionSteps.java:59)\r\n\tat ✽.The moon \"ThisIsTheSupererestMoonName!!!\" should be added to the planetarium(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:28)\r\n",
+              "duration": 5653649000,
               "status": "failed"
             },
             "line": 28,
@@ -409,11 +409,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:13.928Z",
+        "start_timestamp": "2024-08-11T18:24:29.350Z",
         "before": [
           {
             "result": {
-              "duration": 529295200,
+              "duration": 507160400,
               "status": "passed"
             },
             "match": {
@@ -430,7 +430,7 @@
         "steps": [
           {
             "result": {
-              "duration": 622450400,
+              "duration": 108219700,
               "status": "passed"
             },
             "line": 23,
@@ -442,7 +442,7 @@
           },
           {
             "result": {
-              "duration": 90757500,
+              "duration": 199211100,
               "status": "passed"
             },
             "line": 24,
@@ -454,7 +454,7 @@
           },
           {
             "result": {
-              "duration": 25930400,
+              "duration": 24934400,
               "status": "passed"
             },
             "line": 25,
@@ -472,7 +472,7 @@
           },
           {
             "result": {
-              "duration": 24933400,
+              "duration": 25930100,
               "status": "passed"
             },
             "line": 26,
@@ -490,7 +490,7 @@
           },
           {
             "result": {
-              "duration": 19706800,
+              "duration": 18949400,
               "status": "passed"
             },
             "line": 27,
@@ -502,8 +502,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //tr[td[1][text()\u003d\u0027moon\u0027] and td[3][text()\u003d\u0027A\u0027]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51914/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 08ca978d1d9cb4b685d99daa9e81a67f\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(MoonAdditionSteps.java:58)\r\n\tat ✽.The moon \"A\" should be added to the planetarium(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:28)\r\n",
-              "duration": 5561654700,
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //tr[td[1][text()\u003d\u0027moon\u0027] and td[3][text()\u003d\u0027A\u0027]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52582/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dce6d350090ae1fb248be31babe416be\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(MoonAdditionSteps.java:59)\r\n\tat ✽.The moon \"A\" should be added to the planetarium(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:28)\r\n",
+              "duration": 5727675400,
               "status": "failed"
             },
             "line": 28,
@@ -533,11 +533,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:20.821Z",
+        "start_timestamp": "2024-08-11T18:24:35.969Z",
         "before": [
           {
             "result": {
-              "duration": 476307700,
+              "duration": 530517700,
               "status": "passed"
             },
             "match": {
@@ -554,7 +554,7 @@
         "steps": [
           {
             "result": {
-              "duration": 616437200,
+              "duration": 108709500,
               "status": "passed"
             },
             "line": 38,
@@ -566,7 +566,7 @@
           },
           {
             "result": {
-              "duration": 95010100,
+              "duration": 207986000,
               "status": "passed"
             },
             "line": 39,
@@ -578,7 +578,7 @@
           },
           {
             "result": {
-              "duration": 25173600,
+              "duration": 24932700,
               "status": "passed"
             },
             "line": 40,
@@ -596,15 +596,15 @@
           },
           {
             "result": {
-              "duration": 28921900,
+              "duration": 24953000,
               "status": "passed"
             },
             "line": 41,
-            "name": "The user enters \"\u003cPlanet foreign key\u003e\" as the Orbited Planet ID",
+            "name": "The user enters \"1\" as the Orbited Planet ID",
             "match": {
               "arguments": [
                 {
-                  "val": "\"\u003cPlanet foreign key\u003e\"",
+                  "val": "\"1\"",
                   "offset": 16
                 }
               ],
@@ -614,16 +614,15 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : F:\\Java\\planetarium-test-automation\\src\\test\\resources\\Celestial-Images\\\u003cCelestial body file name\u003e\n  (Session info: chrome\u003d127.0.6533.100)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [08ca978d1d9cb4b685d99daa9e81a67f, sendKeysToElement {id\u003df.EC8F3434D4459CCD70CA639A47276842.d.94BCD13291D5C33A48E7A0AD7C1C5C38.e.252, value\u003d[Ljava.lang.CharSequence;@a565cbd}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51914/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (08ca978d1d9cb4b685d99daa9e81a67f)] -\u003e id: moonImageInput]\nSession ID: 08ca978d1d9cb4b685d99daa9e81a67f\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)\r\n\tat com.revature.pom.Planetarium.moonImageUpload(Planetarium.java:69)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(MoonAdditionSteps.java:46)\r\n\tat ✽.The user uploads \"\u003cCelestial body file name\u003e\" as Image(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:42)\r\n",
-              "duration": 11968400,
-              "status": "failed"
+              "duration": 14959900,
+              "status": "passed"
             },
             "line": 42,
-            "name": "The user uploads \"\u003cCelestial body file name\u003e\" as Image",
+            "name": "The user uploads \"moon-1.jpg\" as Image",
             "match": {
               "arguments": [
                 {
-                  "val": "\"\u003cCelestial body file name\u003e\"",
+                  "val": "\"moon-1.jpg\"",
                   "offset": 17
                 }
               ],
@@ -633,7 +632,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 17952400,
+              "status": "passed"
             },
             "line": 43,
             "name": "The user clicks on the Submit Moon button",
@@ -644,11 +644,15 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52582/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dce6d350090ae1fb248be31babe416be\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed(MoonAdditionSteps.java:72)\r\n\tat ✽.The user should be informed that the moon addition failed(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:44)\r\n",
+              "duration": 5132027200,
+              "status": "failed"
             },
             "line": 44,
             "name": "The user should be informed that the moon addition failed",
-            "match": {},
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -665,11 +669,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:22.082Z",
+        "start_timestamp": "2024-08-11T18:24:42.039Z",
         "before": [
           {
             "result": {
-              "duration": 547231700,
+              "duration": 485699300,
               "status": "passed"
             },
             "match": {
@@ -686,7 +690,7 @@
         "steps": [
           {
             "result": {
-              "duration": 623649000,
+              "duration": 111702400,
               "status": "passed"
             },
             "line": 38,
@@ -698,7 +702,7 @@
           },
           {
             "result": {
-              "duration": 94660500,
+              "duration": 207271800,
               "status": "passed"
             },
             "line": 39,
@@ -710,7 +714,7 @@
           },
           {
             "result": {
-              "duration": 25931100,
+              "duration": 26929200,
               "status": "passed"
             },
             "line": 40,
@@ -728,15 +732,15 @@
           },
           {
             "result": {
-              "duration": 27925100,
+              "duration": 25930000,
               "status": "passed"
             },
             "line": 41,
-            "name": "The user enters \"\u003cPlanet foreign key\u003e\" as the Orbited Planet ID",
+            "name": "The user enters \"1\" as the Orbited Planet ID",
             "match": {
               "arguments": [
                 {
-                  "val": "\"\u003cPlanet foreign key\u003e\"",
+                  "val": "\"1\"",
                   "offset": 16
                 }
               ],
@@ -746,16 +750,15 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : F:\\Java\\planetarium-test-automation\\src\\test\\resources\\Celestial-Images\\\u003cCelestial body file name\u003e\n  (Session info: chrome\u003d127.0.6533.100)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [08ca978d1d9cb4b685d99daa9e81a67f, sendKeysToElement {id\u003df.EC8F3434D4459CCD70CA639A47276842.d.6A1269A196BD84DD9082EBF2F3DB2350.e.295, value\u003d[Ljava.lang.CharSequence;@71904469}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51914/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (08ca978d1d9cb4b685d99daa9e81a67f)] -\u003e id: moonImageInput]\nSession ID: 08ca978d1d9cb4b685d99daa9e81a67f\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)\r\n\tat com.revature.pom.Planetarium.moonImageUpload(Planetarium.java:69)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(MoonAdditionSteps.java:46)\r\n\tat ✽.The user uploads \"\u003cCelestial body file name\u003e\" as Image(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:42)\r\n",
-              "duration": 11967600,
-              "status": "failed"
+              "duration": 15957600,
+              "status": "passed"
             },
             "line": 42,
-            "name": "The user uploads \"\u003cCelestial body file name\u003e\" as Image",
+            "name": "The user uploads \"moon-1.jpg\" as Image",
             "match": {
               "arguments": [
                 {
-                  "val": "\"\u003cCelestial body file name\u003e\"",
+                  "val": "\"moon-1.jpg\"",
                   "offset": 17
                 }
               ],
@@ -765,7 +768,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 20948200,
+              "status": "passed"
             },
             "line": 43,
             "name": "The user clicks on the Submit Moon button",
@@ -776,11 +780,15 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52582/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dce6d350090ae1fb248be31babe416be\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed(MoonAdditionSteps.java:72)\r\n\tat ✽.The user should be informed that the moon addition failed(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:44)\r\n",
+              "duration": 5099858200,
+              "status": "failed"
             },
             "line": 44,
             "name": "The user should be informed that the moon addition failed",
-            "match": {},
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -797,11 +805,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:23.419Z",
+        "start_timestamp": "2024-08-11T18:24:48.037Z",
         "before": [
           {
             "result": {
-              "duration": 462547200,
+              "duration": 562072100,
               "status": "passed"
             },
             "match": {
@@ -818,7 +826,7 @@
         "steps": [
           {
             "result": {
-              "duration": 110804600,
+              "duration": 614600700,
               "status": "passed"
             },
             "line": 54,
@@ -830,7 +838,7 @@
           },
           {
             "result": {
-              "duration": 203457900,
+              "duration": 88060800,
               "status": "passed"
             },
             "line": 55,
@@ -842,7 +850,7 @@
           },
           {
             "result": {
-              "duration": 26946200,
+              "duration": 24933200,
               "status": "passed"
             },
             "line": 56,
@@ -860,7 +868,7 @@
           },
           {
             "result": {
-              "duration": 25930700,
+              "duration": 24933700,
               "status": "passed"
             },
             "line": 57,
@@ -878,7 +886,7 @@
           },
           {
             "result": {
-              "duration": 13962700,
+              "duration": 14959800,
               "status": "passed"
             },
             "line": 58,
@@ -908,11 +916,14 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 515621100,
+              "status": "passed"
             },
             "line": 60,
-            "name": "The user should be informed that the moon creation failed",
-            "match": {},
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -929,11 +940,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:24.287Z",
+        "start_timestamp": "2024-08-11T18:24:49.907Z",
         "before": [
           {
             "result": {
-              "duration": 391951700,
+              "duration": 519609100,
               "status": "passed"
             },
             "match": {
@@ -950,9 +961,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Something went wrong, please try again}\n  (Session info: chrome\u003d127.0.6533.100): Something went wrong, please try again\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [08ca978d1d9cb4b685d99daa9e81a67f, get {url\u003dhttp://localhost:8080/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51914/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 08ca978d1d9cb4b685d99daa9e81a67f\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)\r\n\tat com.revature.pom.Login.goToLoginPage(Login.java:29)\r\n\tat com.revature.step.PlanetAdditionSteps.the_user_is_logged_in(PlanetAdditionSteps.java:20)\r\n\tat ✽.The user is logged in(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:54)\r\n",
-              "duration": 2993500,
-              "status": "failed"
+              "duration": 121548600,
+              "status": "passed"
             },
             "line": 54,
             "name": "The user is logged in",
@@ -963,7 +973,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 197229300,
+              "status": "passed"
             },
             "line": 55,
             "name": "The user sets the dropdown to display the moon creation menu",
@@ -974,7 +985,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 25930800,
+              "status": "passed"
             },
             "line": 56,
             "name": "The user enters \"Luna\" as the Moon Name",
@@ -991,7 +1003,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 24932900,
+              "status": "passed"
             },
             "line": 57,
             "name": "The user enters \"1\" as the Orbited Planet ID",
@@ -1008,7 +1021,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 15957700,
+              "status": "passed"
             },
             "line": 58,
             "name": "The user uploads \"moon-1.jpg\" as Image",
@@ -1025,7 +1039,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 19184100,
+              "status": "passed"
             },
             "line": 59,
             "name": "The user clicks on the Submit Moon button",
@@ -1036,11 +1051,14 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 517953100,
+              "status": "passed"
             },
             "line": 60,
-            "name": "The user should be informed that the moon creation failed",
-            "match": {},
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1057,11 +1075,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:24.688Z",
+        "start_timestamp": "2024-08-11T18:24:51.353Z",
         "before": [
           {
             "result": {
-              "duration": 415857000,
+              "duration": 447802800,
               "status": "passed"
             },
             "match": {
@@ -1078,7 +1096,7 @@
         "steps": [
           {
             "result": {
-              "duration": 631157400,
+              "duration": 117685800,
               "status": "passed"
             },
             "line": 70,
@@ -1090,7 +1108,7 @@
           },
           {
             "result": {
-              "duration": 87123800,
+              "duration": 197471800,
               "status": "passed"
             },
             "line": 71,
@@ -1102,7 +1120,7 @@
           },
           {
             "result": {
-              "duration": 39892900,
+              "duration": 41888200,
               "status": "passed"
             },
             "line": 72,
@@ -1120,7 +1138,7 @@
           },
           {
             "result": {
-              "duration": 25264400,
+              "duration": 23935200,
               "status": "passed"
             },
             "line": 73,
@@ -1138,7 +1156,7 @@
           },
           {
             "result": {
-              "duration": 13962000,
+              "duration": 13963200,
               "status": "passed"
             },
             "line": 74,
@@ -1156,7 +1174,7 @@
           },
           {
             "result": {
-              "duration": 18950200,
+              "duration": 19945700,
               "status": "passed"
             },
             "line": 75,
@@ -1168,11 +1186,14 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 509178900,
+              "status": "passed"
             },
             "line": 76,
             "name": "The user should be informed that the moon addition failed",
-            "match": {},
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1189,11 +1210,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:25.928Z",
+        "start_timestamp": "2024-08-11T18:24:52.729Z",
         "before": [
           {
             "result": {
-              "duration": 377631000,
+              "duration": 505941400,
               "status": "passed"
             },
             "match": {
@@ -1210,9 +1231,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Something went wrong, please try again}\n  (Session info: chrome\u003d127.0.6533.100): Something went wrong, please try again\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [08ca978d1d9cb4b685d99daa9e81a67f, get {url\u003dhttp://localhost:8080/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51914/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 08ca978d1d9cb4b685d99daa9e81a67f\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)\r\n\tat com.revature.pom.Login.goToLoginPage(Login.java:29)\r\n\tat com.revature.step.PlanetAdditionSteps.the_user_is_logged_in(PlanetAdditionSteps.java:20)\r\n\tat ✽.The user is logged in(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:70)\r\n",
-              "duration": 2993500,
-              "status": "failed"
+              "duration": 119680800,
+              "status": "passed"
             },
             "line": 70,
             "name": "The user is logged in",
@@ -1223,7 +1243,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 196474200,
+              "status": "passed"
             },
             "line": 71,
             "name": "The user sets the dropdown to display the moon creation menu",
@@ -1234,7 +1255,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 26484900,
+              "status": "passed"
             },
             "line": 72,
             "name": "The user enters \"A\" as the Moon Name",
@@ -1251,7 +1273,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 27925300,
+              "status": "passed"
             },
             "line": 73,
             "name": "The user enters \"1000000\" as the Orbited Planet ID",
@@ -1268,7 +1291,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 12965700,
+              "status": "passed"
             },
             "line": 74,
             "name": "The user uploads \"moon-1.jpg\" as Image",
@@ -1285,7 +1309,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 18949100,
+              "status": "passed"
             },
             "line": 75,
             "name": "The user clicks on the Submit Moon button",
@@ -1296,11 +1321,14 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 508597900,
+              "status": "passed"
             },
             "line": 76,
             "name": "The user should be informed that the moon addition failed",
-            "match": {},
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1317,11 +1345,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:26.312Z",
+        "start_timestamp": "2024-08-11T18:24:54.151Z",
         "before": [
           {
             "result": {
-              "duration": 476186100,
+              "duration": 3331628700,
               "status": "passed"
             },
             "match": {
@@ -1338,7 +1366,7 @@
         "steps": [
           {
             "result": {
-              "duration": 634635800,
+              "duration": 624713600,
               "status": "passed"
             },
             "line": 70,
@@ -1350,7 +1378,7 @@
           },
           {
             "result": {
-              "duration": 84773100,
+              "duration": 84708600,
               "status": "passed"
             },
             "line": 71,
@@ -1362,7 +1390,7 @@
           },
           {
             "result": {
-              "duration": 39893000,
+              "duration": 41468500,
               "status": "passed"
             },
             "line": 72,
@@ -1380,7 +1408,7 @@
           },
           {
             "result": {
-              "duration": 25010600,
+              "duration": 22938600,
               "status": "passed"
             },
             "line": 73,
@@ -1398,7 +1426,7 @@
           },
           {
             "result": {
-              "duration": 13959500,
+              "duration": 12965500,
               "status": "passed"
             },
             "line": 74,
@@ -1416,7 +1444,7 @@
           },
           {
             "result": {
-              "duration": 18949300,
+              "duration": 17951400,
               "status": "passed"
             },
             "line": 75,
@@ -1428,11 +1456,14 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 525527000,
+              "status": "passed"
             },
             "line": 76,
             "name": "The user should be informed that the moon addition failed",
-            "match": {},
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1449,11 +1480,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:27.610Z",
+        "start_timestamp": "2024-08-11T18:24:58.818Z",
         "before": [
           {
             "result": {
-              "duration": 453858800,
+              "duration": 542579700,
               "status": "passed"
             },
             "match": {
@@ -1470,9 +1501,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Something went wrong, please try again}\n  (Session info: chrome\u003d127.0.6533.100): Something went wrong, please try again\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [08ca978d1d9cb4b685d99daa9e81a67f, get {url\u003dhttp://localhost:8080/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51914/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 08ca978d1d9cb4b685d99daa9e81a67f\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)\r\n\tat com.revature.pom.Login.goToLoginPage(Login.java:29)\r\n\tat com.revature.step.PlanetAdditionSteps.the_user_is_logged_in(PlanetAdditionSteps.java:20)\r\n\tat ✽.The user is logged in(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:87)\r\n",
-              "duration": 2991000,
-              "status": "failed"
+              "duration": 622374800,
+              "status": "passed"
             },
             "line": 87,
             "name": "The user is logged in",
@@ -1483,7 +1513,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 88763000,
+              "status": "passed"
             },
             "line": 88,
             "name": "The user sets the dropdown to display the moon creation menu",
@@ -1494,7 +1525,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 23935900,
+              "status": "passed"
             },
             "line": 89,
             "name": "The user enters \"1\" as the Orbited Planet ID",
@@ -1511,7 +1543,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 12964700,
+              "status": "passed"
             },
             "line": 90,
             "name": "The user uploads \"moon-1.jpg\" as Image",
@@ -1528,7 +1561,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 18949500,
+              "status": "passed"
             },
             "line": 91,
             "name": "The user clicks on the Submit Moon button",
@@ -1539,11 +1573,14 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 509883900,
+              "status": "passed"
             },
             "line": 92,
             "name": "The user should be informed that the moon addition failed",
-            "match": {},
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1560,11 +1597,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:28.070Z",
+        "start_timestamp": "2024-08-11T18:25:00.642Z",
         "before": [
           {
             "result": {
-              "duration": 568366500,
+              "duration": 544253700,
               "status": "passed"
             },
             "match": {
@@ -1581,7 +1618,7 @@
         "steps": [
           {
             "result": {
-              "duration": 643352600,
+              "duration": 120677700,
               "status": "passed"
             },
             "line": 87,
@@ -1593,7 +1630,7 @@
           },
           {
             "result": {
-              "duration": 90751400,
+              "duration": 210943300,
               "status": "passed"
             },
             "line": 88,
@@ -1605,7 +1642,7 @@
           },
           {
             "result": {
-              "duration": 23939500,
+              "duration": 24932700,
               "status": "passed"
             },
             "line": 89,
@@ -1623,7 +1660,7 @@
           },
           {
             "result": {
-              "duration": 13963100,
+              "duration": 13962300,
               "status": "passed"
             },
             "line": 90,
@@ -1641,7 +1678,7 @@
           },
           {
             "result": {
-              "duration": 18467800,
+              "duration": 20944400,
               "status": "passed"
             },
             "line": 91,
@@ -1653,11 +1690,14 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 507722000,
+              "status": "passed"
             },
             "line": 92,
             "name": "The user should be informed that the moon addition failed",
-            "match": {},
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1674,11 +1714,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:29.434Z",
+        "start_timestamp": "2024-08-11T18:25:02.090Z",
         "before": [
           {
             "result": {
-              "duration": 502162200,
+              "duration": 431551900,
               "status": "passed"
             },
             "match": {
@@ -1695,9 +1735,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Something went wrong, please try again}\n  (Session info: chrome\u003d127.0.6533.100): Something went wrong, please try again\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [08ca978d1d9cb4b685d99daa9e81a67f, get {url\u003dhttp://localhost:8080/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51914/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 08ca978d1d9cb4b685d99daa9e81a67f\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)\r\n\tat com.revature.pom.Login.goToLoginPage(Login.java:29)\r\n\tat com.revature.step.PlanetAdditionSteps.the_user_is_logged_in(PlanetAdditionSteps.java:20)\r\n\tat ✽.The user is logged in(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:102)\r\n",
-              "duration": 1994800,
-              "status": "failed"
+              "duration": 649347300,
+              "status": "passed"
             },
             "line": 102,
             "name": "The user is logged in",
@@ -1708,7 +1747,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 90756700,
+              "status": "passed"
             },
             "line": 103,
             "name": "The user sets the dropdown to display the moon creation menu",
@@ -1719,16 +1759,26 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 41426700,
+              "status": "passed"
             },
             "line": 104,
-            "name": "The user enters \"ThisCelestialBodyNameIsTooLong!\"",
-            "match": {},
+            "name": "The user enters \"ThisCelestialBodyNameIsTooLong!\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ThisCelestialBodyNameIsTooLong!\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 23935000,
+              "status": "passed"
             },
             "line": 105,
             "name": "The user enters \"1\" as the Orbited Planet ID",
@@ -1745,7 +1795,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 13963500,
+              "status": "passed"
             },
             "line": 106,
             "name": "The user uploads \"moon-1.jpg\" as Image",
@@ -1762,7 +1813,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 17952000,
+              "status": "passed"
             },
             "line": 107,
             "name": "The user clicks on the Submit Moon button",
@@ -1773,11 +1825,14 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 510634600,
+              "status": "passed"
             },
             "line": 108,
             "name": "The user should be informed that the moon addition failed",
-            "match": {},
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1794,11 +1849,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:29.942Z",
+        "start_timestamp": "2024-08-11T18:25:03.873Z",
         "before": [
           {
             "result": {
-              "duration": 537000100,
+              "duration": 520945400,
               "status": "passed"
             },
             "match": {
@@ -1815,7 +1870,7 @@
         "steps": [
           {
             "result": {
-              "duration": 631926800,
+              "duration": 632349600,
               "status": "passed"
             },
             "line": 117,
@@ -1827,7 +1882,7 @@
           },
           {
             "result": {
-              "duration": 83029100,
+              "duration": 84356200,
               "status": "passed"
             },
             "line": 118,
@@ -1839,7 +1894,7 @@
           },
           {
             "result": {
-              "duration": 38895700,
+              "duration": 38650500,
               "status": "passed"
             },
             "line": 119,
@@ -1857,7 +1912,7 @@
           },
           {
             "result": {
-              "duration": 25931000,
+              "duration": 24933500,
               "status": "passed"
             },
             "line": 120,
@@ -1875,9 +1930,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : F:\\Java\\planetarium-test-automation\\src\\test\\resources\\Celestial-Images\\Large-picture.jpg\n  (Session info: chrome\u003d127.0.6533.100)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [08ca978d1d9cb4b685d99daa9e81a67f, sendKeysToElement {id\u003df.EC8F3434D4459CCD70CA639A47276842.d.3B22D5993FC50AF88E0F806E5A341BE7.e.514, value\u003d[Ljava.lang.CharSequence;@73a0f2b}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51914/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (08ca978d1d9cb4b685d99daa9e81a67f)] -\u003e id: moonImageInput]\nSession ID: 08ca978d1d9cb4b685d99daa9e81a67f\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)\r\n\tat com.revature.pom.Planetarium.moonImageUpload(Planetarium.java:69)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(MoonAdditionSteps.java:46)\r\n\tat ✽.The user uploads \"Large-picture.jpg\" as Image(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:121)\r\n",
-              "duration": 10970900,
-              "status": "failed"
+              "duration": 13962600,
+              "status": "passed"
             },
             "line": 121,
             "name": "The user uploads \"Large-picture.jpg\" as Image",
@@ -1894,7 +1948,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 17951800,
+              "status": "passed"
             },
             "line": 122,
             "name": "The user clicks on the Submit Moon button",
@@ -1905,11 +1960,14 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 521143900,
+              "status": "passed"
             },
             "line": 123,
             "name": "The user should be informed that the moon addition failed",
-            "match": {},
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1926,11 +1984,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-11T17:38:31.276Z",
+        "start_timestamp": "2024-08-11T18:25:05.730Z",
         "before": [
           {
             "result": {
-              "duration": 522227900,
+              "duration": 530334400,
               "status": "passed"
             },
             "match": {
@@ -1947,7 +2005,7 @@
         "steps": [
           {
             "result": {
-              "duration": 651882400,
+              "duration": 125175900,
               "status": "passed"
             },
             "line": 117,
@@ -1959,7 +2017,7 @@
           },
           {
             "result": {
-              "duration": 86371400,
+              "duration": 191177400,
               "status": "passed"
             },
             "line": 118,
@@ -1971,7 +2029,7 @@
           },
           {
             "result": {
-              "duration": 23935300,
+              "duration": 26927700,
               "status": "passed"
             },
             "line": 119,
@@ -1989,7 +2047,7 @@
           },
           {
             "result": {
-              "duration": 23935900,
+              "duration": 23935500,
               "status": "passed"
             },
             "line": 120,
@@ -2007,9 +2065,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : F:\\Java\\planetarium-test-automation\\src\\test\\resources\\Celestial-Images\\Large-picture.jpg\n  (Session info: chrome\u003d127.0.6533.100)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [08ca978d1d9cb4b685d99daa9e81a67f, sendKeysToElement {id\u003df.EC8F3434D4459CCD70CA639A47276842.d.A5FACB53E99AAE7C83EBE9C11D87496A.e.558, value\u003d[Ljava.lang.CharSequence;@235b4cb8}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51914/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (08ca978d1d9cb4b685d99daa9e81a67f)] -\u003e id: moonImageInput]\nSession ID: 08ca978d1d9cb4b685d99daa9e81a67f\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)\r\n\tat com.revature.pom.Planetarium.moonImageUpload(Planetarium.java:69)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(MoonAdditionSteps.java:46)\r\n\tat ✽.The user uploads \"Large-picture.jpg\" as Image(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:121)\r\n",
-              "duration": 10970900,
-              "status": "failed"
+              "duration": 13511200,
+              "status": "passed"
             },
             "line": 121,
             "name": "The user uploads \"Large-picture.jpg\" as Image",
@@ -2026,7 +2083,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 16955100,
+              "status": "passed"
             },
             "line": 122,
             "name": "The user clicks on the Submit Moon button",
@@ -2037,11 +2095,14 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 518612100,
+              "status": "passed"
             },
             "line": 123,
             "name": "The user should be informed that the moon addition failed",
-            "match": {},
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
             "keyword": "Then "
           }
         ],

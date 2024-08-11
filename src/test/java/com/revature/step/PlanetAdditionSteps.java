@@ -13,8 +13,6 @@ import io.cucumber.java.en.When;
 
 public class PlanetAdditionSteps {
 
-
-
     @Given("The user is logged in")
     public void the_user_is_logged_in() {
         TestRunner.login.goToLoginPage();
@@ -52,4 +50,5 @@ public class PlanetAdditionSteps {
         TestRunner.driver.switchTo().alert().accept();
         Assert.assertTrue(alert.contains("please try again"));
     }
+
 }

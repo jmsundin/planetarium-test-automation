@@ -44,9 +44,9 @@ Feature: MoonAddition
 		Then The user should be informed that the moon addition failed
 
 	Examples:
-		| Pre-existing planet |
-		| Mars                |
-		| Earth               |
+		| Pre-existing planet | Planet foreign key | Celestial body file name |
+		| Mars                | 1                  | moon-1.jpg               |
+		| Earth               | 1                  | moon-1.jpg               |
 
 	@PTA-TC-68 @JREQ-PTA-48
 	Scenario Outline: As a user, I want to receive an error when I attempt to use an already existing moon name while attempting to create a moon so that I know that the moon was not created
@@ -57,7 +57,7 @@ Feature: MoonAddition
 		When The user enters "<Planet foreign key>" as the Orbited Planet ID
 		When The user uploads "<Celestial body file name>" as Image
 		When The user clicks on the Submit Moon button
-		Then The user should be informed that the moon creation failed
+		Then The user should be informed that the moon addition failed
 
 	Examples:
 		| Pre-existing moon | Planet foreign key | Celestial body file name |
@@ -101,7 +101,7 @@ Feature: MoonAddition
 	This is used to verify that the user cannot create a moon where it's name is too long and that the user receives an appropriate error message
 		Given The user is logged in
 		And The user sets the dropdown to display the moon creation menu
-		When The user enters "<Thirty one char long name>"
+		When The user enters "<Thirty one char long name>" as the Moon Name
 		When The user enters "<Planet foreign key>" as the Orbited Planet ID
 		When The user uploads "<Celestial body file name>" as Image
 		When The user clicks on the Submit Moon button

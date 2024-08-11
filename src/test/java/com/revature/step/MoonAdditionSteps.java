@@ -5,6 +5,7 @@ import com.revature.Setup;
 import org.junit.Assert;
 import org.junit.Before;
 
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -66,11 +67,13 @@ public class MoonAdditionSteps {
         }
     }
 
-    /*@Then("The planet {string} should be added to the Planetarium")
-    public void the_planet_should_be_added_to_the_Planetarium(String planetName) {
-        String xpath = "//tr[td[1][text()='planet'] and td[3][text()='%s']]".formatted(planetName);
-        WebElement planet = TestRunner.wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
-        Assert.assertTrue(planet.isDisplayed());;
-    }*/
+    @Then("The user should be informed that the moon addition failed")
+    public void the_user_should_be_informed_that_the_moon_addition_failed() {
+        TestRunner.wait.until(ExpectedConditions.alertIsPresent());
+        String alertText = TestRunner.driver.switchTo().alert().getText();
+        TestRunner.driver.switchTo().alert().accept();
+        //System.out.println(alertText);
+        Assert.assertEquals("Something went wrong, please try again", alertText);
+    }
 
 }
