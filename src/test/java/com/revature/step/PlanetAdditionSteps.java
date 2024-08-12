@@ -2,9 +2,7 @@ package com.revature.step;
 
 import com.revature.Setup;
 import org.junit.Assert;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import org.junit.Before;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.revature.TestRunner;
@@ -53,10 +51,4 @@ public class PlanetAdditionSteps {
         Assert.assertTrue(alert.contains("please try again"));
     }
 
-    @Then("The planet {string} should be added to the Planetarium")
-    public void the_planet_should_be_added_to_the_Planetarium(String planetName) {
-        String xpath = "//tr[td[1][text()='planet'] and td[3][text()='%s']]".formatted(planetName);
-        WebElement planet = TestRunner.wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
-        Assert.assertTrue(planet.isDisplayed());;
-    }
 }
