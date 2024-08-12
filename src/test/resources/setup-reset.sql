@@ -29,6 +29,10 @@ create table planets(
 
 insert into planets (name, ownerId, image) values ('Earth', 1, ?);
 insert into planets (name, ownerId, image) values ('Mars', 1, ?);
+insert into planets (name, ownerId, image) values ('Planet .^$*+-?()[]{}//', 1, ?);
+insert into planets (name, ownerId, image) values ('Planet123', 2, ?);
+insert into planets (name, ownerId, image) values ('1', 2, ?);
+insert into planets (name, ownerId, image) values ('Jupiter', 2, ?);
 
 
 create table moons(

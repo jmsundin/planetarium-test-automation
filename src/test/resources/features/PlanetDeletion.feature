@@ -5,28 +5,29 @@ Feature: PlanetDeletion
 	Scenario Outline: As a user, I should be able to delete a planet I added without an associated moon using a valid id, so that my planetarium is up to date
 	System should check that the given planet id is the primary key for an existing planet created by the user with no associated moons, and remove that planet from the planetarium if so.
 		Given The user is logged in
-		When The User sets the dropdown to display the planet creation menu
-		When The user enters "<Planet Id>"
-		Then That planet should be deleted from the Planetarium
+		When The user sets the dropdown to display the planet creation menu
+		When The user enters "<Planet Id>" as the celestial body to be deleted
+		When The user presses the delete button
+		Then The planet with the id "<Planet Id>" should be deleted from the Planetarium
 
-	Examples: 
+	Examples:
 		| Planet Id |
 		| 3         |
 
 	@PTA-TC-74 @JREQ-PTA-51
 	Scenario Outline: As a user, I want to be able to remove planets from the planetarium by their name so that we can stop tracking them
 	This is to verify that we can remove planets if we pass in their name, spelled correctly and with the correct case. And that the user will see that the planet and it's orbiting moon is no longer within the planetarium
-This will also act as a test to 
+This will also act as a test to
 		Given The user is logged in
-		And The user sets the dropdown to display the planet creation menu
+		When The user sets the dropdown to display the planet creation menu
 		When The user enters "<Pre-existing planet>" as the celestial body to be deleted
 		When The user presses the delete button
-		Then The user should no longer see the planet within the planetarium
+		Then The user should no longer see the planet "<Pre-existing planet>" within the planetarium
 
-	Examples: 
+	Examples:
 		| Pre-existing planet    |
 		| Earth                  |
-		| Planet .^$*+-?()[]{}\| |
+		| Planet .^$*+-?()[]{}// |
 
 	@PTA-TC-78 @JREQ-PTA-74
 	Scenario Outline: As a user, I want to receive an error when I attempt to delete a planet using an ID that does not point to a planet, so that I know the planet was not deleted
@@ -37,7 +38,7 @@ This will also act as a test to
 		When The user presses the delete button
 		Then The user should be informed that the planet deletion failed
 
-	Examples: 
+	Examples:
 		| Invalid foreign key |
 		| 0                   |
 		| 1000                |
@@ -52,7 +53,7 @@ This will also act as a test to
 		When The user presses the delete button
 		Then The user should be informed that the planet deletion failed
 
-	Examples: 
+	Examples:
 		| Pre-existing moon |
 		| Titan             |
 		| Luna              |
@@ -72,9 +73,10 @@ This will also act as a test to
 		Given The user is logged in
 		And The user sets the dropdown to display the planet creation menu
 		When The user enters "<Non-existent planet>" as the celestial body to be deleted
+		When The user presses the delete button
 		Then The user should be informed that the planet deletion failed
 
-	Examples: 
+	Examples:
 		| Non-existent planet     |
 		| This planet is not real |
 		| Neither is this one     |
@@ -88,7 +90,7 @@ This will also act as a test to
 		When The user presses the delete button
 		Then The user should no longer see "<Pre-existing planet>" and "<Pre-existing moon>" within the planetarium
 
-	Examples: 
+	Examples:
 		| Pre-existing planet | Pre-existing moon |
 		| Earth               | Luna              |
 
@@ -99,9 +101,9 @@ This will also act as a test to
 		And The user sets the dropdown to display the planet creation menu
 		When The user enters "<Planet number names>" as the celestial body to be deleted
 		When The user presses the delete button
-		Then That planet should be deleted from the Planetarium
+		Then The user should no longer see the planet "<Planet number names>" within the planetarium
 
-	Examples: 
+	Examples:
 		| Planet number names |
 		| 1                   |
 		| Planet123           |
