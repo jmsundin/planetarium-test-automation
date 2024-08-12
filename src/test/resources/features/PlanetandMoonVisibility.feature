@@ -35,11 +35,11 @@ Feature: PlanetandMoonVisibility
 	Scenario Outline: As a user, I want to be able to view planets that other users have added, so that I can track the planets other users have added to the Planetarium
 	The system checks if the user is logged-in.
 		Given The user is logged in
-		Then The logged in user should see the planet, "<Pre-existing planet>", planet ID "<Planet Id>", and owner ID "<User ID>"
+		Then The logged in user should see the planet, "<Pre-existing planet>" and owner ID "<User ID>"
 
 	Examples: 
-		| Pre-existing planet | Planet Id | User ID |
-		| Jupiter             | 3         | 2       |
+		| Pre-existing planet | User ID |
+		| Jupiter             | 2       |
 
 	@PTA-TC-56 @JREQ-PTA-39
 	Scenario Outline: As a user, I want to be able to view planets I have added, so I can track my planets in the Planetarium

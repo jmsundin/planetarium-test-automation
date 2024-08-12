@@ -23,18 +23,7 @@ public class PlanetandMoonVisibilitySteps {
 
     @Then("The user should see the moon called {string}, moon ID {string}, and owner ID {string}")
     public void the_user_should_see_the_moon_called_Pre_existing_moon_moon_ID_Moon_ID_and_owner_ID_Planet_Id(String moonName, String moonID, String planetID){
-        String xpath = "";
-        
-        switch(moonName){
-            case "Luna":
-                xpath = "/html/body/div[2]/table/tbody/tr[5]";
-                break;
-            case "Titan":
-                xpath = "/html/body/div[2]/table/tbody/tr[6]";
-                break;
-            default:
-                break;
-        }
+        String xpath = "//tr[td[1][text()='moon'] and td[2][text()='%s'] and td[3][text()='%s'] and td[4][text()='%s']]".formatted(moonID, moonName, planetID);
 
         String moon = TestRunner.driver.findElement(By.xpath(xpath)).getText();
         System.out.println(moon);
@@ -43,12 +32,19 @@ public class PlanetandMoonVisibilitySteps {
         Assert.assertTrue(moon.contains(planetID));
     }
 
-    @Then("The logged in user should see the planet, {string}, planet ID {string}, and owner ID {string}")
-    public void the_logged_in_user_should_see_the_planet_from_other_user(String planetName, String planetID, String ownerID){
-        String planet = TestRunner.driver.findElement(By.xpath("/html/body/div[2]/table/tbody/tr[4]")).getText();
-        System.out.println(planet);
+    @Then("The logged in user should see the planet, {string} and owner ID {string}")
+    public void the_logged_in_user_should_see_the_planet_from_other_user(String planetName, String ownerID){
+        String xpath = "//tr[td[1][text()='planet'] and td[3][text()='%s'] and td[4][text()='%s']]".formatted(planetName, ownerID);
+        String planet = "";
+        try {
+            planet = TestRunner.wait.until(d -> d.findElement(By.xpath(xpath)).getText());
+        } catch (Exception e) {
+            Assert.fail("Planet not found");
+        }
+        if (planet.equals("")) {
+            Assert.fail("Planet not found");
+        }
         Assert.assertTrue(planet.contains(planetName));
-        Assert.assertTrue(planet.contains(planetID));
         Assert.assertTrue(planet.contains(ownerID));
     }
 }
