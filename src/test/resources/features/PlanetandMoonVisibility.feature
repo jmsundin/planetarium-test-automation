@@ -45,7 +45,6 @@ Feature: PlanetandMoonVisibility
 	Scenario Outline: As a user, I want to be able to view planets I have added, so I can track my planets in the Planetarium
 	The system checks if the user is logged-in and that the user has added planets to the Planetarium.
 		Given The user is logged in
-		# And The user has added planet "<Pre-existing planet>" to the Planetarium
 		Then The planet "<Pre-existing planet>" should be added to the Planetarium
 
 	Examples: 
