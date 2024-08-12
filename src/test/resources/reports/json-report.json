@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-08-12T18:06:35.249Z",
+        "start_timestamp": "2024-08-12T18:24:52.410Z",
         "before": [
           {
             "result": {
-              "duration": 418680400,
+              "duration": 783312500,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 38895900,
+              "duration": 48870200,
               "status": "passed"
             },
             "line": 7,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 63829200,
+              "duration": 71073400,
               "status": "passed"
             },
             "line": 8,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 119680900,
+              "duration": 109705300,
               "status": "passed"
             },
             "line": 9,
@@ -66,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 54853000,
+              "duration": 55851800,
               "status": "passed"
             },
             "line": 10,
@@ -84,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 29919600,
+              "duration": 32910900,
               "status": "passed"
             },
             "line": 11,
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 527097400,
+              "duration": 526591500,
               "status": "passed"
             },
             "line": 12,
@@ -120,11 +120,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:36.554Z",
+        "start_timestamp": "2024-08-12T18:24:54.089Z",
         "before": [
           {
             "result": {
-              "duration": 288232700,
+              "duration": 577454900,
               "status": "passed"
             },
             "match": {
@@ -141,7 +141,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10971300,
+              "duration": 12966100,
               "status": "passed"
             },
             "line": 7,
@@ -153,7 +153,7 @@
           },
           {
             "result": {
-              "duration": 40653100,
+              "duration": 42884100,
               "status": "passed"
             },
             "line": 8,
@@ -165,7 +165,7 @@
           },
           {
             "result": {
-              "duration": 48869300,
+              "duration": 38423500,
               "status": "passed"
             },
             "line": 9,
@@ -183,7 +183,7 @@
           },
           {
             "result": {
-              "duration": 67819300,
+              "duration": 40890400,
               "status": "passed"
             },
             "line": 10,
@@ -201,7 +201,7 @@
           },
           {
             "result": {
-              "duration": 28922500,
+              "duration": 26928100,
               "status": "passed"
             },
             "line": 11,
@@ -213,7 +213,7 @@
           },
           {
             "result": {
-              "duration": 517259300,
+              "duration": 523373500,
               "status": "passed"
             },
             "line": 12,
@@ -237,11 +237,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:37.565Z",
+        "start_timestamp": "2024-08-12T18:24:55.361Z",
         "before": [
           {
             "result": {
-              "duration": 245343300,
+              "duration": 640740500,
               "status": "passed"
             },
             "match": {
@@ -258,7 +258,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10970800,
+              "duration": 11968700,
               "status": "passed"
             },
             "line": 7,
@@ -270,7 +270,7 @@
           },
           {
             "result": {
-              "duration": 42885600,
+              "duration": 43888600,
               "status": "passed"
             },
             "line": 8,
@@ -282,7 +282,7 @@
           },
           {
             "result": {
-              "duration": 43882900,
+              "duration": 44878500,
               "status": "passed"
             },
             "line": 9,
@@ -300,7 +300,7 @@
           },
           {
             "result": {
-              "duration": 41886800,
+              "duration": 45878000,
               "status": "passed"
             },
             "line": 10,
@@ -318,7 +318,7 @@
           },
           {
             "result": {
-              "duration": 22938900,
+              "duration": 25930300,
               "status": "passed"
             },
             "line": 11,
@@ -330,7 +330,7 @@
           },
           {
             "result": {
-              "duration": 528633200,
+              "duration": 520294600,
               "status": "passed"
             },
             "line": 12,
@@ -354,11 +354,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:38.509Z",
+        "start_timestamp": "2024-08-12T18:24:56.701Z",
         "before": [
           {
             "result": {
-              "duration": 266797100,
+              "duration": 618550900,
               "status": "passed"
             },
             "match": {
@@ -375,7 +375,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10969400,
+              "duration": 11968400,
               "status": "passed"
             },
             "line": 23,
@@ -387,7 +387,7 @@
           },
           {
             "result": {
-              "duration": 41506300,
+              "duration": 44880100,
               "status": "passed"
             },
             "line": 24,
@@ -399,7 +399,7 @@
           },
           {
             "result": {
-              "duration": 31912800,
+              "duration": 31915000,
               "status": "passed"
             },
             "line": 25,
@@ -417,7 +417,7 @@
           },
           {
             "result": {
-              "duration": 44282800,
+              "duration": 44213600,
               "status": "passed"
             },
             "line": 26,
@@ -435,7 +435,7 @@
           },
           {
             "result": {
-              "duration": 23935500,
+              "duration": 24934000,
               "status": "passed"
             },
             "line": 27,
@@ -447,7 +447,7 @@
           },
           {
             "result": {
-              "duration": 7979100,
+              "duration": 8976600,
               "status": "passed"
             },
             "line": 28,
@@ -474,11 +474,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:38.942Z",
+        "start_timestamp": "2024-08-12T18:24:57.494Z",
         "before": [
           {
             "result": {
-              "duration": 226516000,
+              "duration": 590719800,
               "status": "passed"
             },
             "match": {
@@ -495,7 +495,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18949500,
+              "duration": 20944800,
               "status": "passed"
             },
             "line": 37,
@@ -507,7 +507,7 @@
           },
           {
             "result": {
-              "duration": 43882500,
+              "duration": 42885900,
               "status": "passed"
             },
             "line": 38,
@@ -519,7 +519,7 @@
           },
           {
             "result": {
-              "duration": 46875100,
+              "duration": 47128400,
               "status": "passed"
             },
             "line": 39,
@@ -537,7 +537,7 @@
           },
           {
             "result": {
-              "duration": 43882900,
+              "duration": 46873700,
               "status": "passed"
             },
             "line": 40,
@@ -555,7 +555,7 @@
           },
           {
             "result": {
-              "duration": 23935500,
+              "duration": 25931100,
               "status": "passed"
             },
             "line": 41,
@@ -567,7 +567,7 @@
           },
           {
             "result": {
-              "duration": 7977700,
+              "duration": 8976000,
               "status": "passed"
             },
             "line": 42,
@@ -591,11 +591,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:39.359Z",
+        "start_timestamp": "2024-08-12T18:24:58.284Z",
         "before": [
           {
             "result": {
-              "duration": 176154400,
+              "duration": 486562300,
               "status": "passed"
             },
             "match": {
@@ -612,7 +612,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22511300,
+              "duration": 18948600,
               "status": "passed"
             },
             "line": 51,
@@ -624,7 +624,7 @@
           },
           {
             "result": {
-              "duration": 40889800,
+              "duration": 42884900,
               "status": "passed"
             },
             "line": 52,
@@ -636,7 +636,7 @@
           },
           {
             "result": {
-              "duration": 27925000,
+              "duration": 27926000,
               "status": "passed"
             },
             "line": 53,
@@ -654,7 +654,7 @@
           },
           {
             "result": {
-              "duration": 47871900,
+              "duration": 41887800,
               "status": "passed"
             },
             "line": 54,
@@ -672,7 +672,7 @@
           },
           {
             "result": {
-              "duration": 27926000,
+              "duration": 23755800,
               "status": "passed"
             },
             "line": 55,
@@ -705,11 +705,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:39.717Z",
+        "start_timestamp": "2024-08-12T18:24:58.941Z",
         "before": [
           {
             "result": {
-              "duration": 176729300,
+              "duration": 775732400,
               "status": "passed"
             },
             "match": {
@@ -726,7 +726,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24764300,
+              "duration": 22939400,
               "status": "passed"
             },
             "line": 65,
@@ -738,7 +738,7 @@
           },
           {
             "result": {
-              "duration": 43411400,
+              "duration": 40175600,
               "status": "passed"
             },
             "line": 66,
@@ -750,7 +750,7 @@
           },
           {
             "result": {
-              "duration": 43883500,
+              "duration": 37407500,
               "status": "passed"
             },
             "line": 67,
@@ -768,7 +768,7 @@
           },
           {
             "result": {
-              "duration": 44879900,
+              "duration": 43882700,
               "status": "passed"
             },
             "line": 68,
@@ -786,7 +786,7 @@
           },
           {
             "result": {
-              "duration": 23451400,
+              "duration": 23677500,
               "status": "passed"
             },
             "line": 69,
@@ -798,7 +798,7 @@
           },
           {
             "result": {
-              "duration": 7979100,
+              "duration": 5983900,
               "status": "passed"
             },
             "line": 70,
@@ -822,11 +822,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:40.086Z",
+        "start_timestamp": "2024-08-12T18:24:59.895Z",
         "before": [
           {
             "result": {
-              "duration": 198817700,
+              "duration": 742713900,
               "status": "passed"
             },
             "match": {
@@ -843,7 +843,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21943400,
+              "duration": 18947900,
               "status": "passed"
             },
             "line": 79,
@@ -855,7 +855,7 @@
           },
           {
             "result": {
-              "duration": 42432500,
+              "duration": 42885400,
               "status": "passed"
             },
             "line": 80,
@@ -867,7 +867,7 @@
           },
           {
             "result": {
-              "duration": 40868200,
+              "duration": 37899500,
               "status": "passed"
             },
             "line": 81,
@@ -885,7 +885,7 @@
           },
           {
             "result": {
-              "duration": 28394400,
+              "duration": 26927600,
               "status": "passed"
             },
             "line": 82,
@@ -903,7 +903,7 @@
           },
           {
             "result": {
-              "duration": 22937700,
+              "duration": 21942400,
               "status": "passed"
             },
             "line": 83,
@@ -915,7 +915,7 @@
           },
           {
             "result": {
-              "duration": 6981300,
+              "duration": 6980500,
               "status": "passed"
             },
             "line": 84,
@@ -956,11 +956,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-08-12T18:06:40.456Z",
+        "start_timestamp": "2024-08-12T18:25:00.797Z",
         "before": [
           {
             "result": {
-              "duration": 194766300,
+              "duration": 654049900,
               "status": "passed"
             },
             "match": {
@@ -977,7 +977,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23934900,
+              "duration": 21941600,
               "status": "passed"
             },
             "line": 7,
@@ -989,7 +989,7 @@
           },
           {
             "result": {
-              "duration": 33909900,
+              "duration": 30917700,
               "status": "passed"
             },
             "line": 8,
@@ -1007,7 +1007,7 @@
           },
           {
             "result": {
-              "duration": 37918900,
+              "duration": 34906400,
               "status": "passed"
             },
             "line": 9,
@@ -1025,7 +1025,7 @@
           },
           {
             "result": {
-              "duration": 26928400,
+              "duration": 24903800,
               "status": "passed"
             },
             "line": 10,
@@ -1037,7 +1037,7 @@
           },
           {
             "result": {
-              "duration": 47871300,
+              "duration": 24931900,
               "status": "passed"
             },
             "line": 11,
@@ -1061,11 +1061,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:40.827Z",
+        "start_timestamp": "2024-08-12T18:25:01.594Z",
         "before": [
           {
             "result": {
-              "duration": 199891600,
+              "duration": 613906100,
               "status": "passed"
             },
             "match": {
@@ -1082,7 +1082,7 @@
         "steps": [
           {
             "result": {
-              "duration": 55850500,
+              "duration": 23936800,
               "status": "passed"
             },
             "line": 20,
@@ -1094,7 +1094,7 @@
           },
           {
             "result": {
-              "duration": 31489100,
+              "duration": 30495700,
               "status": "passed"
             },
             "line": 21,
@@ -1112,7 +1112,7 @@
           },
           {
             "result": {
-              "duration": 43882200,
+              "duration": 41888700,
               "status": "passed"
             },
             "line": 22,
@@ -1130,7 +1130,7 @@
           },
           {
             "result": {
-              "duration": 26928500,
+              "duration": 22938900,
               "status": "passed"
             },
             "line": 23,
@@ -1142,7 +1142,7 @@
           },
           {
             "result": {
-              "duration": 6981100,
+              "duration": 5983900,
               "status": "passed"
             },
             "line": 24,
@@ -1166,11 +1166,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:41.198Z",
+        "start_timestamp": "2024-08-12T18:25:02.341Z",
         "before": [
           {
             "result": {
-              "duration": 113898800,
+              "duration": 478457100,
               "status": "passed"
             },
             "match": {
@@ -1187,7 +1187,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10789200,
+              "duration": 12966100,
               "status": "passed"
             },
             "line": 20,
@@ -1199,7 +1199,7 @@
           },
           {
             "result": {
-              "duration": 27924600,
+              "duration": 24932700,
               "status": "passed"
             },
             "line": 21,
@@ -1217,7 +1217,7 @@
           },
           {
             "result": {
-              "duration": 41887900,
+              "duration": 41887200,
               "status": "passed"
             },
             "line": 22,
@@ -1235,7 +1235,7 @@
           },
           {
             "result": {
-              "duration": 22938600,
+              "duration": 21942600,
               "status": "passed"
             },
             "line": 23,
@@ -1247,7 +1247,7 @@
           },
           {
             "result": {
-              "duration": 7978900,
+              "duration": 6980500,
               "status": "passed"
             },
             "line": 24,
@@ -1271,11 +1271,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:41.427Z",
+        "start_timestamp": "2024-08-12T18:25:02.932Z",
         "before": [
           {
             "result": {
-              "duration": 175035500,
+              "duration": 446803000,
               "status": "passed"
             },
             "match": {
@@ -1292,7 +1292,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9973300,
+              "duration": 10971600,
               "status": "passed"
             },
             "line": 20,
@@ -1304,7 +1304,7 @@
           },
           {
             "result": {
-              "duration": 42885300,
+              "duration": 44879300,
               "status": "passed"
             },
             "line": 21,
@@ -1322,7 +1322,7 @@
           },
           {
             "result": {
-              "duration": 39893200,
+              "duration": 40890900,
               "status": "passed"
             },
             "line": 22,
@@ -1340,7 +1340,7 @@
           },
           {
             "result": {
-              "duration": 22449500,
+              "duration": 23936300,
               "status": "passed"
             },
             "line": 23,
@@ -1352,7 +1352,7 @@
           },
           {
             "result": {
-              "duration": 5982300,
+              "duration": 6980400,
               "status": "passed"
             },
             "line": 24,
@@ -1376,11 +1376,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:41.729Z",
+        "start_timestamp": "2024-08-12T18:25:03.509Z",
         "before": [
           {
             "result": {
-              "duration": 116083100,
+              "duration": 560803900,
               "status": "passed"
             },
             "match": {
@@ -1397,7 +1397,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10970300,
+              "duration": 12965500,
               "status": "passed"
             },
             "line": 20,
@@ -1409,7 +1409,7 @@
           },
           {
             "result": {
-              "duration": 31915400,
+              "duration": 28923300,
               "status": "passed"
             },
             "line": 21,
@@ -1427,7 +1427,7 @@
           },
           {
             "result": {
-              "duration": 24932400,
+              "duration": 24933700,
               "status": "passed"
             },
             "line": 22,
@@ -1445,7 +1445,7 @@
           },
           {
             "result": {
-              "duration": 23984800,
+              "duration": 21880000,
               "status": "passed"
             },
             "line": 23,
@@ -1457,7 +1457,7 @@
           },
           {
             "result": {
-              "duration": 5983400,
+              "duration": 6975400,
               "status": "passed"
             },
             "line": 24,
@@ -1501,11 +1501,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-08-12T18:06:41.946Z",
+        "start_timestamp": "2024-08-12T18:25:04.171Z",
         "before": [
           {
             "result": {
-              "duration": 283229900,
+              "duration": 562185200,
               "status": "passed"
             },
             "match": {
@@ -1522,7 +1522,7 @@
         "steps": [
           {
             "result": {
-              "duration": 111701600,
+              "duration": 112699100,
               "status": "passed"
             },
             "line": 7,
@@ -1534,7 +1534,7 @@
           },
           {
             "result": {
-              "duration": 68217600,
+              "duration": 70809400,
               "status": "passed"
             },
             "line": 8,
@@ -1546,8 +1546,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:9)\r\n",
-              "duration": 1044820300,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:9)\r\n",
+              "duration": 1048519300,
               "status": "failed"
             },
             "line": 9,
@@ -1639,11 +1639,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:43.469Z",
+        "start_timestamp": "2024-08-12T18:25:05.980Z",
         "before": [
           {
             "result": {
-              "duration": 183945600,
+              "duration": 721219900,
               "status": "passed"
             },
             "match": {
@@ -1660,7 +1660,7 @@
         "steps": [
           {
             "result": {
-              "duration": 120677200,
+              "duration": 128656700,
               "status": "passed"
             },
             "line": 7,
@@ -1672,7 +1672,7 @@
           },
           {
             "result": {
-              "duration": 53856400,
+              "duration": 60836700,
               "status": "passed"
             },
             "line": 8,
@@ -1684,8 +1684,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"A\" as the Moon Name(classpath:features/MoonAddition.feature:9)\r\n",
-              "duration": 1050671600,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"A\" as the Moon Name(classpath:features/MoonAddition.feature:9)\r\n",
+              "duration": 1053127200,
               "status": "failed"
             },
             "line": 9,
@@ -1777,11 +1777,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:44.885Z",
+        "start_timestamp": "2024-08-12T18:25:07.948Z",
         "before": [
           {
             "result": {
-              "duration": 142734200,
+              "duration": 486323800,
               "status": "passed"
             },
             "match": {
@@ -1798,7 +1798,7 @@
         "steps": [
           {
             "result": {
-              "duration": 126460200,
+              "duration": 128656700,
               "status": "passed"
             },
             "line": 23,
@@ -1810,7 +1810,7 @@
           },
           {
             "result": {
-              "duration": 50394100,
+              "duration": 51860300,
               "status": "passed"
             },
             "line": 24,
@@ -1822,8 +1822,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:25)\r\n",
-              "duration": 1009640000,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:25)\r\n",
+              "duration": 1056052000,
               "status": "failed"
             },
             "line": 25,
@@ -1898,11 +1898,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:46.219Z",
+        "start_timestamp": "2024-08-12T18:25:09.676Z",
         "before": [
           {
             "result": {
-              "duration": 174279600,
+              "duration": 217465900,
               "status": "passed"
             },
             "match": {
@@ -1919,7 +1919,7 @@
         "steps": [
           {
             "result": {
-              "duration": 117083700,
+              "duration": 137631900,
               "status": "passed"
             },
             "line": 23,
@@ -1931,7 +1931,7 @@
           },
           {
             "result": {
-              "duration": 51344100,
+              "duration": 47874000,
               "status": "passed"
             },
             "line": 24,
@@ -1943,8 +1943,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"A\" as the Moon Name(classpath:features/MoonAddition.feature:25)\r\n",
-              "duration": 1058772900,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"A\" as the Moon Name(classpath:features/MoonAddition.feature:25)\r\n",
+              "duration": 1022179100,
               "status": "failed"
             },
             "line": 25,
@@ -1990,7 +1990,6 @@
           },
           {
             "result": {
-              "duration": 997900,
               "status": "skipped"
             },
             "line": 28,
@@ -2020,11 +2019,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:47.626Z",
+        "start_timestamp": "2024-08-12T18:25:11.105Z",
         "before": [
           {
             "result": {
-              "duration": 250790000,
+              "duration": 206451300,
               "status": "passed"
             },
             "match": {
@@ -2041,7 +2040,7 @@
         "steps": [
           {
             "result": {
-              "duration": 122272800,
+              "duration": 142617400,
               "status": "passed"
             },
             "line": 38,
@@ -2053,7 +2052,7 @@
           },
           {
             "result": {
-              "duration": 47871300,
+              "duration": 55850700,
               "status": "passed"
             },
             "line": 39,
@@ -2065,8 +2064,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"Mars\" as the Moon Name(classpath:features/MoonAddition.feature:40)\r\n",
-              "duration": 1053727300,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"Mars\" as the Moon Name(classpath:features/MoonAddition.feature:40)\r\n",
+              "duration": 1056084100,
               "status": "failed"
             },
             "line": 40,
@@ -2084,7 +2083,6 @@
           },
           {
             "result": {
-              "duration": 996800,
               "status": "skipped"
             },
             "line": 41,
@@ -2153,11 +2151,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:49.108Z",
+        "start_timestamp": "2024-08-12T18:25:12.572Z",
         "before": [
           {
             "result": {
-              "duration": 229469400,
+              "duration": 251894600,
               "status": "passed"
             },
             "match": {
@@ -2174,7 +2172,7 @@
         "steps": [
           {
             "result": {
-              "duration": 123143000,
+              "duration": 137146900,
               "status": "passed"
             },
             "line": 38,
@@ -2186,7 +2184,7 @@
           },
           {
             "result": {
-              "duration": 49866600,
+              "duration": 53640300,
               "status": "passed"
             },
             "line": 39,
@@ -2198,8 +2196,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"Earth\" as the Moon Name(classpath:features/MoonAddition.feature:40)\r\n",
-              "duration": 1064078800,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"Earth\" as the Moon Name(classpath:features/MoonAddition.feature:40)\r\n",
+              "duration": 1051038100,
               "status": "failed"
             },
             "line": 40,
@@ -2285,11 +2283,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:50.579Z",
+        "start_timestamp": "2024-08-12T18:25:14.071Z",
         "before": [
           {
             "result": {
-              "duration": 215432400,
+              "duration": 199632000,
               "status": "passed"
             },
             "match": {
@@ -2306,7 +2304,7 @@
         "steps": [
           {
             "result": {
-              "duration": 120842900,
+              "duration": 129784100,
               "status": "passed"
             },
             "line": 54,
@@ -2318,7 +2316,7 @@
           },
           {
             "result": {
-              "duration": 50050100,
+              "duration": 50864600,
               "status": "passed"
             },
             "line": 55,
@@ -2330,8 +2328,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"Titan\" as the Moon Name(classpath:features/MoonAddition.feature:56)\r\n",
-              "duration": 1056696500,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"Titan\" as the Moon Name(classpath:features/MoonAddition.feature:56)\r\n",
+              "duration": 1063394200,
               "status": "failed"
             },
             "line": 56,
@@ -2417,11 +2415,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:52.026Z",
+        "start_timestamp": "2024-08-12T18:25:15.518Z",
         "before": [
           {
             "result": {
-              "duration": 244344400,
+              "duration": 234372900,
               "status": "passed"
             },
             "match": {
@@ -2438,7 +2436,7 @@
         "steps": [
           {
             "result": {
-              "duration": 126110700,
+              "duration": 140764300,
               "status": "passed"
             },
             "line": 54,
@@ -2450,7 +2448,7 @@
           },
           {
             "result": {
-              "duration": 50602600,
+              "duration": 49866400,
               "status": "passed"
             },
             "line": 55,
@@ -2462,8 +2460,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"Luna\" as the Moon Name(classpath:features/MoonAddition.feature:56)\r\n",
-              "duration": 1056533700,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"Luna\" as the Moon Name(classpath:features/MoonAddition.feature:56)\r\n",
+              "duration": 1003567400,
               "status": "failed"
             },
             "line": 56,
@@ -2549,11 +2547,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:53.508Z",
+        "start_timestamp": "2024-08-12T18:25:16.950Z",
         "before": [
           {
             "result": {
-              "duration": 237972100,
+              "duration": 324944800,
               "status": "passed"
             },
             "match": {
@@ -2570,7 +2568,7 @@
         "steps": [
           {
             "result": {
-              "duration": 121675700,
+              "duration": 133643400,
               "status": "passed"
             },
             "line": 70,
@@ -2582,7 +2580,7 @@
           },
           {
             "result": {
-              "duration": 48869000,
+              "duration": 50867600,
               "status": "passed"
             },
             "line": 71,
@@ -2594,8 +2592,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:72)\r\n",
-              "duration": 1052179000,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:72)\r\n",
+              "duration": 1062672300,
               "status": "failed"
             },
             "line": 72,
@@ -2681,11 +2679,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:54.973Z",
+        "start_timestamp": "2024-08-12T18:25:18.528Z",
         "before": [
           {
             "result": {
-              "duration": 223354200,
+              "duration": 221875100,
               "status": "passed"
             },
             "match": {
@@ -2702,7 +2700,7 @@
         "steps": [
           {
             "result": {
-              "duration": 136634200,
+              "duration": 138630600,
               "status": "passed"
             },
             "line": 70,
@@ -2714,7 +2712,7 @@
           },
           {
             "result": {
-              "duration": 47872500,
+              "duration": 52857900,
               "status": "passed"
             },
             "line": 71,
@@ -2726,8 +2724,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"A\" as the Moon Name(classpath:features/MoonAddition.feature:72)\r\n",
-              "duration": 1055903600,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"A\" as the Moon Name(classpath:features/MoonAddition.feature:72)\r\n",
+              "duration": 1005275900,
               "status": "failed"
             },
             "line": 72,
@@ -2813,11 +2811,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:56.439Z",
+        "start_timestamp": "2024-08-12T18:25:19.950Z",
         "before": [
           {
             "result": {
-              "duration": 209153400,
+              "duration": 211522100,
               "status": "passed"
             },
             "match": {
@@ -2834,7 +2832,7 @@
         "steps": [
           {
             "result": {
-              "duration": 120743700,
+              "duration": 139629100,
               "status": "passed"
             },
             "line": 70,
@@ -2846,7 +2844,7 @@
           },
           {
             "result": {
-              "duration": 47278800,
+              "duration": 40468700,
               "status": "passed"
             },
             "line": 71,
@@ -2858,8 +2856,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:72)\r\n",
-              "duration": 1055601400,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:72)\r\n",
+              "duration": 1020990300,
               "status": "failed"
             },
             "line": 72,
@@ -2945,11 +2943,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:57.876Z",
+        "start_timestamp": "2024-08-12T18:25:21.366Z",
         "before": [
           {
             "result": {
-              "duration": 269285400,
+              "duration": 268083000,
               "status": "passed"
             },
             "match": {
@@ -2966,7 +2964,7 @@
         "steps": [
           {
             "result": {
-              "duration": 121816700,
+              "duration": 135687900,
               "status": "passed"
             },
             "line": 87,
@@ -2978,7 +2976,7 @@
           },
           {
             "result": {
-              "duration": 37898400,
+              "duration": 50820000,
               "status": "passed"
             },
             "line": 88,
@@ -2990,8 +2988,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#orbitedPlanetInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dorbitedPlanetInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(MoonAdditionSteps.java:43)\r\n\tat ✽.The user enters \"1\" as the Orbited Planet ID(classpath:features/MoonAddition.feature:89)\r\n",
-              "duration": 1013391500,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#orbitedPlanetInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dorbitedPlanetInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(MoonAdditionSteps.java:43)\r\n\tat ✽.The user enters \"1\" as the Orbited Planet ID(classpath:features/MoonAddition.feature:89)\r\n",
+              "duration": 1004419600,
               "status": "failed"
             },
             "line": 89,
@@ -3060,11 +3058,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:06:59.324Z",
+        "start_timestamp": "2024-08-12T18:25:22.830Z",
         "before": [
           {
             "result": {
-              "duration": 228706800,
+              "duration": 246643100,
               "status": "passed"
             },
             "match": {
@@ -3081,7 +3079,7 @@
         "steps": [
           {
             "result": {
-              "duration": 133465800,
+              "duration": 146608800,
               "status": "passed"
             },
             "line": 87,
@@ -3093,7 +3091,7 @@
           },
           {
             "result": {
-              "duration": 48070000,
+              "duration": 46874200,
               "status": "passed"
             },
             "line": 88,
@@ -3105,8 +3103,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#orbitedPlanetInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dorbitedPlanetInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(MoonAdditionSteps.java:43)\r\n\tat ✽.The user enters \"2\" as the Orbited Planet ID(classpath:features/MoonAddition.feature:89)\r\n",
-              "duration": 1058913200,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#orbitedPlanetInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dorbitedPlanetInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(MoonAdditionSteps.java:43)\r\n\tat ✽.The user enters \"2\" as the Orbited Planet ID(classpath:features/MoonAddition.feature:89)\r\n",
+              "duration": 1017104900,
               "status": "failed"
             },
             "line": 89,
@@ -3175,11 +3173,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:00.796Z",
+        "start_timestamp": "2024-08-12T18:25:24.292Z",
         "before": [
           {
             "result": {
-              "duration": 213834400,
+              "duration": 194545600,
               "status": "passed"
             },
             "match": {
@@ -3196,7 +3194,7 @@
         "steps": [
           {
             "result": {
-              "duration": 118930100,
+              "duration": 135640300,
               "status": "passed"
             },
             "line": 102,
@@ -3208,7 +3206,7 @@
           },
           {
             "result": {
-              "duration": 49867000,
+              "duration": 49866400,
               "status": "passed"
             },
             "line": 103,
@@ -3220,8 +3218,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisCelestialBodyNameIsTooLong!\" as the Moon Name(classpath:features/MoonAddition.feature:104)\r\n",
-              "duration": 1064562800,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisCelestialBodyNameIsTooLong!\" as the Moon Name(classpath:features/MoonAddition.feature:104)\r\n",
+              "duration": 1003884200,
               "status": "failed"
             },
             "line": 104,
@@ -3307,11 +3305,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:02.248Z",
+        "start_timestamp": "2024-08-12T18:25:25.681Z",
         "before": [
           {
             "result": {
-              "duration": 264808600,
+              "duration": 267536400,
               "status": "passed"
             },
             "match": {
@@ -3328,7 +3326,7 @@
         "steps": [
           {
             "result": {
-              "duration": 122006900,
+              "duration": 138139800,
               "status": "passed"
             },
             "line": 117,
@@ -3340,7 +3338,7 @@
           },
           {
             "result": {
-              "duration": 52859200,
+              "duration": 51861700,
               "status": "passed"
             },
             "line": 118,
@@ -3352,8 +3350,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:119)\r\n",
-              "duration": 1059207200,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:119)\r\n",
+              "duration": 1006913200,
               "status": "failed"
             },
             "line": 119,
@@ -3439,11 +3437,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:03.751Z",
+        "start_timestamp": "2024-08-12T18:25:27.149Z",
         "before": [
           {
             "result": {
-              "duration": 269232700,
+              "duration": 295786300,
               "status": "passed"
             },
             "match": {
@@ -3460,7 +3458,7 @@
         "steps": [
           {
             "result": {
-              "duration": 120143900,
+              "duration": 131443800,
               "status": "passed"
             },
             "line": 117,
@@ -3472,7 +3470,7 @@
           },
           {
             "result": {
-              "duration": 47872200,
+              "duration": 41888200,
               "status": "passed"
             },
             "line": 118,
@@ -3484,8 +3482,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"A\" as the Moon Name(classpath:features/MoonAddition.feature:119)\r\n",
-              "duration": 1008323200,
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"A\" as the Moon Name(classpath:features/MoonAddition.feature:119)\r\n",
+              "duration": 1019200600,
               "status": "failed"
             },
             "line": 119,
@@ -3591,11 +3589,942 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-08-12T18:07:05.200Z",
+        "start_timestamp": "2024-08-12T18:25:28.641Z",
         "before": [
           {
             "result": {
-              "duration": 215091900,
+              "duration": 225398000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "As a user, I want to receive an error message if I attempt to add a planet with an already existing planet name, so that I am aware that the planet addition failed",
+        "description": "\tThe system should check if the name already exists for a planet and provide a user-friendly error message if it is.",
+        "id": "planetaddition;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-add-a-planet-with-an-already-existing-planet-name--so-that-i-am-aware-that-the-planet-addition-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 130650700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73803300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user selects the planet option from the dropdown",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_selects_the_planet_option_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136142300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user enters \"Earth\" as the planet name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Earth\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_enters_as_the_planet_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17952700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user uploads \"planet-1.jpg\" as the image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"planet-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_uploads_as_the_image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24933600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user clicks on the Submit Planet button",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_clicks_on_the_Submit_Planet_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 511431000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user should be informed that the planet addition failed",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_should_be_informed_that_the_planet_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetAddition"
+          },
+          {
+            "name": "@PTA-TC-58"
+          },
+          {
+            "name": "@JREQ-PTA-50"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:25:29.772Z",
+        "before": [
+          {
+            "result": {
+              "duration": 207603300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "As a user, I want to receive an error message if I attempt to add a planet with an already existing moon name, so that I am aware that the planet addition failed",
+        "description": "\tThe system should check if the name already exists for a moon and provide a user-friendly error message if it is.",
+        "id": "planetaddition;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-add-a-planet-with-an-already-existing-moon-name--so-that-i-am-aware-that-the-planet-addition-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 136635500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92261100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user selects the planet option from the dropdown",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_selects_the_planet_option_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127657500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user enters \"Luna\" as the planet name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Luna\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_enters_as_the_planet_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15958100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user uploads \"planet-1.jpg\" as the image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"planet-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_uploads_as_the_image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17470700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user clicks on the Submit Planet button",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_clicks_on_the_Submit_Planet_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.step.PlanetAdditionSteps.the_user_should_be_informed_that_the_planet_addition_failed(PlanetAdditionSteps.java:48)\r\n\tat ✽.The user should be informed that the planet addition failed(classpath:features/PlanetAddition.feature:26)\r\n",
+              "duration": 5088673100,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "The user should be informed that the planet addition failed",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_should_be_informed_that_the_planet_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetAddition"
+          },
+          {
+            "name": "@PTA-TC-62"
+          },
+          {
+            "name": "@JREQ-PTA-105"
+          },
+          {
+            "name": "@JREQ-PTA-66"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:25:35.461Z",
+        "before": [
+          {
+            "result": {
+              "duration": 247232800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "As a user, I want to receive an error message if I attempt to add a planet with a too long planet name, so that I am aware that the planet addition failed",
+        "description": "\tThe system should check if the  planet is longer than 30 characters and provide a user-friendly error message if it is.",
+        "id": "planetaddition;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-add-a-planet-with-a-too-long-planet-name--so-that-i-am-aware-that-the-planet-addition-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 132650000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62361300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "The user selects the planet option from the dropdown",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_selects_the_planet_option_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136633600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "The user enters \"ThePlanetNameIsTooLongForAdding\" as the planet name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ThePlanetNameIsTooLongForAdding\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_enters_as_the_planet_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14961300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "The user uploads \"planet-1.jpg\" as the image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"planet-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_uploads_as_the_image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18949100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The user clicks on the Submit Planet button",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_clicks_on_the_Submit_Planet_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 516404600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "The user should be informed that the planet addition failed",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_should_be_informed_that_the_planet_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetAddition"
+          },
+          {
+            "name": "@PTA-TC-63"
+          },
+          {
+            "name": "@JREQ-PTA-49"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:25:36.593Z",
+        "before": [
+          {
+            "result": {
+              "duration": 263625500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "As a user, I want to receive an error message if I attempt to add a planet with a blank planet name, so that I am aware that the planet addition failed",
+        "description": "\tThe system should check if the planet name was left blank and provide a user-friendly error message if it is.",
+        "id": "planetaddition;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-add-a-planet-with-a-blank-planet-name--so-that-i-am-aware-that-the-planet-addition-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 127379200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62720900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The user selects the planet option from the dropdown",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_selects_the_planet_option_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116687900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "The user enters \"\" as the planet name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_enters_as_the_planet_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14960100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "The user uploads \"planet-1.jpg\" as the image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"planet-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_uploads_as_the_image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21940900,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "The user clicks on the Submit Planet button",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_clicks_on_the_Submit_Planet_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 514611400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "The user should be informed that the planet addition failed",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_should_be_informed_that_the_planet_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetAddition"
+          },
+          {
+            "name": "@PTA-TC-64"
+          },
+          {
+            "name": "@JREQ-PTA-67"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:25:37.735Z",
+        "before": [
+          {
+            "result": {
+              "duration": 231003100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "As a user, I should be able to add planets with a valid planet name and image, so it will visible in the Planetarium",
+        "description": "\tUsers should be able to input a valid planet name and image to add a planet to the planetarium",
+        "id": "planetaddition;as-a-user--i-should-be-able-to-add-planets-with-a-valid-planet-name-and-image--so-it-will-visible-in-the-planetarium;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 135636900,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64826400,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "The user selects the planet option from the dropdown",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_selects_the_planet_option_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142618900,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "The user enters \"This is a newly made up planet\" as the planet name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"This is a newly made up planet\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_enters_as_the_planet_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18763800,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "The user uploads \"planet-1.jpg\" as the image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"planet-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_uploads_as_the_image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25931100,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "The user clicks on the Submit Planet button",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_clicks_on_the_Submit_Planet_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 68,
+            "name": "The planet \"This is a newly made up planet\" should be added to the Planetarium",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetAddition"
+          },
+          {
+            "name": "@PTA-TC-66"
+          },
+          {
+            "name": "@JREQ-PTA-47"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:25:38.362Z",
+        "before": [
+          {
+            "result": {
+              "duration": 335429100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "As a user, I should be able to add planets with a valid planet name and image, so it will visible in the Planetarium",
+        "description": "\tUsers should be able to input a valid planet name and image to add a planet to the planetarium",
+        "id": "planetaddition;as-a-user--i-should-be-able-to-add-planets-with-a-valid-planet-name-and-image--so-it-will-visible-in-the-planetarium;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 139210800,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56848400,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "The user selects the planet option from the dropdown",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_selects_the_planet_option_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135506900,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "The user enters \"Planet .^$*+-?()[]{}|\" as the planet name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planet .^$*+-?()[]{}|\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_enters_as_the_planet_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17947300,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "The user uploads \"planet-1.jpg\" as the image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"planet-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_uploads_as_the_image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26928200,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "The user clicks on the Submit Planet button",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_clicks_on_the_Submit_Planet_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 68,
+            "name": "The planet \"Planet .^$*+-?()[]{}|\" should be added to the Planetarium",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetAddition"
+          },
+          {
+            "name": "@PTA-TC-66"
+          },
+          {
+            "name": "@JREQ-PTA-47"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:25:39.080Z",
+        "before": [
+          {
+            "result": {
+              "duration": 351831800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "As a user, I should be able to add planets with a valid planet name and image, so it will visible in the Planetarium",
+        "description": "\tUsers should be able to input a valid planet name and image to add a planet to the planetarium",
+        "id": "planetaddition;as-a-user--i-should-be-able-to-add-planets-with-a-valid-planet-name-and-image--so-it-will-visible-in-the-planetarium;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 139269300,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64337800,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "The user selects the planet option from the dropdown",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_selects_the_planet_option_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141130600,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "The user enters \"1\" as the planet name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_enters_as_the_planet_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17952100,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "The user uploads \"planet-1.jpg\" as the image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"planet-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_uploads_as_the_image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18516500,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "The user clicks on the Submit Planet button",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_clicks_on_the_Submit_Planet_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 68,
+            "name": "The planet \"1\" should be added to the Planetarium",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetAddition"
+          },
+          {
+            "name": "@PTA-TC-66"
+          },
+          {
+            "name": "@JREQ-PTA-47"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:25:39.817Z",
+        "before": [
+          {
+            "result": {
+              "duration": 232694600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 87,
+        "name": "As a user, I should be able to add planets with a valid planet name without an image, so it will visible in the Planetarium",
+        "description": "\tUsers should be able to input a valid planet name without an image to add a planet to the planetarium",
+        "id": "planetaddition;as-a-user--i-should-be-able-to-add-planets-with-a-valid-planet-name-without-an-image--so-it-will-visible-in-the-planetarium;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Something went wrong, please try again}\n  (Session info: chrome\u003d127.0.6533.100): Something went wrong, please try again\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, get {url\u003dhttp://localhost:8080/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)\r\n\tat com.revature.pom.Login.goToLoginPage(Login.java:29)\r\n\tat com.revature.step.PlanetAdditionSteps.the_user_is_logged_in(PlanetAdditionSteps.java:18)\r\n\tat ✽.The user is logged in(classpath:features/PlanetAddition.feature:79)\r\n",
+              "duration": 1995200,
+              "status": "failed"
+            },
+            "line": 79,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 80,
+            "name": "The user selects the planet option from the dropdown",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_selects_the_planet_option_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 81,
+            "name": "The user enters \"You can also count this planet\" as the planet name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You can also count this planet\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_enters_as_the_planet_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 82,
+            "name": "The user clicks on the Submit Planet button",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_clicks_on_the_Submit_Planet_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 83,
+            "name": "The planet \"You can also count this planet\" should be added to the Planetarium",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetAddition"
+          },
+          {
+            "name": "@PTA-TC-67"
+          },
+          {
+            "name": "@JREQ-PTA-104"
+          },
+          {
+            "name": "@JREQ-PTA-46"
+          }
+        ]
+      }
+    ],
+    "name": "PlanetAddition",
+    "description": "",
+    "id": "planetaddition",
+    "keyword": "Feature",
+    "uri": "classpath:features/PlanetAddition.feature",
+    "tags": [
+      {
+        "name": "@PlanetAddition",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-12T18:25:40.056Z",
+        "before": [
+          {
+            "result": {
+              "duration": 194429500,
               "status": "passed"
             },
             "match": {
@@ -3612,7 +4541,7 @@
         "steps": [
           {
             "result": {
-              "duration": 120840500,
+              "duration": 142618600,
               "status": "passed"
             },
             "line": 7,
@@ -3624,7 +4553,7 @@
           },
           {
             "result": {
-              "duration": 67818900,
+              "duration": 56848400,
               "status": "passed"
             },
             "line": 8,
@@ -3636,7 +4565,7 @@
           },
           {
             "result": {
-              "duration": 123452800,
+              "duration": 123670000,
               "status": "passed"
             },
             "line": 9,
@@ -3654,7 +4583,7 @@
           },
           {
             "result": {
-              "duration": 24482700,
+              "duration": 24932700,
               "status": "passed"
             },
             "line": 10,
@@ -3666,7 +4595,7 @@
           },
           {
             "result": {
-              "duration": 526244500,
+              "duration": 538721200,
               "status": "passed"
             },
             "line": 11,
@@ -3696,11 +4625,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:06.285Z",
+        "start_timestamp": "2024-08-12T18:25:41.142Z",
         "before": [
           {
             "result": {
-              "duration": 220085700,
+              "duration": 330514500,
               "status": "passed"
             },
             "match": {
@@ -3717,7 +4646,7 @@
         "steps": [
           {
             "result": {
-              "duration": 121304600,
+              "duration": 128248400,
               "status": "passed"
             },
             "line": 21,
@@ -3729,7 +4658,7 @@
           },
           {
             "result": {
-              "duration": 55539600,
+              "duration": 58445500,
               "status": "passed"
             },
             "line": 22,
@@ -3741,7 +4670,7 @@
           },
           {
             "result": {
-              "duration": 134898200,
+              "duration": 124666300,
               "status": "passed"
             },
             "line": 23,
@@ -3759,7 +4688,7 @@
           },
           {
             "result": {
-              "duration": 20943400,
+              "duration": 20944000,
               "status": "passed"
             },
             "line": 24,
@@ -3771,7 +4700,7 @@
           },
           {
             "result": {
-              "duration": 518439500,
+              "duration": 531857900,
               "status": "passed"
             },
             "line": 25,
@@ -3801,11 +4730,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:07.359Z",
+        "start_timestamp": "2024-08-12T18:25:42.339Z",
         "before": [
           {
             "result": {
-              "duration": 241910900,
+              "duration": 167145300,
               "status": "passed"
             },
             "match": {
@@ -3822,7 +4751,7 @@
         "steps": [
           {
             "result": {
-              "duration": 117686000,
+              "duration": 125664400,
               "status": "passed"
             },
             "line": 21,
@@ -3834,7 +4763,7 @@
           },
           {
             "result": {
-              "duration": 60836300,
+              "duration": 56848200,
               "status": "passed"
             },
             "line": 22,
@@ -3846,7 +4775,7 @@
           },
           {
             "result": {
-              "duration": 131759600,
+              "duration": 137632100,
               "status": "passed"
             },
             "line": 23,
@@ -3864,7 +4793,7 @@
           },
           {
             "result": {
-              "duration": 22938800,
+              "duration": 25930300,
               "status": "passed"
             },
             "line": 24,
@@ -3876,8 +4805,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.fail(Assert.java:96)\r\n\tat com.revature.step.PlanetDeletionSteps.the_user_should_no_longer_see_the_planet_within_the_planetarium(PlanetDeletionSteps.java:51)\r\n\tat ✽.The user should no longer see the planet \"Planet .^$*+-?()[]{}//\" within the planetarium(classpath:features/PlanetDeletion.feature:25)\r\n",
-              "duration": 4733000,
+              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Failed to delete planet with name }\n  (Session info: chrome\u003d127.0.6533.100): Failed to delete planet with name \nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003d//tr[td[1][text()\u003d\u0027planet\u0027] and td[3][text()\u003d\u0027Planet .^$*+-?()[]{}//\u0027]], using\u003dxpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.step.PlanetDeletionSteps.the_user_should_no_longer_see_the_planet_within_the_planetarium(PlanetDeletionSteps.java:61)\r\n\tat ✽.The user should no longer see the planet \"Planet .^$*+-?()[]{}//\" within the planetarium(classpath:features/PlanetDeletion.feature:25)\r\n",
+              "duration": 3989500,
               "status": "failed"
             },
             "line": 25,
@@ -3907,11 +4836,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:07.944Z",
+        "start_timestamp": "2024-08-12T18:25:42.861Z",
         "before": [
           {
             "result": {
-              "duration": 246185900,
+              "duration": 136633700,
               "status": "passed"
             },
             "match": {
@@ -3928,7 +4857,7 @@
         "steps": [
           {
             "result": {
-              "duration": 117762100,
+              "duration": 121675200,
               "status": "passed"
             },
             "line": 35,
@@ -3940,7 +4869,7 @@
           },
           {
             "result": {
-              "duration": 57495000,
+              "duration": 61320900,
               "status": "passed"
             },
             "line": 36,
@@ -3952,7 +4881,7 @@
           },
           {
             "result": {
-              "duration": 29919700,
+              "duration": 124664600,
               "status": "passed"
             },
             "line": 37,
@@ -3970,7 +4899,7 @@
           },
           {
             "result": {
-              "duration": 110704700,
+              "duration": 19947000,
               "status": "passed"
             },
             "line": 38,
@@ -3982,7 +4911,7 @@
           },
           {
             "result": {
-              "duration": 5982700,
+              "duration": 5984200,
               "status": "passed"
             },
             "line": 39,
@@ -4006,11 +4935,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:08.515Z",
+        "start_timestamp": "2024-08-12T18:25:43.335Z",
         "before": [
           {
             "result": {
-              "duration": 216629400,
+              "duration": 178819100,
               "status": "passed"
             },
             "match": {
@@ -4027,7 +4956,7 @@
         "steps": [
           {
             "result": {
-              "duration": 119737500,
+              "duration": 126662000,
               "status": "passed"
             },
             "line": 35,
@@ -4039,7 +4968,7 @@
           },
           {
             "result": {
-              "duration": 56881400,
+              "duration": 57845200,
               "status": "passed"
             },
             "line": 36,
@@ -4051,7 +4980,7 @@
           },
           {
             "result": {
-              "duration": 107714900,
+              "duration": 124669900,
               "status": "passed"
             },
             "line": 37,
@@ -4069,7 +4998,7 @@
           },
           {
             "result": {
-              "duration": 31914100,
+              "duration": 21941500,
               "status": "passed"
             },
             "line": 38,
@@ -4081,7 +5010,7 @@
           },
           {
             "result": {
-              "duration": 511487500,
+              "duration": 5984500,
               "status": "passed"
             },
             "line": 39,
@@ -4105,11 +5034,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:09.563Z",
+        "start_timestamp": "2024-08-12T18:25:43.854Z",
         "before": [
           {
             "result": {
-              "duration": 184507100,
+              "duration": 219008700,
               "status": "passed"
             },
             "match": {
@@ -4126,7 +5055,7 @@
         "steps": [
           {
             "result": {
-              "duration": 122541800,
+              "duration": 120639700,
               "status": "passed"
             },
             "line": 35,
@@ -4138,7 +5067,7 @@
           },
           {
             "result": {
-              "duration": 56847400,
+              "duration": 64376400,
               "status": "passed"
             },
             "line": 36,
@@ -4150,7 +5079,7 @@
           },
           {
             "result": {
-              "duration": 108709600,
+              "duration": 123313600,
               "status": "passed"
             },
             "line": 37,
@@ -4168,7 +5097,7 @@
           },
           {
             "result": {
-              "duration": 31914700,
+              "duration": 19947300,
               "status": "passed"
             },
             "line": 38,
@@ -4180,7 +5109,7 @@
           },
           {
             "result": {
-              "duration": 5983700,
+              "duration": 5983500,
               "status": "passed"
             },
             "line": 39,
@@ -4204,11 +5133,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:10.075Z",
+        "start_timestamp": "2024-08-12T18:25:44.410Z",
         "before": [
           {
             "result": {
-              "duration": 198466300,
+              "duration": 204862600,
               "status": "passed"
             },
             "match": {
@@ -4225,7 +5154,7 @@
         "steps": [
           {
             "result": {
-              "duration": 124859900,
+              "duration": 123668800,
               "status": "passed"
             },
             "line": 50,
@@ -4237,7 +5166,7 @@
           },
           {
             "result": {
-              "duration": 54853700,
+              "duration": 58842500,
               "status": "passed"
             },
             "line": 51,
@@ -4249,7 +5178,7 @@
           },
           {
             "result": {
-              "duration": 123194200,
+              "duration": 133642100,
               "status": "passed"
             },
             "line": 52,
@@ -4267,7 +5196,7 @@
           },
           {
             "result": {
-              "duration": 19946400,
+              "duration": 19947800,
               "status": "passed"
             },
             "line": 53,
@@ -4279,7 +5208,7 @@
           },
           {
             "result": {
-              "duration": 508176200,
+              "duration": 506210800,
               "status": "passed"
             },
             "line": 54,
@@ -4303,11 +5232,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:11.108Z",
+        "start_timestamp": "2024-08-12T18:25:45.461Z",
         "before": [
           {
             "result": {
-              "duration": 164561200,
+              "duration": 178512500,
               "status": "passed"
             },
             "match": {
@@ -4324,7 +5253,7 @@
         "steps": [
           {
             "result": {
-              "duration": 120799600,
+              "duration": 122424500,
               "status": "passed"
             },
             "line": 50,
@@ -4336,7 +5265,7 @@
           },
           {
             "result": {
-              "duration": 55850700,
+              "duration": 61833000,
               "status": "passed"
             },
             "line": 51,
@@ -4348,7 +5277,7 @@
           },
           {
             "result": {
-              "duration": 125516700,
+              "duration": 124422900,
               "status": "passed"
             },
             "line": 52,
@@ -4366,7 +5295,7 @@
           },
           {
             "result": {
-              "duration": 18949600,
+              "duration": 19946800,
               "status": "passed"
             },
             "line": 53,
@@ -4378,7 +5307,7 @@
           },
           {
             "result": {
-              "duration": 515072300,
+              "duration": 513627100,
               "status": "passed"
             },
             "line": 54,
@@ -4402,11 +5331,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:12.113Z",
+        "start_timestamp": "2024-08-12T18:25:46.484Z",
         "before": [
           {
             "result": {
-              "duration": 250889700,
+              "duration": 197923700,
               "status": "passed"
             },
             "match": {
@@ -4423,7 +5352,7 @@
         "steps": [
           {
             "result": {
-              "duration": 121674800,
+              "duration": 164563600,
               "status": "passed"
             },
             "line": 64,
@@ -4435,7 +5364,7 @@
           },
           {
             "result": {
-              "duration": 55850000,
+              "duration": 156191100,
               "status": "passed"
             },
             "line": 65,
@@ -4447,6 +5376,7 @@
           },
           {
             "result": {
+              "duration": 996700,
               "status": "passed"
             },
             "line": 66,
@@ -4458,7 +5388,7 @@
           },
           {
             "result": {
-              "duration": 20944600,
+              "duration": 18950200,
               "status": "passed"
             },
             "line": 67,
@@ -4494,11 +5424,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:12.571Z",
+        "start_timestamp": "2024-08-12T18:25:47.031Z",
         "before": [
           {
             "result": {
-              "duration": 293190500,
+              "duration": 252695300,
               "status": "passed"
             },
             "match": {
@@ -4515,7 +5445,7 @@
         "steps": [
           {
             "result": {
-              "duration": 141882800,
+              "duration": 122672500,
               "status": "passed"
             },
             "line": 73,
@@ -4527,7 +5457,7 @@
           },
           {
             "result": {
-              "duration": 61838100,
+              "duration": 54853100,
               "status": "passed"
             },
             "line": 74,
@@ -4539,7 +5469,7 @@
           },
           {
             "result": {
-              "duration": 132497700,
+              "duration": 137143200,
               "status": "passed"
             },
             "line": 75,
@@ -4557,7 +5487,7 @@
           },
           {
             "result": {
-              "duration": 17951000,
+              "duration": 18947700,
               "status": "passed"
             },
             "line": 76,
@@ -4569,7 +5499,7 @@
           },
           {
             "result": {
-              "duration": 512630000,
+              "duration": 512161000,
               "status": "passed"
             },
             "line": 77,
@@ -4593,11 +5523,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:13.733Z",
+        "start_timestamp": "2024-08-12T18:25:48.133Z",
         "before": [
           {
             "result": {
-              "duration": 240380800,
+              "duration": 240581000,
               "status": "passed"
             },
             "match": {
@@ -4614,7 +5544,7 @@
         "steps": [
           {
             "result": {
-              "duration": 122389900,
+              "duration": 129653800,
               "status": "passed"
             },
             "line": 73,
@@ -4626,7 +5556,7 @@
           },
           {
             "result": {
-              "duration": 54853600,
+              "duration": 56848000,
               "status": "passed"
             },
             "line": 74,
@@ -4638,7 +5568,7 @@
           },
           {
             "result": {
-              "duration": 112457200,
+              "duration": 112111200,
               "status": "passed"
             },
             "line": 75,
@@ -4656,7 +5586,7 @@
           },
           {
             "result": {
-              "duration": 30719500,
+              "duration": 32910900,
               "status": "passed"
             },
             "line": 76,
@@ -4668,7 +5598,7 @@
           },
           {
             "result": {
-              "duration": 507531200,
+              "duration": 513606400,
               "status": "passed"
             },
             "line": 77,
@@ -4692,11 +5622,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:14.804Z",
+        "start_timestamp": "2024-08-12T18:25:49.221Z",
         "before": [
           {
             "result": {
-              "duration": 193983000,
+              "duration": 231971700,
               "status": "passed"
             },
             "match": {
@@ -4713,7 +5643,7 @@
         "steps": [
           {
             "result": {
-              "duration": 134868000,
+              "duration": 124636500,
               "status": "passed"
             },
             "line": 87,
@@ -4725,7 +5655,7 @@
           },
           {
             "result": {
-              "duration": 55849700,
+              "duration": 56847700,
               "status": "passed"
             },
             "line": 88,
@@ -4737,7 +5667,7 @@
           },
           {
             "result": {
-              "duration": 124667100,
+              "duration": 32912400,
               "status": "passed"
             },
             "line": 89,
@@ -4755,7 +5685,7 @@
           },
           {
             "result": {
-              "duration": 18949900,
+              "duration": 109705900,
               "status": "passed"
             },
             "line": 90,
@@ -4767,7 +5697,7 @@
           },
           {
             "result": {
-              "duration": 530828800,
+              "duration": 532440900,
               "status": "passed"
             },
             "line": 91,
@@ -4801,11 +5731,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:15.865Z",
+        "start_timestamp": "2024-08-12T18:25:50.314Z",
         "before": [
           {
             "result": {
-              "duration": 172196400,
+              "duration": 182656300,
               "status": "passed"
             },
             "match": {
@@ -4822,7 +5752,7 @@
         "steps": [
           {
             "result": {
-              "duration": 131618400,
+              "duration": 127658200,
               "status": "passed"
             },
             "line": 100,
@@ -4834,7 +5764,7 @@
           },
           {
             "result": {
-              "duration": 59884600,
+              "duration": 57846100,
               "status": "passed"
             },
             "line": 101,
@@ -4846,7 +5776,7 @@
           },
           {
             "result": {
-              "duration": 127294100,
+              "duration": 29919900,
               "status": "passed"
             },
             "line": 102,
@@ -4864,7 +5794,7 @@
           },
           {
             "result": {
-              "duration": 18949100,
+              "duration": 111530500,
               "status": "passed"
             },
             "line": 103,
@@ -4876,7 +5806,7 @@
           },
           {
             "result": {
-              "duration": 525346600,
+              "duration": 527359300,
               "status": "passed"
             },
             "line": 104,
@@ -4906,11 +5836,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:16.903Z",
+        "start_timestamp": "2024-08-12T18:25:51.355Z",
         "before": [
           {
             "result": {
-              "duration": 161055400,
+              "duration": 160705600,
               "status": "passed"
             },
             "match": {
@@ -4927,7 +5857,7 @@
         "steps": [
           {
             "result": {
-              "duration": 119680700,
+              "duration": 143618100,
               "status": "passed"
             },
             "line": 100,
@@ -4939,7 +5869,7 @@
           },
           {
             "result": {
-              "duration": 55850300,
+              "duration": 67949600,
               "status": "passed"
             },
             "line": 101,
@@ -4951,7 +5881,7 @@
           },
           {
             "result": {
-              "duration": 143615800,
+              "duration": 125324100,
               "status": "passed"
             },
             "line": 102,
@@ -4969,7 +5899,7 @@
           },
           {
             "result": {
-              "duration": 19464800,
+              "duration": 21570900,
               "status": "passed"
             },
             "line": 103,
@@ -4981,7 +5911,7 @@
           },
           {
             "result": {
-              "duration": 518112600,
+              "duration": 528216700,
               "status": "passed"
             },
             "line": 104,
@@ -5031,11 +5961,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-08-12T18:07:17.924Z",
+        "start_timestamp": "2024-08-12T18:25:52.405Z",
         "before": [
           {
             "result": {
-              "duration": 243010000,
+              "duration": 215228000,
               "status": "passed"
             },
             "match": {
@@ -5052,7 +5982,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18948700,
+              "duration": 28922200,
               "status": "passed"
             },
             "line": 7,
@@ -5064,7 +5994,7 @@
           },
           {
             "result": {
-              "duration": 21941000,
+              "duration": 28921800,
               "status": "passed"
             },
             "line": 8,
@@ -5082,8 +6012,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"tag name\",\"selector\":\"pre\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dpre, using\u003dtag name}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.step.PlanetandMoonVisibilitySteps.the_user_should_be_informed_they_need_to_login_first(PlanetandMoonVisibilitySteps.java:20)\r\n\tat ✽.The user should be informed they need to login first(classpath:features/PlanetandMoonVisibility.feature:9)\r\n",
-              "duration": 1053204900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"tag name\",\"selector\":\"pre\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ddd4080963f6cc37ad0a4f5416a88b0f, findElement {value\u003dpre, using\u003dtag name}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55862/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ddd4080963f6cc37ad0a4f5416a88b0f\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.step.PlanetandMoonVisibilitySteps.the_user_should_be_informed_they_need_to_login_first(PlanetandMoonVisibilitySteps.java:20)\r\n\tat ✽.The user should be informed they need to login first(classpath:features/PlanetandMoonVisibility.feature:9)\r\n",
+              "duration": 1060186500,
               "status": "failed"
             },
             "line": 9,
@@ -5107,11 +6037,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:19.266Z",
+        "start_timestamp": "2024-08-12T18:25:53.746Z",
         "before": [
           {
             "result": {
-              "duration": 236628800,
+              "duration": 219950400,
               "status": "passed"
             },
             "match": {
@@ -5128,7 +6058,7 @@
         "steps": [
           {
             "result": {
-              "duration": 117840200,
+              "duration": 139139600,
               "status": "passed"
             },
             "line": 17,
@@ -5141,7 +6071,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.step.PlanetandMoonVisibilitySteps.the_user_should_see_the_moon_called_Pre_existing_moon_moon_ID_Moon_ID_and_owner_ID_Planet_Id(PlanetandMoonVisibilitySteps.java:41)\r\n\tat ✽.The user should see the moon called \"Luna\", moon ID \"1\", and owner ID \"1\"(classpath:features/PlanetandMoonVisibility.feature:18)\r\n",
-              "duration": 73802300,
+              "duration": 79786400,
               "status": "failed"
             },
             "line": 18,
@@ -5179,11 +6109,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:19.698Z",
+        "start_timestamp": "2024-08-12T18:25:54.187Z",
         "before": [
           {
             "result": {
-              "duration": 203498800,
+              "duration": 254871900,
               "status": "passed"
             },
             "match": {
@@ -5200,7 +6130,7 @@
         "steps": [
           {
             "result": {
-              "duration": 119025500,
+              "duration": 134639300,
               "status": "passed"
             },
             "line": 27,
@@ -5213,7 +6143,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.step.PlanetandMoonVisibilitySteps.the_user_should_see_the_moon_called_Pre_existing_moon_moon_ID_Moon_ID_and_owner_ID_Planet_Id(PlanetandMoonVisibilitySteps.java:41)\r\n\tat ✽.The user should see the moon called \"Titan\", moon ID \"2\", and owner ID \"2\"(classpath:features/PlanetandMoonVisibility.feature:28)\r\n",
-              "duration": 76607300,
+              "duration": 73320900,
               "status": "failed"
             },
             "line": 28,
@@ -5251,11 +6181,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:20.101Z",
+        "start_timestamp": "2024-08-12T18:25:54.652Z",
         "before": [
           {
             "result": {
-              "duration": 206424700,
+              "duration": 212212000,
               "status": "passed"
             },
             "match": {
@@ -5272,7 +6202,7 @@
         "steps": [
           {
             "result": {
-              "duration": 631469400,
+              "duration": 643834800,
               "status": "passed"
             },
             "line": 37,
@@ -5285,7 +6215,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.step.PlanetandMoonVisibilitySteps.the_logged_in_user_should_see_the_planet_from_other_user(PlanetandMoonVisibilitySteps.java:50)\r\n\tat ✽.The logged in user should see the planet, \"Jupiter\", planet ID \"3\", and owner ID \"2\"(classpath:features/PlanetandMoonVisibility.feature:38)\r\n",
-              "duration": 11968000,
+              "duration": 12965300,
               "status": "failed"
             },
             "line": 38,
@@ -5323,11 +6253,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T18:07:20.967Z",
+        "start_timestamp": "2024-08-12T18:25:55.523Z",
         "before": [
           {
             "result": {
-              "duration": 182679100,
+              "duration": 211437600,
               "status": "passed"
             },
             "match": {
@@ -5344,7 +6274,7 @@
         "steps": [
           {
             "result": {
-              "duration": 629264400,
+              "duration": 133643600,
               "status": "passed"
             },
             "line": 47,
