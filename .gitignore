@@ -154,3 +154,8 @@ buildNumber.properties
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij+all,visualstudiocode,java,maven
+
+# Resources
+src/test/resources/planetarium-db.db
+src/test/resources/reports/html-report.html
+src/test/resources/reports/json-report.json

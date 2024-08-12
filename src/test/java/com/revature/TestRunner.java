@@ -21,8 +21,9 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    //features = "src/test/resources/features/MoonAddition.feature",
+    // features = "src/test/resources/features/MoonAddition.feature",
     //features = "src/test/resources/features/PlanetDeletion.feature",
+    //features = "src/test/resources/features/PlanetandMoonVisibility.feature",
     features = "classpath:features",
     glue = "com.revature.step",
     plugin = {
