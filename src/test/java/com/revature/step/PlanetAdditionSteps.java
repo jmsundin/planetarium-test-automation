@@ -2,7 +2,7 @@ package com.revature.step;
 
 import com.revature.Setup;
 import org.junit.Assert;
-
+import org.junit.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -59,4 +59,5 @@ public class PlanetAdditionSteps {
         WebElement planet = TestRunner.wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
         Assert.assertTrue(planet.isDisplayed());;
     }
+
 }
