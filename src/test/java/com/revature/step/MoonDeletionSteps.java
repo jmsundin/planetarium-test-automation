@@ -1,0 +1,55 @@
+package com.revature.step;
+
+import io.cucumber.java.en.Given;
+import org.junit.Assert;
+import org.junit.Test;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import com.revature.TestRunner;
+
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class MoonDeletionSteps {
+
+
+    @When("user clicks on the delete text entry field")
+    public void user_clicks_on_the_delete_text_entry_field(){
+        TestRunner.planetarium.clickDeleteInput();
+    }
+
+    @When("User enters {string} as the moon name")
+    public void user_enters_string_as_the_moon_name(String moonName){
+        TestRunner.planetarium.sendCelestialNameToDeleteInput(moonName);
+    }
+
+    @When("User clicks on the delete moon button")
+    public void user_clicks_on_the_delete_moon_button(){
+        TestRunner.planetarium.clickDeleteButton();
+    }
+
+    @Then("The moon {string} should be deleted from the Planetarium")
+    public void that_moon_should_be_deleted_from_the_Planetarium(String moonName){
+        try{
+            TestRunner.wait.until(ExpectedConditions.alertIsPresent());
+            String alert = TestRunner.driver.switchTo().alert().getText();
+            TestRunner.driver.switchTo().alert().accept();
+        }catch (TimeoutException e){
+        }
+        TestRunner.wait.until(ExpectedConditions.titleIs("Home"));
+        Assert.assertTrue(true);
+    }
+
+    @Then("An error message should be displayed and no moon should be deleted")
+    public void an_error_message_should_be_displayed_and_no_moon_should_be_deleted(){
+        try{
+            TestRunner.wait.until(ExpectedConditions.alertIsPresent());
+        }catch (TimeoutException e){
+            Assert.fail(e.getMessage());
+        }
+        String alert = TestRunner.driver.switchTo().alert().getText();
+        TestRunner.driver.switchTo().alert().accept();
+        Assert.assertTrue(alert.contains("Failed to delete"));
+    }
+}

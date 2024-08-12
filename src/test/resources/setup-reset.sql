@@ -41,5 +41,6 @@ create table moons(
 
 insert into moons (name, myPlanetId, image) values ('Luna', 1, ?);
 insert into moons (name, myPlanetId, image) values ('Titan', 2, ?);
+insert into moons (name, myPlanetId, image) values ('@#%$', 2, ?);
 
 

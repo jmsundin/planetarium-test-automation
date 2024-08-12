@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-08-05T19:00:51.035Z",
+        "start_timestamp": "2024-08-12T14:26:50.187Z",
         "line": 16,
         "name": "As a new user, I want to be able to create an account so that I can access the Planetarium",
         "description": "\tUsers should be able to input a username and password to create an account. The system should validate that the username is unique and that both username and password are under 30 characters.",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 133132600,
+              "duration": 48014900,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 276077400,
+              "duration": 86019700,
               "status": "passed"
             },
             "line": 8,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 496439100,
+              "duration": 117817200,
               "status": "passed"
             },
             "line": 9,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 335824400,
+              "duration": 78022300,
               "status": "passed"
             },
             "line": 10,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 82042500,
+              "duration": 42008700,
               "status": "passed"
             },
             "line": 11,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 566350100,
+              "duration": 522454600,
               "status": "passed"
             },
             "line": 12,
@@ -109,7 +109,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-05T19:00:53.090Z",
+        "start_timestamp": "2024-08-12T14:26:51.127Z",
         "line": 17,
         "name": "As a new user, I want to be able to create an account so that I can access the Planetarium",
         "description": "\tUsers should be able to input a username and password to create an account. The system should validate that the username is unique and that both username and password are under 30 characters.",
@@ -119,7 +119,7 @@
         "steps": [
           {
             "result": {
-              "duration": 87300600,
+              "duration": 20003300,
               "status": "passed"
             },
             "line": 7,
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 161445700,
+              "duration": 63014000,
               "status": "passed"
             },
             "line": 8,
@@ -143,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 281068300,
+              "duration": 64019500,
               "status": "passed"
             },
             "line": 9,
@@ -161,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 277426000,
+              "duration": 63014100,
               "status": "passed"
             },
             "line": 10,
@@ -179,7 +179,7 @@
           },
           {
             "result": {
-              "duration": 44806300,
+              "duration": 32006800,
               "status": "passed"
             },
             "line": 11,
@@ -191,7 +191,7 @@
           },
           {
             "result": {
-              "duration": 528377200,
+              "duration": 513119200,
               "status": "passed"
             },
             "line": 12,
@@ -215,7 +215,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-05T19:00:54.494Z",
+        "start_timestamp": "2024-08-12T14:26:51.889Z",
         "line": 18,
         "name": "As a new user, I want to be able to create an account so that I can access the Planetarium",
         "description": "\tUsers should be able to input a username and password to create an account. The system should validate that the username is unique and that both username and password are under 30 characters.",
@@ -225,7 +225,7 @@
         "steps": [
           {
             "result": {
-              "duration": 99232800,
+              "duration": 26818600,
               "status": "passed"
             },
             "line": 7,
@@ -237,7 +237,7 @@
           },
           {
             "result": {
-              "duration": 135519900,
+              "duration": 57012100,
               "status": "passed"
             },
             "line": 8,
@@ -249,7 +249,7 @@
           },
           {
             "result": {
-              "duration": 281700600,
+              "duration": 62679000,
               "status": "passed"
             },
             "line": 9,
@@ -267,7 +267,7 @@
           },
           {
             "result": {
-              "duration": 236091500,
+              "duration": 58536000,
               "status": "passed"
             },
             "line": 10,
@@ -285,7 +285,7 @@
           },
           {
             "result": {
-              "duration": 43237600,
+              "duration": 28007200,
               "status": "passed"
             },
             "line": 11,
@@ -297,7 +297,7 @@
           },
           {
             "result": {
-              "duration": 537746800,
+              "duration": 511190300,
               "status": "passed"
             },
             "line": 12,
@@ -321,7 +321,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-05T19:00:55.852Z",
+        "start_timestamp": "2024-08-12T14:26:52.642Z",
         "line": 32,
         "name": "As a new user, I want to receive an error message if I attempt to create an account with a non-unique username, so that I am aware that the account creation failed",
         "description": "\tThe system should check if the username is already registered and provide a user-friendly error message if it is.",
@@ -331,7 +331,7 @@
         "steps": [
           {
             "result": {
-              "duration": 128497400,
+              "duration": 27007300,
               "status": "passed"
             },
             "line": 23,
@@ -343,7 +343,7 @@
           },
           {
             "result": {
-              "duration": 205576300,
+              "duration": 56013700,
               "status": "passed"
             },
             "line": 24,
@@ -355,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 191708100,
+              "duration": 42863500,
               "status": "passed"
             },
             "line": 25,
@@ -373,7 +373,7 @@
           },
           {
             "result": {
-              "duration": 338305600,
+              "duration": 58131900,
               "status": "passed"
             },
             "line": 26,
@@ -391,7 +391,7 @@
           },
           {
             "result": {
-              "duration": 68737200,
+              "duration": 28006200,
               "status": "passed"
             },
             "line": 27,
@@ -403,7 +403,7 @@
           },
           {
             "result": {
-              "duration": 553035700,
+              "duration": 512246200,
               "status": "passed"
             },
             "line": 28,
@@ -430,7 +430,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-05T19:00:57.352Z",
+        "start_timestamp": "2024-08-12T14:26:53.372Z",
         "line": 46,
         "name": "As a new user, I want to receive an error message if I attempt to create an account with a too long username, so that I am aware that the account creation failed",
         "description": "\tThe system should check if the username is longer than 30 characters and provide a user-friendly error message if it is.",
@@ -440,7 +440,7 @@
         "steps": [
           {
             "result": {
-              "duration": 78853500,
+              "duration": 33007300,
               "status": "passed"
             },
             "line": 37,
@@ -452,7 +452,7 @@
           },
           {
             "result": {
-              "duration": 154333500,
+              "duration": 60013900,
               "status": "passed"
             },
             "line": 38,
@@ -464,7 +464,7 @@
           },
           {
             "result": {
-              "duration": 363854900,
+              "duration": 66018400,
               "status": "passed"
             },
             "line": 39,
@@ -482,7 +482,7 @@
           },
           {
             "result": {
-              "duration": 268259400,
+              "duration": 63017900,
               "status": "passed"
             },
             "line": 40,
@@ -500,7 +500,7 @@
           },
           {
             "result": {
-              "duration": 53049100,
+              "duration": 29006400,
               "status": "passed"
             },
             "line": 41,
@@ -512,7 +512,7 @@
           },
           {
             "result": {
-              "duration": 30581100,
+              "duration": 9002100,
               "status": "passed"
             },
             "line": 42,
@@ -536,7 +536,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-05T19:00:58.326Z",
+        "start_timestamp": "2024-08-12T14:26:53.640Z",
         "line": 60,
         "name": "As a new user, I want to receive an error message if I attempt to create an account with a blank username, so that I am aware that the account creation failed",
         "description": "\tThe system should check if the username is blank and provide a user-friendly error message if it is.",
@@ -546,7 +546,7 @@
         "steps": [
           {
             "result": {
-              "duration": 50309300,
+              "duration": 29012300,
               "status": "passed"
             },
             "line": 51,
@@ -558,7 +558,7 @@
           },
           {
             "result": {
-              "duration": 207767200,
+              "duration": 55012500,
               "status": "passed"
             },
             "line": 52,
@@ -570,7 +570,7 @@
           },
           {
             "result": {
-              "duration": 124780100,
+              "duration": 33973600,
               "status": "passed"
             },
             "line": 53,
@@ -588,7 +588,7 @@
           },
           {
             "result": {
-              "duration": 291296200,
+              "duration": 64013600,
               "status": "passed"
             },
             "line": 54,
@@ -606,7 +606,7 @@
           },
           {
             "result": {
-              "duration": 60763900,
+              "duration": 34007100,
               "status": "passed"
             },
             "line": 55,
@@ -618,7 +618,7 @@
           },
           {
             "result": {
-              "duration": 27295600,
+              "duration": 10003400,
               "status": "passed"
             },
             "line": 56,
@@ -639,7 +639,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-05T19:00:59.107Z",
+        "start_timestamp": "2024-08-12T14:26:53.874Z",
         "line": 74,
         "name": "As a new user, I want to receive an error message if I attempt to create an account with a too long password, so that I am aware that the account creation failed",
         "description": "\tThe system should check if the password is longer than 30 characters and provide a user-friendly error message if it is.",
@@ -649,7 +649,7 @@
         "steps": [
           {
             "result": {
-              "duration": 102590100,
+              "duration": 31006600,
               "status": "passed"
             },
             "line": 65,
@@ -661,7 +661,7 @@
           },
           {
             "result": {
-              "duration": 173049400,
+              "duration": 62992500,
               "status": "passed"
             },
             "line": 66,
@@ -673,7 +673,7 @@
           },
           {
             "result": {
-              "duration": 260709600,
+              "duration": 57801600,
               "status": "passed"
             },
             "line": 67,
@@ -691,7 +691,7 @@
           },
           {
             "result": {
-              "duration": 240953700,
+              "duration": 63106200,
               "status": "passed"
             },
             "line": 68,
@@ -709,7 +709,7 @@
           },
           {
             "result": {
-              "duration": 47434000,
+              "duration": 29513500,
               "status": "passed"
             },
             "line": 69,
@@ -721,7 +721,7 @@
           },
           {
             "result": {
-              "duration": 27778200,
+              "duration": 10002400,
               "status": "passed"
             },
             "line": 70,
@@ -745,7 +745,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-05T19:00:59.989Z",
+        "start_timestamp": "2024-08-12T14:26:54.134Z",
         "line": 88,
         "name": "As a new user, I want to receive an error message if I attempt to create an account with a blank password, so that I am aware that the account creation failed",
         "description": "\tThe system should check if the password is blank and provide a user-friendly error message if it is.",
@@ -755,7 +755,7 @@
         "steps": [
           {
             "result": {
-              "duration": 101960300,
+              "duration": 32005600,
               "status": "passed"
             },
             "line": 79,
@@ -767,7 +767,7 @@
           },
           {
             "result": {
-              "duration": 193850800,
+              "duration": 63550000,
               "status": "passed"
             },
             "line": 80,
@@ -779,7 +779,7 @@
           },
           {
             "result": {
-              "duration": 240878600,
+              "duration": 58752200,
               "status": "passed"
             },
             "line": 81,
@@ -797,7 +797,7 @@
           },
           {
             "result": {
-              "duration": 73208700,
+              "duration": 36620500,
               "status": "passed"
             },
             "line": 82,
@@ -815,7 +815,7 @@
           },
           {
             "result": {
-              "duration": 48855900,
+              "duration": 29006300,
               "status": "passed"
             },
             "line": 83,
@@ -827,7 +827,7 @@
           },
           {
             "result": {
-              "duration": 28937000,
+              "duration": 9277000,
               "status": "passed"
             },
             "line": 84,
@@ -856,6 +856,1120 @@
     "tags": [
       {
         "name": "@AccountCreation",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-12T14:26:54.372Z",
+        "line": 15,
+        "name": "As a user, I want to be able to securely login so I can access my planetarium account",
+        "description": "\tUsers should be able to input a valid username and password to securely access their planetarium account",
+        "id": "login;as-a-user--i-want-to-be-able-to-securely-login-so-i-can-access-my-planetarium-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28006300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43018100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user enters \"Batman\" as the username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53016000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user enters \"I am the night\" as the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I am the night\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33007300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user clicks on the Login button",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38008200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should be redirected to the Login page",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_should_be_redirected_to_the_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PTA-TC-46"
+          },
+          {
+            "name": "@JREQ-PTA-17"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T14:26:54.575Z",
+        "line": 28,
+        "name": "As a user, I want to receive an error message if I attempt to login with invalid credentials, so I am aware that the account login failed",
+        "description": "\tThe system should check if the username and password combination is invalid and provide a user-friendly error message if it is.",
+        "id": "login;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-login-with-invalid-credentials--so-i-am-aware-that-the-account-login-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31007100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147038000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user enters \"Batman\" as the username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59012100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user enters \"Planets and Moons are awesomee\" as the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are awesomee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31014500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user clicks on the Login button",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 510951700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user should be informed that the account login failed",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_should_be_informed_that_the_account_login_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PTA-TC-47"
+          },
+          {
+            "name": "@JREQ-PTA-18"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T14:26:55.358Z",
+        "line": 29,
+        "name": "As a user, I want to receive an error message if I attempt to login with invalid credentials, so I am aware that the account login failed",
+        "description": "\tThe system should check if the username and password combination is invalid and provide a user-friendly error message if it is.",
+        "id": "login;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-login-with-invalid-credentials--so-i-am-aware-that-the-account-login-failed;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18005900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33326200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user enters \"\" as the username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67015400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user enters \"Planets and Moons are awesomee\" as the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are awesomee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30006800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user clicks on the Login button",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 512117300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user should be informed that the account login failed",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_should_be_informed_that_the_account_login_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PTA-TC-47"
+          },
+          {
+            "name": "@JREQ-PTA-18"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T14:26:56.023Z",
+        "line": 30,
+        "name": "As a user, I want to receive an error message if I attempt to login with invalid credentials, so I am aware that the account login failed",
+        "description": "\tThe system should check if the username and password combination is invalid and provide a user-friendly error message if it is.",
+        "id": "login;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-login-with-invalid-credentials--so-i-am-aware-that-the-account-login-failed;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19968200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68014700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user enters \"Planets and Moons are fantastic\" as the username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are fantastic\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59630300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user enters \"Planets and Moons are awesomee\" as the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are awesomee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28006600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user clicks on the Login button",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 507990800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user should be informed that the account login failed",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_should_be_informed_that_the_account_login_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PTA-TC-47"
+          },
+          {
+            "name": "@JREQ-PTA-18"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T14:26:56.713Z",
+        "line": 31,
+        "name": "As a user, I want to receive an error message if I attempt to login with invalid credentials, so I am aware that the account login failed",
+        "description": "\tThe system should check if the username and password combination is invalid and provide a user-friendly error message if it is.",
+        "id": "login;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-login-with-invalid-credentials--so-i-am-aware-that-the-account-login-failed;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18003900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40009100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user enters \"Batman\" as the username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33015400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user enters \"\" as the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28010900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user clicks on the Login button",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 509888200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user should be informed that the account login failed",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_should_be_informed_that_the_account_login_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PTA-TC-47"
+          },
+          {
+            "name": "@JREQ-PTA-18"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-12T14:26:57.348Z",
+        "line": 15,
+        "name": "As a user, I want to be able to delete moons from the planetarium using their names so that the correct moon will be removed from the planetarium",
+        "description": "\tSystem should only remove the moon with the associated name.",
+        "id": "moondeletion;as-a-user--i-want-to-be-able-to-delete-moons-from-the-planetarium-using-their-names-so-that-the-correct-moon-will-be-removed-from-the-planetarium;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 666512700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35175200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the delete text entry field",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.user_clicks_on_the_delete_text_entry_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30007300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"Luna\" as the moon name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Luna\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.revature.step.MoonDeletionSteps.user_enters_string_as_the_moon_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30267100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the delete moon button",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.user_clicks_on_the_delete_moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5041550700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "That moon should be deleted from the Planetarium",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.that_moon_should_be_deleted_from_the_Planetarium()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonDeletion"
+          },
+          {
+            "name": "@PTA-TC-50"
+          },
+          {
+            "name": "@JREQ-PTA-58"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T14:27:03.160Z",
+        "line": 27,
+        "name": "As a user, I want to be able to delete moons from the planetarium using their ids so that the correct moon will be removed from the planetarium",
+        "description": "\tSystem should only remove the moon with the associated id.",
+        "id": "moondeletion;as-a-user--i-want-to-be-able-to-delete-moons-from-the-planetarium-using-their-ids-so-that-the-correct-moon-will-be-removed-from-the-planetarium;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 684960400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103026900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters \"1\" as the moon name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.revature.step.MoonDeletionSteps.user_enters_string_as_the_moon_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26512800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on the delete moon button",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.user_clicks_on_the_delete_moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 513279900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "That moon should be deleted from the Planetarium",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.that_moon_should_be_deleted_from_the_Planetarium()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonDeletion"
+          },
+          {
+            "name": "@PTA-TC-52"
+          },
+          {
+            "name": "@JREQ-PTA-59"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T14:27:04.492Z",
+        "line": 40,
+        "name": "As a user, I want to receive an error message if I attempt to remove a moon using an invalid name so I am aware that moon deletion failed",
+        "description": "\tSystem should not delete any planets if the input name is not valid, and should display an error message letting the user know that the deletion failed.",
+        "id": "moondeletion;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-remove-a-moon-using-an-invalid-name-so-i-am-aware-that-moon-deletion-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 687376700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34829000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user clicks on the delete text entry field",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.user_clicks_on_the_delete_text_entry_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40589000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User enters \"fake moon\" as the moon name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fake moon\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.revature.step.MoonDeletionSteps.user_enters_string_as_the_moon_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31007500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User clicks on the delete moon button",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.user_clicks_on_the_delete_moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 509196600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "An error message should be displayed and no moon should be deleted",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.an_error_message_should_be_displayed_and_no_moon_should_be_deleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonDeletion"
+          },
+          {
+            "name": "@PTA-TC-57"
+          },
+          {
+            "name": "@JREQ-PTA-56"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T14:27:05.801Z",
+        "line": 53,
+        "name": "As a user, I want to receive an error message if I attempt to remove a moon using an invalid id so I am aware that moon deletion failed",
+        "description": "\tSystem should not delete any moons if the id input is not valid, and should display an error message letting the user know that the deletion failed.",
+        "id": "moondeletion;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-remove-a-moon-using-an-invalid-id-so-i-am-aware-that-moon-deletion-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 698784200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32007500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user clicks on the delete text entry field",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.user_clicks_on_the_delete_text_entry_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27009300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User enters \"200\" as the moon name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.revature.step.MoonDeletionSteps.user_enters_string_as_the_moon_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28007100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User clicks on the delete moon button",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.user_clicks_on_the_delete_moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 509619900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "An error message should be displayed and no moon should be deleted",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.an_error_message_should_be_displayed_and_no_moon_should_be_deleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonDeletion"
+          },
+          {
+            "name": "@PTA-TC-59"
+          },
+          {
+            "name": "@JREQ-PTA-57"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T14:27:07.100Z",
+        "line": 66,
+        "name": "As a user, I want to receive an error message if I attempt to remove a planet using the moon deletion feature so I am aware that deletion failed",
+        "description": "\tSystem should not delete planets while moon deletion is selected, and should display an error message letting the user know that the deletion failed.",
+        "id": "moondeletion;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-remove-a-planet-using-the-moon-deletion-feature-so-i-am-aware-that-deletion-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 681527700,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31008200,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user clicks on the delete text entry field",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.user_clicks_on_the_delete_text_entry_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28908000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User enters \"Earth\" as the moon name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Earth\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.revature.step.MoonDeletionSteps.user_enters_string_as_the_moon_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26004100,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User clicks on the delete moon button",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.user_clicks_on_the_delete_moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 507640200,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "An error message should be displayed and no moon should be deleted",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.an_error_message_should_be_displayed_and_no_moon_should_be_deleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonDeletion"
+          },
+          {
+            "name": "@PTA-TC-60"
+          },
+          {
+            "name": "@JREQ-PTA-63"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T14:27:08.381Z",
+        "line": 79,
+        "name": "As a user, I want to be able to delete moons from the planetarium with special characters as their names so that the correct moon will be removed from the planetarium",
+        "description": "\tSystem should only remove the moon with the associated name.",
+        "id": "moondeletion;as-a-user--i-want-to-be-able-to-delete-moons-from-the-planetarium-with-special-characters-as-their-names-so-that-the-correct-moon-will-be-removed-from-the-planetarium;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 651999400,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27006300,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "user clicks on the delete text entry field",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.user_clicks_on_the_delete_text_entry_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27006500,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User enters \"@#%$\" as the moon name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"@#%$\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.revature.step.MoonDeletionSteps.user_enters_string_as_the_moon_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27005500,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User clicks on the delete moon button",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.user_clicks_on_the_delete_moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 513254100,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "That moon should be deleted from the Planetarium",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.that_moon_should_be_deleted_from_the_Planetarium()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonDeletion"
+          },
+          {
+            "name": "@PTA-TC-75"
+          },
+          {
+            "name": "@JREQ-PTA-78"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T14:27:09.631Z",
+        "line": 92,
+        "name": "As a user, I want to be able to delete moons from the planetarium with numbers as their names so that the correct moon will be removed from the planetarium",
+        "description": "\tSystem should only remove the moon with the associated name.",
+        "id": "moondeletion;as-a-user--i-want-to-be-able-to-delete-moons-from-the-planetarium-with-numbers-as-their-names-so-that-the-correct-moon-will-be-removed-from-the-planetarium;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 658209600,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27682000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "user clicks on the delete text entry field",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.user_clicks_on_the_delete_text_entry_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25006400,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "User enters \"1472\" as the moon name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1472\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.revature.step.MoonDeletionSteps.user_enters_string_as_the_moon_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28005200,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "User clicks on the delete moon button",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.user_clicks_on_the_delete_moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 510213300,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "That moon should be deleted from the Planetarium",
+            "match": {
+              "location": "com.revature.step.MoonDeletionSteps.that_moon_should_be_deleted_from_the_Planetarium()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonDeletion"
+          },
+          {
+            "name": "@PTA-TC-76"
+          },
+          {
+            "name": "@JREQ-PTA-79"
+          }
+        ]
+      }
+    ],
+    "name": "MoonDeletion",
+    "description": "",
+    "id": "moondeletion",
+    "keyword": "Feature",
+    "uri": "classpath:features/MoonDeletion.feature",
+    "tags": [
+      {
+        "name": "@MoonDeletion",
         "type": "Tag",
         "location": {
           "line": 1,
