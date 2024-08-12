@@ -3,11 +3,3599 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-08-12T16:32:00.827Z",
+        "start_timestamp": "2024-08-12T18:06:35.249Z",
         "before": [
           {
             "result": {
-              "duration": 846278800,
+              "duration": 418680400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "As a new user, I want to be able to create an account so that I can access the Planetarium",
+        "description": "\tUsers should be able to input a username and password to create an account. The system should validate that the username is unique and that both username and password are under 30 characters.",
+        "id": "accountcreation;as-a-new-user--i-want-to-be-able-to-create-an-account-so-that-i-can-access-the-planetarium;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38895900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63829200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user clicks on the create an account button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_on_the_create_an_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119680900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user enters \"!\\\"#$%\u0026\u0027()*+,-./:;\u003c\u003d\u003e?@[]^_`|\\~\" as a new username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"!\\\"#$%\u0026\u0027()*+,-./:;\u003c\u003d\u003e?@[]^_`|\\~\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54853000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user enters \"!\\\"#$%\u0026\u0027()*+,-./:;\u003c\u003d\u003e?@[]^_`|\\~\" as a new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"!\\\"#$%\u0026\u0027()*+,-./:;\u003c\u003d\u003e?@[]^_`|\\~\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29919600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user clicks the Create button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_the_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 527097400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user should be informed that the account creation was successful",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_should_be_informed_that_the_account_creation_was_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AccountCreation"
+          },
+          {
+            "name": "@PTA-TC-1"
+          },
+          {
+            "name": "@JREQ-PTA-9"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:36.554Z",
+        "before": [
+          {
+            "result": {
+              "duration": 288232700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "As a new user, I want to be able to create an account so that I can access the Planetarium",
+        "description": "\tUsers should be able to input a username and password to create an account. The system should validate that the username is unique and that both username and password are under 30 characters.",
+        "id": "accountcreation;as-a-new-user--i-want-to-be-able-to-create-an-account-so-that-i-can-access-the-planetarium;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10971300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40653100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user clicks on the create an account button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_on_the_create_an_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48869300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user enters \"000111222333444555666777888999\" as a new username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"000111222333444555666777888999\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67819300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user enters \"000111222333444555666777888999\" as a new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"000111222333444555666777888999\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28922500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user clicks the Create button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_the_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 517259300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user should be informed that the account creation was successful",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_should_be_informed_that_the_account_creation_was_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AccountCreation"
+          },
+          {
+            "name": "@PTA-TC-1"
+          },
+          {
+            "name": "@JREQ-PTA-9"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:37.565Z",
+        "before": [
+          {
+            "result": {
+              "duration": 245343300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "As a new user, I want to be able to create an account so that I can access the Planetarium",
+        "description": "\tUsers should be able to input a username and password to create an account. The system should validate that the username is unique and that both username and password are under 30 characters.",
+        "id": "accountcreation;as-a-new-user--i-want-to-be-able-to-create-an-account-so-that-i-can-access-the-planetarium;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10970800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42885600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user clicks on the create an account button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_on_the_create_an_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43882900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user enters \"Planets and Moons are awesomee\" as a new username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are awesomee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41886800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user enters \"Planets and Moons are awesomee\" as a new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are awesomee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22938900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user clicks the Create button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_the_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 528633200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user should be informed that the account creation was successful",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_should_be_informed_that_the_account_creation_was_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AccountCreation"
+          },
+          {
+            "name": "@PTA-TC-1"
+          },
+          {
+            "name": "@JREQ-PTA-9"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:38.509Z",
+        "before": [
+          {
+            "result": {
+              "duration": 266797100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "As a new user, I want to receive an error message if I attempt to create an account with a non-unique username, so that I am aware that the account creation failed",
+        "description": "\tThe system should check if the username is already registered and provide a user-friendly error message if it is.",
+        "id": "accountcreation;as-a-new-user--i-want-to-receive-an-error-message-if-i-attempt-to-create-an-account-with-a-non-unique-username--so-that-i-am-aware-that-the-account-creation-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10969400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41506300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user clicks on the create an account button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_on_the_create_an_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31912800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user enters \"Batman\" as a new username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44282800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user enters \"Planets and Moons are awesomee\" as a new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are awesomee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23935500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user clicks the Create button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_the_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7979100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The user should be informed that the account creation failed",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_should_be_informed_that_the_account_creation_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AccountCreation"
+          },
+          {
+            "name": "@PTA-TC-2"
+          },
+          {
+            "name": "@JREQ-PTA-33"
+          },
+          {
+            "name": "@JREQ-PTA-8"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:38.942Z",
+        "before": [
+          {
+            "result": {
+              "duration": 226516000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "As a new user, I want to receive an error message if I attempt to create an account with a too long username, so that I am aware that the account creation failed",
+        "description": "\tThe system should check if the username is longer than 30 characters and provide a user-friendly error message if it is.",
+        "id": "accountcreation;as-a-new-user--i-want-to-receive-an-error-message-if-i-attempt-to-create-an-account-with-a-too-long-username--so-that-i-am-aware-that-the-account-creation-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18949500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43882500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "The user clicks on the create an account button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_on_the_create_an_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46875100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The user enters \"Planets and Moons are fantastic\" as a new username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are fantastic\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43882900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "The user enters \"Planets and Moons are awesomee\" as a new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are awesomee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23935500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "The user clicks the Create button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_the_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7977700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "The user should be informed that the account creation failed",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_should_be_informed_that_the_account_creation_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AccountCreation"
+          },
+          {
+            "name": "@PTA-TC-42"
+          },
+          {
+            "name": "@JREQ-PTA-31"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:39.359Z",
+        "before": [
+          {
+            "result": {
+              "duration": 176154400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "As a new user, I want to receive an error message if I attempt to create an account with a blank username, so that I am aware that the account creation failed",
+        "description": "\tThe system should check if the username is blank and provide a user-friendly error message if it is.",
+        "id": "accountcreation;as-a-new-user--i-want-to-receive-an-error-message-if-i-attempt-to-create-an-account-with-a-blank-username--so-that-i-am-aware-that-the-account-creation-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22511300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40889800,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "The user clicks on the create an account button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_on_the_create_an_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27925000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "The user enters \"\" as a new username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47871900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "The user enters \"Planets and Moons are awesomee\" as a new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are awesomee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27926000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "The user clicks the Create button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_the_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7978100,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "The user should be informed that the account creation failed",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_should_be_informed_that_the_account_creation_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AccountCreation"
+          },
+          {
+            "name": "@PTA-TC-43"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:39.717Z",
+        "before": [
+          {
+            "result": {
+              "duration": 176729300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "As a new user, I want to receive an error message if I attempt to create an account with a too long password, so that I am aware that the account creation failed",
+        "description": "\tThe system should check if the password is longer than 30 characters and provide a user-friendly error message if it is.",
+        "id": "accountcreation;as-a-new-user--i-want-to-receive-an-error-message-if-i-attempt-to-create-an-account-with-a-too-long-password--so-that-i-am-aware-that-the-account-creation-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24764300,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43411400,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "The user clicks on the create an account button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_on_the_create_an_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43883500,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "The user enters \"ThisIsAValidUsername\" as a new username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ThisIsAValidUsername\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44879900,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "The user enters \"Planetarium is very interesting\" as a new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planetarium is very interesting\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23451400,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "The user clicks the Create button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_the_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7979100,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "The user should be informed that the account creation failed",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_should_be_informed_that_the_account_creation_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AccountCreation"
+          },
+          {
+            "name": "@PTA-TC-44"
+          },
+          {
+            "name": "@JREQ-PTA-32"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:40.086Z",
+        "before": [
+          {
+            "result": {
+              "duration": 198817700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 88,
+        "name": "As a new user, I want to receive an error message if I attempt to create an account with a blank password, so that I am aware that the account creation failed",
+        "description": "\tThe system should check if the password is blank and provide a user-friendly error message if it is.",
+        "id": "accountcreation;as-a-new-user--i-want-to-receive-an-error-message-if-i-attempt-to-create-an-account-with-a-blank-password--so-that-i-am-aware-that-the-account-creation-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21943400,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42432500,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "The user clicks on the create an account button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_on_the_create_an_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40868200,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "The user enters \"ThisIsAValidUsername\" as a new username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ThisIsAValidUsername\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28394400,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "The user enters \"\" as a new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.AccountCreationSteps.the_user_enters_as_a_new_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22937700,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "The user clicks the Create button",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_clicks_the_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6981300,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "The user should be informed that the account creation failed",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_should_be_informed_that_the_account_creation_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AccountCreation"
+          },
+          {
+            "name": "@PTA-TC-45"
+          }
+        ]
+      }
+    ],
+    "name": "AccountCreation",
+    "description": "",
+    "id": "accountcreation",
+    "keyword": "Feature",
+    "uri": "classpath:features/AccountCreation.feature",
+    "tags": [
+      {
+        "name": "@AccountCreation",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-12T18:06:40.456Z",
+        "before": [
+          {
+            "result": {
+              "duration": 194766300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "As a user, I want to be able to securely login so I can access my planetarium account",
+        "description": "\tUsers should be able to input a valid username and password to securely access their planetarium account",
+        "id": "login;as-a-user--i-want-to-be-able-to-securely-login-so-i-can-access-my-planetarium-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23934900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33909900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user enters \"Batman\" as the username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37918900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user enters \"I am the night\" as the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I am the night\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26928400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user clicks on the Login button",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47871300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should be redirected to the Login page",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_should_be_redirected_to_the_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PTA-TC-46"
+          },
+          {
+            "name": "@JREQ-PTA-17"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:40.827Z",
+        "before": [
+          {
+            "result": {
+              "duration": 199891600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "As a user, I want to receive an error message if I attempt to login with invalid credentials, so I am aware that the account login failed",
+        "description": "\tThe system should check if the username and password combination is invalid and provide a user-friendly error message if it is.",
+        "id": "login;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-login-with-invalid-credentials--so-i-am-aware-that-the-account-login-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 55850500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31489100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user enters \"Batman\" as the username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43882200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user enters \"Planets and Moons are awesomee\" as the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are awesomee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26928500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user clicks on the Login button",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6981100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user should be informed that the account login failed",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_should_be_informed_that_the_account_login_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PTA-TC-47"
+          },
+          {
+            "name": "@JREQ-PTA-18"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:41.198Z",
+        "before": [
+          {
+            "result": {
+              "duration": 113898800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "As a user, I want to receive an error message if I attempt to login with invalid credentials, so I am aware that the account login failed",
+        "description": "\tThe system should check if the username and password combination is invalid and provide a user-friendly error message if it is.",
+        "id": "login;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-login-with-invalid-credentials--so-i-am-aware-that-the-account-login-failed;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10789200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27924600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user enters \"\" as the username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41887900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user enters \"Planets and Moons are awesomee\" as the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are awesomee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22938600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user clicks on the Login button",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7978900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user should be informed that the account login failed",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_should_be_informed_that_the_account_login_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PTA-TC-47"
+          },
+          {
+            "name": "@JREQ-PTA-18"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:41.427Z",
+        "before": [
+          {
+            "result": {
+              "duration": 175035500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "As a user, I want to receive an error message if I attempt to login with invalid credentials, so I am aware that the account login failed",
+        "description": "\tThe system should check if the username and password combination is invalid and provide a user-friendly error message if it is.",
+        "id": "login;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-login-with-invalid-credentials--so-i-am-aware-that-the-account-login-failed;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9973300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42885300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user enters \"Planets and Moons are fantastic\" as the username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are fantastic\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39893200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user enters \"Planets and Moons are awesomee\" as the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planets and Moons are awesomee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22449500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user clicks on the Login button",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5982300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user should be informed that the account login failed",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_should_be_informed_that_the_account_login_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PTA-TC-47"
+          },
+          {
+            "name": "@JREQ-PTA-18"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:41.729Z",
+        "before": [
+          {
+            "result": {
+              "duration": 116083100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "As a user, I want to receive an error message if I attempt to login with invalid credentials, so I am aware that the account login failed",
+        "description": "\tThe system should check if the username and password combination is invalid and provide a user-friendly error message if it is.",
+        "id": "login;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-login-with-invalid-credentials--so-i-am-aware-that-the-account-login-failed;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10970300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31915400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user enters \"Batman\" as the username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24932400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user enters \"\" as the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.LoginSteps.the_user_enters_as_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23984800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user clicks on the Login button",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5983400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user should be informed that the account login failed",
+            "match": {
+              "location": "com.revature.step.LoginSteps.the_user_should_be_informed_that_the_account_login_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PTA-TC-47"
+          },
+          {
+            "name": "@JREQ-PTA-18"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-12T18:06:41.946Z",
+        "before": [
+          {
+            "result": {
+              "duration": 283229900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "As a User, I want to add a Moon by providing a valid name, valid planet ID, and valid picture so that this moon is displayed within the planetarium",
+        "description": "\tThis is to verify that a moon can be created if the application is provided with valid details while including a picture for the moon",
+        "id": "moonaddition;as-a-user--i-want-to-add-a-moon-by-providing-a-valid-name--valid-planet-id--and-valid-picture-so-that-this-moon-is-displayed-within-the-planetarium;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 111701600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68217600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:9)\r\n",
+              "duration": 1044820300,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "The user enters \"2\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moon-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "The moon \"ThisIsTheSupererestMoonName!!!\" should be added to the planetarium",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-55"
+          },
+          {
+            "name": "@JREQ-PTA-35"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:43.469Z",
+        "before": [
+          {
+            "result": {
+              "duration": 183945600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "As a User, I want to add a Moon by providing a valid name, valid planet ID, and valid picture so that this moon is displayed within the planetarium",
+        "description": "\tThis is to verify that a moon can be created if the application is provided with valid details while including a picture for the moon",
+        "id": "moonaddition;as-a-user--i-want-to-add-a-moon-by-providing-a-valid-name--valid-planet-id--and-valid-picture-so-that-this-moon-is-displayed-within-the-planetarium;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 120677200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53856400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"A\" as the Moon Name(classpath:features/MoonAddition.feature:9)\r\n",
+              "duration": 1050671600,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "The user enters \"A\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "The user enters \"1\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moon-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "The moon \"A\" should be added to the planetarium",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-55"
+          },
+          {
+            "name": "@JREQ-PTA-35"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:44.885Z",
+        "before": [
+          {
+            "result": {
+              "duration": 142734200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "As a user, I want to add a Moon by providing a valid moon name and a planet ID without an image, so that this moon is displayed within the planetarium",
+        "description": "\tThis is to verify that a moon can be created if the application is provided with valid details while excluding a picture for the moon",
+        "id": "moonaddition;as-a-user--i-want-to-add-a-moon-by-providing-a-valid-moon-name-and-a-planet-id-without-an-image--so-that-this-moon-is-displayed-within-the-planetarium;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 126460200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50394100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:25)\r\n",
+              "duration": 1009640000,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "The user enters \"2\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "The moon \"ThisIsTheSupererestMoonName!!!\" should be added to the planetarium",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-61"
+          },
+          {
+            "name": "@JREQ-PTA-27"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:46.219Z",
+        "before": [
+          {
+            "result": {
+              "duration": 174279600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "As a user, I want to add a Moon by providing a valid moon name and a planet ID without an image, so that this moon is displayed within the planetarium",
+        "description": "\tThis is to verify that a moon can be created if the application is provided with valid details while excluding a picture for the moon",
+        "id": "moonaddition;as-a-user--i-want-to-add-a-moon-by-providing-a-valid-moon-name-and-a-planet-id-without-an-image--so-that-this-moon-is-displayed-within-the-planetarium;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 117083700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51344100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"A\" as the Moon Name(classpath:features/MoonAddition.feature:25)\r\n",
+              "duration": 1058772900,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "The user enters \"A\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "The user enters \"1\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "The moon \"A\" should be added to the planetarium",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-61"
+          },
+          {
+            "name": "@JREQ-PTA-27"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:47.626Z",
+        "before": [
+          {
+            "result": {
+              "duration": 250790000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "As a user, I want to receive an error when I attempt to use an already existing planet name while attempting to create a moon so that I know that the moon was not created",
+        "description": "\tThis is to verify that the user cannot use the name of a existent planet to create a moon, and that the user receives an error message",
+        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-when-i-attempt-to-use-an-already-existing-planet-name-while-attempting-to-create-a-moon-so-that-i-know-that-the-moon-was-not-created;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 122272800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47871300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"Mars\" as the Moon Name(classpath:features/MoonAddition.feature:40)\r\n",
+              "duration": 1053727300,
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "The user enters \"Mars\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mars\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "The user enters \"1\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moon-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-65"
+          },
+          {
+            "name": "@JREQ-PTA-65"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:49.108Z",
+        "before": [
+          {
+            "result": {
+              "duration": 229469400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "As a user, I want to receive an error when I attempt to use an already existing planet name while attempting to create a moon so that I know that the moon was not created",
+        "description": "\tThis is to verify that the user cannot use the name of a existent planet to create a moon, and that the user receives an error message",
+        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-when-i-attempt-to-use-an-already-existing-planet-name-while-attempting-to-create-a-moon-so-that-i-know-that-the-moon-was-not-created;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 123143000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49866600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"Earth\" as the Moon Name(classpath:features/MoonAddition.feature:40)\r\n",
+              "duration": 1064078800,
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "The user enters \"Earth\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Earth\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "The user enters \"1\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moon-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-65"
+          },
+          {
+            "name": "@JREQ-PTA-65"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:50.579Z",
+        "before": [
+          {
+            "result": {
+              "duration": 215432400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "As a user, I want to receive an error when I attempt to use an already existing moon name while attempting to create a moon so that I know that the moon was not created",
+        "description": "\tThis is to verify that a user cannot create a multiple moons with the same name, and that the user gets an error when they attempt this.",
+        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-when-i-attempt-to-use-an-already-existing-moon-name-while-attempting-to-create-a-moon-so-that-i-know-that-the-moon-was-not-created;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 120842900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50050100,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"Titan\" as the Moon Name(classpath:features/MoonAddition.feature:56)\r\n",
+              "duration": 1056696500,
+              "status": "failed"
+            },
+            "line": 56,
+            "name": "The user enters \"Titan\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Titan\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "The user enters \"2\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moon-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-68"
+          },
+          {
+            "name": "@JREQ-PTA-48"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:52.026Z",
+        "before": [
+          {
+            "result": {
+              "duration": 244344400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "As a user, I want to receive an error when I attempt to use an already existing moon name while attempting to create a moon so that I know that the moon was not created",
+        "description": "\tThis is to verify that a user cannot create a multiple moons with the same name, and that the user gets an error when they attempt this.",
+        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-when-i-attempt-to-use-an-already-existing-moon-name-while-attempting-to-create-a-moon-so-that-i-know-that-the-moon-was-not-created;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 126110700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50602600,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"Luna\" as the Moon Name(classpath:features/MoonAddition.feature:56)\r\n",
+              "duration": 1056533700,
+              "status": "failed"
+            },
+            "line": 56,
+            "name": "The user enters \"Luna\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Luna\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "The user enters \"1\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moon-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-68"
+          },
+          {
+            "name": "@JREQ-PTA-48"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:53.508Z",
+        "before": [
+          {
+            "result": {
+              "duration": 237972100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 80,
+        "name": "As a user, I want to receive an error message when I attempt to create a moon using a planet ID that does not point to a real planet, so that I know the moon creation failed",
+        "description": "\tWe are attempting to verify that we cannot create moons while providing a planet ID for a planet that does not exist, and that the user receives an error message as a response to this invalid data.",
+        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-message-when-i-attempt-to-create-a-moon-using-a-planet-id-that-does-not-point-to-a-real-planet--so-that-i-know-the-moon-creation-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 121675700,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48869000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:72)\r\n",
+              "duration": 1052179000,
+              "status": "failed"
+            },
+            "line": 72,
+            "name": "The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 73,
+            "name": "The user enters \"0\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 74,
+            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moon-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 75,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 76,
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-69"
+          },
+          {
+            "name": "@JREQ-PTA-45"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:54.973Z",
+        "before": [
+          {
+            "result": {
+              "duration": 223354200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 81,
+        "name": "As a user, I want to receive an error message when I attempt to create a moon using a planet ID that does not point to a real planet, so that I know the moon creation failed",
+        "description": "\tWe are attempting to verify that we cannot create moons while providing a planet ID for a planet that does not exist, and that the user receives an error message as a response to this invalid data.",
+        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-message-when-i-attempt-to-create-a-moon-using-a-planet-id-that-does-not-point-to-a-real-planet--so-that-i-know-the-moon-creation-failed;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 136634200,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47872500,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"A\" as the Moon Name(classpath:features/MoonAddition.feature:72)\r\n",
+              "duration": 1055903600,
+              "status": "failed"
+            },
+            "line": 72,
+            "name": "The user enters \"A\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 73,
+            "name": "The user enters \"1000000\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000000\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 74,
+            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moon-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 75,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 76,
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-69"
+          },
+          {
+            "name": "@JREQ-PTA-45"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:56.439Z",
+        "before": [
+          {
+            "result": {
+              "duration": 209153400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "As a user, I want to receive an error message when I attempt to create a moon using a planet ID that does not point to a real planet, so that I know the moon creation failed",
+        "description": "\tWe are attempting to verify that we cannot create moons while providing a planet ID for a planet that does not exist, and that the user receives an error message as a response to this invalid data.",
+        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-message-when-i-attempt-to-create-a-moon-using-a-planet-id-that-does-not-point-to-a-real-planet--so-that-i-know-the-moon-creation-failed;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 120743700,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47278800,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:72)\r\n",
+              "duration": 1055601400,
+              "status": "failed"
+            },
+            "line": 72,
+            "name": "The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 73,
+            "name": "The user enters \"\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 74,
+            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moon-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 75,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 76,
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-69"
+          },
+          {
+            "name": "@JREQ-PTA-45"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:57.876Z",
+        "before": [
+          {
+            "result": {
+              "duration": 269285400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 96,
+        "name": "As a user, I want to receive an error when I do not include a moon name when attempting to create a moon so that I know mood addition failed",
+        "description": "\tWe are attempting to verify that we cannot create moons without providing a name for the moon, and that the user receives an error message as a response to this invalid data.",
+        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-when-i-do-not-include-a-moon-name-when-attempting-to-create-a-moon-so-that-i-know-mood-addition-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 121816700,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37898400,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#orbitedPlanetInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dorbitedPlanetInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(MoonAdditionSteps.java:43)\r\n\tat ✽.The user enters \"1\" as the Orbited Planet ID(classpath:features/MoonAddition.feature:89)\r\n",
+              "duration": 1013391500,
+              "status": "failed"
+            },
+            "line": 89,
+            "name": "The user enters \"1\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moon-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 91,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 92,
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-70"
+          },
+          {
+            "name": "@JREQ-PTA-28"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:06:59.324Z",
+        "before": [
+          {
+            "result": {
+              "duration": 228706800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 97,
+        "name": "As a user, I want to receive an error when I do not include a moon name when attempting to create a moon so that I know mood addition failed",
+        "description": "\tWe are attempting to verify that we cannot create moons without providing a name for the moon, and that the user receives an error message as a response to this invalid data.",
+        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-when-i-do-not-include-a-moon-name-when-attempting-to-create-a-moon-so-that-i-know-mood-addition-failed;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 133465800,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48070000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#orbitedPlanetInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dorbitedPlanetInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(MoonAdditionSteps.java:43)\r\n\tat ✽.The user enters \"2\" as the Orbited Planet ID(classpath:features/MoonAddition.feature:89)\r\n",
+              "duration": 1058913200,
+              "status": "failed"
+            },
+            "line": 89,
+            "name": "The user enters \"2\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moon-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 91,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 92,
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-70"
+          },
+          {
+            "name": "@JREQ-PTA-28"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:07:00.796Z",
+        "before": [
+          {
+            "result": {
+              "duration": 213834400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 112,
+        "name": "As a user, I want to receive an error message if I attempt to add a moon within a name that is longer than thirty characters long, so that I know moon addition failed",
+        "description": "\tThis is used to verify that the user cannot create a moon where it\u0027s name is too long and that the user receives an appropriate error message",
+        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-add-a-moon-within-a-name-that-is-longer-than-thirty-characters-long--so-that-i-know-moon-addition-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 118930100,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49867000,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisCelestialBodyNameIsTooLong!\" as the Moon Name(classpath:features/MoonAddition.feature:104)\r\n",
+              "duration": 1064562800,
+              "status": "failed"
+            },
+            "line": 104,
+            "name": "The user enters \"ThisCelestialBodyNameIsTooLong!\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ThisCelestialBodyNameIsTooLong!\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 105,
+            "name": "The user enters \"1\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 106,
+            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moon-1.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 107,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 108,
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-72"
+          },
+          {
+            "name": "@JREQ-PTA-37"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:07:02.248Z",
+        "before": [
+          {
+            "result": {
+              "duration": 264808600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 127,
+        "name": "As a user, I want to receive an error message when attempting to create a moon with a picture that is too large to persist within our database so that I know the moon addition failed",
+        "description": "\tThis is to verify that a user cannot add an image that is too large to our database, and that the user receives an appropriate error message as a result",
+        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-message-when-attempting-to-create-a-moon-with-a-picture-that-is-too-large-to-persist-within-our-database-so-that-i-know-the-moon-addition-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 122006900,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52859200,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name(classpath:features/MoonAddition.feature:119)\r\n",
+              "duration": 1059207200,
+              "status": "failed"
+            },
+            "line": 119,
+            "name": "The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 120,
+            "name": "The user enters \"1\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 121,
+            "name": "The user uploads \"Large-picture.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Large-picture.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 122,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 123,
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-73"
+          },
+          {
+            "name": "@JREQ-PTA-36"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:07:03.751Z",
+        "before": [
+          {
+            "result": {
+              "duration": 269232700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 128,
+        "name": "As a user, I want to receive an error message when attempting to create a moon with a picture that is too large to persist within our database so that I know the moon addition failed",
+        "description": "\tThis is to verify that a user cannot add an image that is too large to our database, and that the user receives an appropriate error message as a result",
+        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-message-when-attempting-to-create-a-moon-with-a-picture-that-is-too-large-to-persist-within-our-database-so-that-i-know-the-moon-addition-failed;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 120143900,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47872200,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "The user sets the dropdown to display the moon creation menu",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#moonNameInput\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dmoonNameInput, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(MoonAdditionSteps.java:34)\r\n\tat ✽.The user enters \"A\" as the Moon Name(classpath:features/MoonAddition.feature:119)\r\n",
+              "duration": 1008323200,
+              "status": "failed"
+            },
+            "line": 119,
+            "name": "The user enters \"A\" as the Moon Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 120,
+            "name": "The user enters \"2\" as the Orbited Planet ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 121,
+            "name": "The user uploads \"Large-picture.jpg\" as Image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Large-picture.jpg\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 122,
+            "name": "The user clicks on the Submit Moon button",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 123,
+            "name": "The user should be informed that the moon addition failed",
+            "match": {
+              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MoonAddition"
+          },
+          {
+            "name": "@PTA-TC-73"
+          },
+          {
+            "name": "@JREQ-PTA-36"
+          }
+        ]
+      }
+    ],
+    "name": "MoonAddition",
+    "description": "",
+    "id": "moonaddition",
+    "keyword": "Feature",
+    "uri": "classpath:features/MoonAddition.feature",
+    "tags": [
+      {
+        "name": "@MoonAddition",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-12T18:07:05.200Z",
+        "before": [
+          {
+            "result": {
+              "duration": 215091900,
               "status": "passed"
             },
             "match": {
@@ -24,7 +3612,7 @@
         "steps": [
           {
             "result": {
-              "duration": 190491400,
+              "duration": 120840500,
               "status": "passed"
             },
             "line": 7,
@@ -36,7 +3624,7 @@
           },
           {
             "result": {
-              "duration": 230384100,
+              "duration": 67818900,
               "status": "passed"
             },
             "line": 8,
@@ -48,7 +3636,7 @@
           },
           {
             "result": {
-              "duration": 34906800,
+              "duration": 123452800,
               "status": "passed"
             },
             "line": 9,
@@ -66,7 +3654,7 @@
           },
           {
             "result": {
-              "duration": 30916700,
+              "duration": 24482700,
               "status": "passed"
             },
             "line": 10,
@@ -78,7 +3666,7 @@
           },
           {
             "result": {
-              "duration": 531578100,
+              "duration": 526244500,
               "status": "passed"
             },
             "line": 11,
@@ -108,11 +3696,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T16:32:02.735Z",
+        "start_timestamp": "2024-08-12T18:07:06.285Z",
         "before": [
           {
             "result": {
-              "duration": 683808500,
+              "duration": 220085700,
               "status": "passed"
             },
             "match": {
@@ -129,7 +3717,7 @@
         "steps": [
           {
             "result": {
-              "duration": 120728000,
+              "duration": 121304600,
               "status": "passed"
             },
             "line": 21,
@@ -141,7 +3729,7 @@
           },
           {
             "result": {
-              "duration": 73924200,
+              "duration": 55539600,
               "status": "passed"
             },
             "line": 22,
@@ -153,7 +3741,7 @@
           },
           {
             "result": {
-              "duration": 116688500,
+              "duration": 134898200,
               "status": "passed"
             },
             "line": 23,
@@ -171,7 +3759,7 @@
           },
           {
             "result": {
-              "duration": 19947000,
+              "duration": 20943400,
               "status": "passed"
             },
             "line": 24,
@@ -183,7 +3771,7 @@
           },
           {
             "result": {
-              "duration": 532574800,
+              "duration": 518439500,
               "status": "passed"
             },
             "line": 25,
@@ -213,11 +3801,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T16:32:04.287Z",
+        "start_timestamp": "2024-08-12T18:07:07.359Z",
         "before": [
           {
             "result": {
-              "duration": 597686000,
+              "duration": 241910900,
               "status": "passed"
             },
             "match": {
@@ -234,7 +3822,7 @@
         "steps": [
           {
             "result": {
-              "duration": 121090200,
+              "duration": 117686000,
               "status": "passed"
             },
             "line": 21,
@@ -246,7 +3834,7 @@
           },
           {
             "result": {
-              "duration": 67817400,
+              "duration": 60836300,
               "status": "passed"
             },
             "line": 22,
@@ -258,7 +3846,7 @@
           },
           {
             "result": {
-              "duration": 127659000,
+              "duration": 131759600,
               "status": "passed"
             },
             "line": 23,
@@ -276,7 +3864,7 @@
           },
           {
             "result": {
-              "duration": 27927700,
+              "duration": 22938800,
               "status": "passed"
             },
             "line": 24,
@@ -288,8 +3876,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.fail(Assert.java:96)\r\n\tat com.revature.step.PlanetDeletionSteps.the_user_should_no_longer_see_the_planet_within_the_planetarium(PlanetDeletionSteps.java:57)\r\n\tat ✽.The user should no longer see the planet \"Planet .^$*+-?()[]{}//\" within the planetarium(file:///F:/Java/planetarium-test-automation/src/test/resources/features/PlanetDeletion.feature:25)\r\n",
-              "duration": 10968300,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.fail(Assert.java:96)\r\n\tat com.revature.step.PlanetDeletionSteps.the_user_should_no_longer_see_the_planet_within_the_planetarium(PlanetDeletionSteps.java:51)\r\n\tat ✽.The user should no longer see the planet \"Planet .^$*+-?()[]{}//\" within the planetarium(classpath:features/PlanetDeletion.feature:25)\r\n",
+              "duration": 4733000,
               "status": "failed"
             },
             "line": 25,
@@ -319,11 +3907,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T16:32:05.251Z",
+        "start_timestamp": "2024-08-12T18:07:07.944Z",
         "before": [
           {
             "result": {
-              "duration": 758806300,
+              "duration": 246185900,
               "status": "passed"
             },
             "match": {
@@ -340,7 +3928,7 @@
         "steps": [
           {
             "result": {
-              "duration": 125964100,
+              "duration": 117762100,
               "status": "passed"
             },
             "line": 35,
@@ -352,7 +3940,7 @@
           },
           {
             "result": {
-              "duration": 69803700,
+              "duration": 57495000,
               "status": "passed"
             },
             "line": 36,
@@ -364,7 +3952,7 @@
           },
           {
             "result": {
-              "duration": 118873600,
+              "duration": 29919700,
               "status": "passed"
             },
             "line": 37,
@@ -382,7 +3970,7 @@
           },
           {
             "result": {
-              "duration": 19946400,
+              "duration": 110704700,
               "status": "passed"
             },
             "line": 38,
@@ -394,7 +3982,7 @@
           },
           {
             "result": {
-              "duration": 7979500,
+              "duration": 5982700,
               "status": "passed"
             },
             "line": 39,
@@ -418,11 +4006,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T16:32:06.358Z",
+        "start_timestamp": "2024-08-12T18:07:08.515Z",
         "before": [
           {
             "result": {
-              "duration": 635544500,
+              "duration": 216629400,
               "status": "passed"
             },
             "match": {
@@ -439,7 +4027,7 @@
         "steps": [
           {
             "result": {
-              "duration": 116687800,
+              "duration": 119737500,
               "status": "passed"
             },
             "line": 35,
@@ -451,7 +4039,7 @@
           },
           {
             "result": {
-              "duration": 66821700,
+              "duration": 56881400,
               "status": "passed"
             },
             "line": 36,
@@ -463,7 +4051,7 @@
           },
           {
             "result": {
-              "duration": 115690300,
+              "duration": 107714900,
               "status": "passed"
             },
             "line": 37,
@@ -481,7 +4069,7 @@
           },
           {
             "result": {
-              "duration": 19948700,
+              "duration": 31914100,
               "status": "passed"
             },
             "line": 38,
@@ -493,7 +4081,7 @@
           },
           {
             "result": {
-              "duration": 5983000,
+              "duration": 511487500,
               "status": "passed"
             },
             "line": 39,
@@ -517,11 +4105,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T16:32:07.325Z",
+        "start_timestamp": "2024-08-12T18:07:09.563Z",
         "before": [
           {
             "result": {
-              "duration": 619000100,
+              "duration": 184507100,
               "status": "passed"
             },
             "match": {
@@ -538,7 +4126,7 @@
         "steps": [
           {
             "result": {
-              "duration": 115661900,
+              "duration": 122541800,
               "status": "passed"
             },
             "line": 35,
@@ -550,7 +4138,7 @@
           },
           {
             "result": {
-              "duration": 62832700,
+              "duration": 56847400,
               "status": "passed"
             },
             "line": 36,
@@ -562,7 +4150,7 @@
           },
           {
             "result": {
-              "duration": 125678900,
+              "duration": 108709600,
               "status": "passed"
             },
             "line": 37,
@@ -580,7 +4168,7 @@
           },
           {
             "result": {
-              "duration": 19946400,
+              "duration": 31914700,
               "status": "passed"
             },
             "line": 38,
@@ -592,7 +4180,7 @@
           },
           {
             "result": {
-              "duration": 6980200,
+              "duration": 5983700,
               "status": "passed"
             },
             "line": 39,
@@ -616,11 +4204,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T16:32:08.282Z",
+        "start_timestamp": "2024-08-12T18:07:10.075Z",
         "before": [
           {
             "result": {
-              "duration": 612817500,
+              "duration": 198466300,
               "status": "passed"
             },
             "match": {
@@ -637,7 +4225,7 @@
         "steps": [
           {
             "result": {
-              "duration": 115691300,
+              "duration": 124859900,
               "status": "passed"
             },
             "line": 50,
@@ -649,7 +4237,7 @@
           },
           {
             "result": {
-              "duration": 63828800,
+              "duration": 54853700,
               "status": "passed"
             },
             "line": 51,
@@ -661,7 +4249,7 @@
           },
           {
             "result": {
-              "duration": 28923500,
+              "duration": 123194200,
               "status": "passed"
             },
             "line": 52,
@@ -679,7 +4267,7 @@
           },
           {
             "result": {
-              "duration": 108708700,
+              "duration": 19946400,
               "status": "passed"
             },
             "line": 53,
@@ -691,7 +4279,7 @@
           },
           {
             "result": {
-              "duration": 7978800,
+              "duration": 508176200,
               "status": "passed"
             },
             "line": 54,
@@ -715,11 +4303,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T16:32:09.224Z",
+        "start_timestamp": "2024-08-12T18:07:11.108Z",
         "before": [
           {
             "result": {
-              "duration": 603570800,
+              "duration": 164561200,
               "status": "passed"
             },
             "match": {
@@ -736,7 +4324,7 @@
         "steps": [
           {
             "result": {
-              "duration": 123839100,
+              "duration": 120799600,
               "status": "passed"
             },
             "line": 50,
@@ -748,7 +4336,7 @@
           },
           {
             "result": {
-              "duration": 60837700,
+              "duration": 55850700,
               "status": "passed"
             },
             "line": 51,
@@ -760,7 +4348,7 @@
           },
           {
             "result": {
-              "duration": 118250600,
+              "duration": 125516700,
               "status": "passed"
             },
             "line": 52,
@@ -778,7 +4366,7 @@
           },
           {
             "result": {
-              "duration": 20945100,
+              "duration": 18949600,
               "status": "passed"
             },
             "line": 53,
@@ -790,7 +4378,7 @@
           },
           {
             "result": {
-              "duration": 5983800,
+              "duration": 515072300,
               "status": "passed"
             },
             "line": 54,
@@ -814,11 +4402,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T16:32:10.162Z",
+        "start_timestamp": "2024-08-12T18:07:12.113Z",
         "before": [
           {
             "result": {
-              "duration": 667820300,
+              "duration": 250889700,
               "status": "passed"
             },
             "match": {
@@ -835,7 +4423,7 @@
         "steps": [
           {
             "result": {
-              "duration": 123934600,
+              "duration": 121674800,
               "status": "passed"
             },
             "line": 64,
@@ -847,7 +4435,7 @@
           },
           {
             "result": {
-              "duration": 58841900,
+              "duration": 55850000,
               "status": "passed"
             },
             "line": 65,
@@ -870,7 +4458,7 @@
           },
           {
             "result": {
-              "duration": 20944300,
+              "duration": 20944600,
               "status": "passed"
             },
             "line": 67,
@@ -882,7 +4470,7 @@
           },
           {
             "result": {
-              "duration": 8203200,
+              "duration": 4986100,
               "status": "passed"
             },
             "line": 68,
@@ -906,11 +4494,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T16:32:11.044Z",
+        "start_timestamp": "2024-08-12T18:07:12.571Z",
         "before": [
           {
             "result": {
-              "duration": 598320100,
+              "duration": 293190500,
               "status": "passed"
             },
             "match": {
@@ -927,7 +4515,7 @@
         "steps": [
           {
             "result": {
-              "duration": 132645700,
+              "duration": 141882800,
               "status": "passed"
             },
             "line": 73,
@@ -939,7 +4527,7 @@
           },
           {
             "result": {
-              "duration": 61836200,
+              "duration": 61838100,
               "status": "passed"
             },
             "line": 74,
@@ -951,7 +4539,7 @@
           },
           {
             "result": {
-              "duration": 127657600,
+              "duration": 132497700,
               "status": "passed"
             },
             "line": 75,
@@ -969,7 +4557,7 @@
           },
           {
             "result": {
-              "duration": 18949300,
+              "duration": 17951000,
               "status": "passed"
             },
             "line": 76,
@@ -981,7 +4569,7 @@
           },
           {
             "result": {
-              "duration": 6981500,
+              "duration": 512630000,
               "status": "passed"
             },
             "line": 77,
@@ -1005,11 +4593,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T16:32:11.995Z",
+        "start_timestamp": "2024-08-12T18:07:13.733Z",
         "before": [
           {
             "result": {
-              "duration": 636292400,
+              "duration": 240380800,
               "status": "passed"
             },
             "match": {
@@ -1026,7 +4614,7 @@
         "steps": [
           {
             "result": {
-              "duration": 125760000,
+              "duration": 122389900,
               "status": "passed"
             },
             "line": 73,
@@ -1038,7 +4626,7 @@
           },
           {
             "result": {
-              "duration": 59840000,
+              "duration": 54853600,
               "status": "passed"
             },
             "line": 74,
@@ -1050,7 +4638,7 @@
           },
           {
             "result": {
-              "duration": 127682200,
+              "duration": 112457200,
               "status": "passed"
             },
             "line": 75,
@@ -1068,7 +4656,7 @@
           },
           {
             "result": {
-              "duration": 19004100,
+              "duration": 30719500,
               "status": "passed"
             },
             "line": 76,
@@ -1080,7 +4668,7 @@
           },
           {
             "result": {
-              "duration": 7923700,
+              "duration": 507531200,
               "status": "passed"
             },
             "line": 77,
@@ -1104,11 +4692,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T16:32:12.977Z",
+        "start_timestamp": "2024-08-12T18:07:14.804Z",
         "before": [
           {
             "result": {
-              "duration": 684545000,
+              "duration": 193983000,
               "status": "passed"
             },
             "match": {
@@ -1125,7 +4713,7 @@
         "steps": [
           {
             "result": {
-              "duration": 121674800,
+              "duration": 134868000,
               "status": "passed"
             },
             "line": 87,
@@ -1137,7 +4725,7 @@
           },
           {
             "result": {
-              "duration": 63829100,
+              "duration": 55849700,
               "status": "passed"
             },
             "line": 88,
@@ -1149,7 +4737,7 @@
           },
           {
             "result": {
-              "duration": 121283600,
+              "duration": 124667100,
               "status": "passed"
             },
             "line": 89,
@@ -1167,7 +4755,7 @@
           },
           {
             "result": {
-              "duration": 19462500,
+              "duration": 18949900,
               "status": "passed"
             },
             "line": 90,
@@ -1179,7 +4767,7 @@
           },
           {
             "result": {
-              "duration": 529921100,
+              "duration": 530828800,
               "status": "passed"
             },
             "line": 91,
@@ -1213,11 +4801,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T16:32:14.521Z",
+        "start_timestamp": "2024-08-12T18:07:15.865Z",
         "before": [
           {
             "result": {
-              "duration": 539635000,
+              "duration": 172196400,
               "status": "passed"
             },
             "match": {
@@ -1234,7 +4822,7 @@
         "steps": [
           {
             "result": {
-              "duration": 121288000,
+              "duration": 131618400,
               "status": "passed"
             },
             "line": 100,
@@ -1246,7 +4834,7 @@
           },
           {
             "result": {
-              "duration": 61834400,
+              "duration": 59884600,
               "status": "passed"
             },
             "line": 101,
@@ -1258,7 +4846,7 @@
           },
           {
             "result": {
-              "duration": 115239800,
+              "duration": 127294100,
               "status": "passed"
             },
             "line": 102,
@@ -1276,7 +4864,7 @@
           },
           {
             "result": {
-              "duration": 20944300,
+              "duration": 18949100,
               "status": "passed"
             },
             "line": 103,
@@ -1288,7 +4876,7 @@
           },
           {
             "result": {
-              "duration": 1032613400,
+              "duration": 525346600,
               "status": "passed"
             },
             "line": 104,
@@ -1318,11 +4906,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-12T16:32:16.418Z",
+        "start_timestamp": "2024-08-12T18:07:16.903Z",
         "before": [
           {
             "result": {
-              "duration": 567892600,
+              "duration": 161055400,
               "status": "passed"
             },
             "match": {
@@ -1339,7 +4927,7 @@
         "steps": [
           {
             "result": {
-              "duration": 136396400,
+              "duration": 119680700,
               "status": "passed"
             },
             "line": 100,
@@ -1351,7 +4939,7 @@
           },
           {
             "result": {
-              "duration": 62832400,
+              "duration": 55850300,
               "status": "passed"
             },
             "line": 101,
@@ -1363,7 +4951,7 @@
           },
           {
             "result": {
-              "duration": 121049200,
+              "duration": 143615800,
               "status": "passed"
             },
             "line": 102,
@@ -1381,7 +4969,7 @@
           },
           {
             "result": {
-              "duration": 18949700,
+              "duration": 19464800,
               "status": "passed"
             },
             "line": 103,
@@ -1393,7 +4981,7 @@
           },
           {
             "result": {
-              "duration": 520386400,
+              "duration": 518112600,
               "status": "passed"
             },
             "line": 104,
@@ -1427,10 +5015,376 @@
     "description": "",
     "id": "planetdeletion",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/PlanetDeletion.feature",
+    "uri": "classpath:features/PlanetDeletion.feature",
     "tags": [
       {
         "name": "@PlanetDeletion",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-12T18:07:17.924Z",
+        "before": [
+          {
+            "result": {
+              "duration": 243010000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "As a user, I should not be able to view planets and moons without being logged-in, so that the Planetarium Home page content is visible by registered users only",
+        "description": "\tThe system should check if the user is logged-in before showing planets and moons.",
+        "id": "planetandmoonvisibility;as-a-user--i-should-not-be-able-to-view-planets-and-moons-without-being-logged-in--so-that-the-planetarium-home-page-content-is-visible-by-registered-users-only;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18948700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on the Planetarium login page",
+            "match": {
+              "location": "com.revature.step.AccountCreationSteps.the_user_is_on_the_Planetarium_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21941000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user directly goes to the Home page of Planetarium \"http://localhost:8080/planetarium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/planetarium\"",
+                  "offset": 55
+                }
+              ],
+              "location": "com.revature.step.PlanetandMoonVisibilitySteps.the_user_directly_goes_to_the_home_page_of_planetarium(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"tag name\",\"selector\":\"pre\"}\n  (Session info: chrome\u003d127.0.6533.100)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89461c27ec169ef00a018fc45121c786, findElement {value\u003dpre, using\u003dtag name}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55467/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89461c27ec169ef00a018fc45121c786\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.step.PlanetandMoonVisibilitySteps.the_user_should_be_informed_they_need_to_login_first(PlanetandMoonVisibilitySteps.java:20)\r\n\tat ✽.The user should be informed they need to login first(classpath:features/PlanetandMoonVisibility.feature:9)\r\n",
+              "duration": 1053204900,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "The user should be informed they need to login first",
+            "match": {
+              "location": "com.revature.step.PlanetandMoonVisibilitySteps.the_user_should_be_informed_they_need_to_login_first()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetandMoonVisibility"
+          },
+          {
+            "name": "@PTA-TC-49"
+          },
+          {
+            "name": "@JREQ-PTA-62"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:07:19.266Z",
+        "before": [
+          {
+            "result": {
+              "duration": 236628800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "As a user, I want to be able to view moons other users have added, so I can follow moons tracked by other users on the Planetarium",
+        "description": "",
+        "id": "planetandmoonvisibility;as-a-user--i-want-to-be-able-to-view-moons-other-users-have-added--so-i-can-follow-moons-tracked-by-other-users-on-the-planetarium;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 117840200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.step.PlanetandMoonVisibilitySteps.the_user_should_see_the_moon_called_Pre_existing_moon_moon_ID_Moon_ID_and_owner_ID_Planet_Id(PlanetandMoonVisibilitySteps.java:41)\r\n\tat ✽.The user should see the moon called \"Luna\", moon ID \"1\", and owner ID \"1\"(classpath:features/PlanetandMoonVisibility.feature:18)\r\n",
+              "duration": 73802300,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "The user should see the moon called \"Luna\", moon ID \"1\", and owner ID \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Luna\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 70
+                }
+              ],
+              "location": "com.revature.step.PlanetandMoonVisibilitySteps.the_user_should_see_the_moon_called_Pre_existing_moon_moon_ID_Moon_ID_and_owner_ID_Planet_Id(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetandMoonVisibility"
+          },
+          {
+            "name": "@PTA-TC-51"
+          },
+          {
+            "name": "@JREQ-PTA-42"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:07:19.698Z",
+        "before": [
+          {
+            "result": {
+              "duration": 203498800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "As a user, I want to be able to view moons I have added, so that I can track moons using the Planetarium",
+        "description": "\tThe system should check if the user is logged-in.The system should check if the user is logged-in.",
+        "id": "planetandmoonvisibility;as-a-user--i-want-to-be-able-to-view-moons-i-have-added--so-that-i-can-track-moons-using-the-planetarium;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 119025500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.step.PlanetandMoonVisibilitySteps.the_user_should_see_the_moon_called_Pre_existing_moon_moon_ID_Moon_ID_and_owner_ID_Planet_Id(PlanetandMoonVisibilitySteps.java:41)\r\n\tat ✽.The user should see the moon called \"Titan\", moon ID \"2\", and owner ID \"2\"(classpath:features/PlanetandMoonVisibility.feature:28)\r\n",
+              "duration": 76607300,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "The user should see the moon called \"Titan\", moon ID \"2\", and owner ID \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Titan\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 71
+                }
+              ],
+              "location": "com.revature.step.PlanetandMoonVisibilitySteps.the_user_should_see_the_moon_called_Pre_existing_moon_moon_ID_Moon_ID_and_owner_ID_Planet_Id(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetandMoonVisibility"
+          },
+          {
+            "name": "@PTA-TC-53"
+          },
+          {
+            "name": "@JREQ-PTA-41"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:07:20.101Z",
+        "before": [
+          {
+            "result": {
+              "duration": 206424700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "As a user, I want to be able to view planets that other users have added, so that I can track the planets other users have added to the Planetarium",
+        "description": "\tThe system checks if the user is logged-in.",
+        "id": "planetandmoonvisibility;as-a-user--i-want-to-be-able-to-view-planets-that-other-users-have-added--so-that-i-can-track-the-planets-other-users-have-added-to-the-planetarium;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 631469400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.step.PlanetandMoonVisibilitySteps.the_logged_in_user_should_see_the_planet_from_other_user(PlanetandMoonVisibilitySteps.java:50)\r\n\tat ✽.The logged in user should see the planet, \"Jupiter\", planet ID \"3\", and owner ID \"2\"(classpath:features/PlanetandMoonVisibility.feature:38)\r\n",
+              "duration": 11968000,
+              "status": "failed"
+            },
+            "line": 38,
+            "name": "The logged in user should see the planet, \"Jupiter\", planet ID \"3\", and owner ID \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jupiter\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 81
+                }
+              ],
+              "location": "com.revature.step.PlanetandMoonVisibilitySteps.the_logged_in_user_should_see_the_planet_from_other_user(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetandMoonVisibility"
+          },
+          {
+            "name": "@PTA-TC-54"
+          },
+          {
+            "name": "@JREQ-PTA-40"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T18:07:20.967Z",
+        "before": [
+          {
+            "result": {
+              "duration": 182679100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "As a user, I want to be able to view planets I have added, so I can track my planets in the Planetarium",
+        "description": "\tThe system checks if the user is logged-in and that the user has added planets to the Planetarium.",
+        "id": "planetandmoonvisibility;as-a-user--i-want-to-be-able-to-view-planets-i-have-added--so-i-can-track-my-planets-in-the-planetarium;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 629264400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "The planet \"Earth\" should be added to the Planetarium",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetandMoonVisibility"
+          },
+          {
+            "name": "@PTA-TC-56"
+          },
+          {
+            "name": "@JREQ-PTA-39"
+          }
+        ]
+      }
+    ],
+    "name": "PlanetandMoonVisibility",
+    "description": "",
+    "id": "planetandmoonvisibility",
+    "keyword": "Feature",
+    "uri": "classpath:features/PlanetandMoonVisibility.feature",
+    "tags": [
+      {
+        "name": "@PlanetandMoonVisibility",
         "type": "Tag",
         "location": {
           "line": 1,
