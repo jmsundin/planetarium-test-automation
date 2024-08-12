@@ -18,7 +18,7 @@ Feature: MoonAddition
 		| A                              | 1                  | moon-1.jpg               |
 
 	@PTA-TC-61 @JREQ-PTA-27
-	Scenario Outline: As a user, I want to add a Moon by providing a valid moon name and a planet ID so that this moon is displayed within the planetarium
+	Scenario Outline: As a user, I want to add a Moon by providing a valid moon name and a planet ID without an image, so that this moon is displayed within the planetarium
 	This is to verify that a moon can be created if the application is provided with valid details while excluding a picture for the moon
 		Given The user is logged in
 		And The user sets the dropdown to display the moon creation menu

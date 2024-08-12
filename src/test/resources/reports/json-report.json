@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-08-11T18:24:13.364Z",
+        "start_timestamp": "2024-08-12T16:32:00.827Z",
         "before": [
           {
             "result": {
-              "duration": 720258700,
+              "duration": 846278800,
               "status": "passed"
             },
             "match": {
@@ -15,16 +15,16 @@
             }
           }
         ],
-        "line": 17,
-        "name": "As a User, I want to add a Moon by providing a valid name, valid planet ID, and valid picture so that this moon is displayed within the planetarium",
-        "description": "\tThis is to verify that a moon can be created if the application is provided with valid details while including a picture for the moon",
-        "id": "moonaddition;as-a-user--i-want-to-add-a-moon-by-providing-a-valid-name--valid-planet-id--and-valid-picture-so-that-this-moon-is-displayed-within-the-planetarium;;2",
+        "line": 15,
+        "name": "As a user, I should be able to delete a planet I added without an associated moon using a valid id, so that my planetarium is up to date",
+        "description": "\tSystem should check that the given planet id is the primary key for an existing planet created by the user with no associated moons, and remove that planet from the planetarium if so.",
+        "id": "planetdeletion;as-a-user--i-should-be-able-to-delete-a-planet-i-added-without-an-associated-moon-using-a-valid-id--so-that-my-planetarium-is-up-to-date;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 194046900,
+              "duration": 190491400,
               "status": "passed"
             },
             "line": 7,
@@ -36,119 +36,83 @@
           },
           {
             "result": {
-              "duration": 286947600,
+              "duration": 230384100,
               "status": "passed"
             },
             "line": 8,
-            "name": "The user sets the dropdown to display the moon creation menu",
+            "name": "The user sets the dropdown to display the planet creation menu",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
             },
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 49866800,
+              "duration": 34906800,
               "status": "passed"
             },
             "line": 9,
-            "name": "The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name",
+            "name": "The user enters \"3\" as the celestial body to be deleted",
             "match": {
               "arguments": [
                 {
-                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
+                  "val": "\"3\"",
                   "offset": 16
                 }
               ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_as_the_celestial_body_to_be_deleted(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 34906400,
+              "duration": 30916700,
               "status": "passed"
             },
             "line": 10,
-            "name": "The user enters \"2\" as the Orbited Planet ID",
+            "name": "The user presses the delete button",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"2\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 20943400,
+              "duration": 531578100,
               "status": "passed"
             },
             "line": 11,
-            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "name": "The planet with the id \"3\" should be deleted from the Planetarium",
             "match": {
               "arguments": [
                 {
-                  "val": "\"moon-1.jpg\"",
-                  "offset": 17
+                  "val": "\"3\"",
+                  "offset": 23
                 }
               ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 27925000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "The user clicks on the Submit Moon button",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3537934700,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "The moon \"ThisIsTheSupererestMoonName!!!\" should be added to the planetarium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
-                  "offset": 9
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(java.lang.String)"
+              "location": "com.revature.step.PlanetDeletionSteps.the_planet_with_the_id_should_be_deleted_from_the_Planetarium(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@MoonAddition"
+            "name": "@PlanetDeletion"
           },
           {
-            "name": "@PTA-TC-55"
+            "name": "@PTA-TC-71"
           },
           {
-            "name": "@JREQ-PTA-35"
+            "name": "@JREQ-PTA-68"
           }
         ]
       },
       {
-        "start_timestamp": "2024-08-11T18:24:18.279Z",
+        "start_timestamp": "2024-08-12T16:32:02.735Z",
         "before": [
           {
             "result": {
-              "duration": 509636800,
+              "duration": 683808500,
               "status": "passed"
             },
             "match": {
@@ -156,19 +120,19 @@
             }
           }
         ],
-        "line": 18,
-        "name": "As a User, I want to add a Moon by providing a valid name, valid planet ID, and valid picture so that this moon is displayed within the planetarium",
-        "description": "\tThis is to verify that a moon can be created if the application is provided with valid details while including a picture for the moon",
-        "id": "moonaddition;as-a-user--i-want-to-add-a-moon-by-providing-a-valid-name--valid-planet-id--and-valid-picture-so-that-this-moon-is-displayed-within-the-planetarium;;3",
+        "line": 29,
+        "name": "As a user, I want to be able to remove planets from the planetarium by their name so that we can stop tracking them",
+        "description": "\tThis is to verify that we can remove planets if we pass in their name, spelled correctly and with the correct case. And that the user will see that the planet and it\u0027s orbiting moon is no longer within the planetarium\nThis will also act as a test to",
+        "id": "planetdeletion;as-a-user--i-want-to-be-able-to-remove-planets-from-the-planetarium-by-their-name-so-that-we-can-stop-tracking-them;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 121675200,
+              "duration": 120728000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 21,
             "name": "The user is logged in",
             "match": {
               "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
@@ -177,548 +141,23 @@
           },
           {
             "result": {
-              "duration": 205450400,
+              "duration": 73924200,
               "status": "passed"
             },
-            "line": 8,
-            "name": "The user sets the dropdown to display the moon creation menu",
+            "line": 22,
+            "name": "The user sets the dropdown to display the planet creation menu",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 24933200,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "The user enters \"A\" as the Moon Name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"A\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 27925800,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "The user enters \"1\" as the Orbited Planet ID",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 14959400,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "The user uploads \"moon-1.jpg\" as Image",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"moon-1.jpg\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 20943500,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "The user clicks on the Submit Moon button",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3465016200,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "The moon \"A\" should be added to the planetarium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"A\"",
-                  "offset": 9
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@MoonAddition"
-          },
-          {
-            "name": "@PTA-TC-55"
-          },
-          {
-            "name": "@JREQ-PTA-35"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2024-08-11T18:24:22.675Z",
-        "before": [
-          {
-            "result": {
-              "duration": 515322400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.revature.step.Hooks.beforeScenario()"
-            }
-          }
-        ],
-        "line": 32,
-        "name": "As a user, I want to add a Moon by providing a valid moon name and a planet ID so that this moon is displayed within the planetarium",
-        "description": "\tThis is to verify that a moon can be created if the application is provided with valid details while excluding a picture for the moon",
-        "id": "moonaddition;as-a-user--i-want-to-add-a-moon-by-providing-a-valid-moon-name-and-a-planet-id-so-that-this-moon-is-displayed-within-the-planetarium;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 156581100,
+              "duration": 116688500,
               "status": "passed"
             },
             "line": 23,
-            "name": "The user is logged in",
-            "match": {
-              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 248335800,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "The user sets the dropdown to display the moon creation menu",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 39893100,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 27925500,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "The user enters \"2\" as the Orbited Planet ID",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"2\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 22937800,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "The user clicks on the Submit Moon button",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //tr[td[1][text()\u003d\u0027moon\u0027] and td[3][text()\u003d\u0027ThisIsTheSupererestMoonName!!!\u0027]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52582/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dce6d350090ae1fb248be31babe416be\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(MoonAdditionSteps.java:59)\r\n\tat ✽.The moon \"ThisIsTheSupererestMoonName!!!\" should be added to the planetarium(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:28)\r\n",
-              "duration": 5653649000,
-              "status": "failed"
-            },
-            "line": 28,
-            "name": "The moon \"ThisIsTheSupererestMoonName!!!\" should be added to the planetarium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
-                  "offset": 9
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@MoonAddition"
-          },
-          {
-            "name": "@PTA-TC-61"
-          },
-          {
-            "name": "@JREQ-PTA-27"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2024-08-11T18:24:29.350Z",
-        "before": [
-          {
-            "result": {
-              "duration": 507160400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.revature.step.Hooks.beforeScenario()"
-            }
-          }
-        ],
-        "line": 33,
-        "name": "As a user, I want to add a Moon by providing a valid moon name and a planet ID so that this moon is displayed within the planetarium",
-        "description": "\tThis is to verify that a moon can be created if the application is provided with valid details while excluding a picture for the moon",
-        "id": "moonaddition;as-a-user--i-want-to-add-a-moon-by-providing-a-valid-moon-name-and-a-planet-id-so-that-this-moon-is-displayed-within-the-planetarium;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 108219700,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "The user is logged in",
-            "match": {
-              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 199211100,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "The user sets the dropdown to display the moon creation menu",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 24934400,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "The user enters \"A\" as the Moon Name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"A\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 25930100,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "The user enters \"1\" as the Orbited Planet ID",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 18949400,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "The user clicks on the Submit Moon button",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //tr[td[1][text()\u003d\u0027moon\u0027] and td[3][text()\u003d\u0027A\u0027]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52582/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dce6d350090ae1fb248be31babe416be\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(MoonAdditionSteps.java:59)\r\n\tat ✽.The moon \"A\" should be added to the planetarium(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:28)\r\n",
-              "duration": 5727675400,
-              "status": "failed"
-            },
-            "line": 28,
-            "name": "The moon \"A\" should be added to the planetarium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"A\"",
-                  "offset": 9
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_moon_should_be_added_to_the_planetarium(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@MoonAddition"
-          },
-          {
-            "name": "@PTA-TC-61"
-          },
-          {
-            "name": "@JREQ-PTA-27"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2024-08-11T18:24:35.969Z",
-        "before": [
-          {
-            "result": {
-              "duration": 530517700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.revature.step.Hooks.beforeScenario()"
-            }
-          }
-        ],
-        "line": 48,
-        "name": "As a user, I want to receive an error when I attempt to use an already existing planet name while attempting to create a moon so that I know that the moon was not created",
-        "description": "\tThis is to verify that the user cannot use the name of a existent planet to create a moon, and that the user receives an error message",
-        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-when-i-attempt-to-use-an-already-existing-planet-name-while-attempting-to-create-a-moon-so-that-i-know-that-the-moon-was-not-created;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 108709500,
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "The user is logged in",
-            "match": {
-              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 207986000,
-              "status": "passed"
-            },
-            "line": 39,
-            "name": "The user sets the dropdown to display the moon creation menu",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 24932700,
-              "status": "passed"
-            },
-            "line": 40,
-            "name": "The user enters \"Mars\" as the Moon Name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Mars\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 24953000,
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "The user enters \"1\" as the Orbited Planet ID",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 14959900,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "The user uploads \"moon-1.jpg\" as Image",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"moon-1.jpg\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 17952400,
-              "status": "passed"
-            },
-            "line": 43,
-            "name": "The user clicks on the Submit Moon button",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52582/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dce6d350090ae1fb248be31babe416be\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed(MoonAdditionSteps.java:72)\r\n\tat ✽.The user should be informed that the moon addition failed(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:44)\r\n",
-              "duration": 5132027200,
-              "status": "failed"
-            },
-            "line": 44,
-            "name": "The user should be informed that the moon addition failed",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@MoonAddition"
-          },
-          {
-            "name": "@PTA-TC-65"
-          },
-          {
-            "name": "@JREQ-PTA-65"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2024-08-11T18:24:42.039Z",
-        "before": [
-          {
-            "result": {
-              "duration": 485699300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.revature.step.Hooks.beforeScenario()"
-            }
-          }
-        ],
-        "line": 49,
-        "name": "As a user, I want to receive an error when I attempt to use an already existing planet name while attempting to create a moon so that I know that the moon was not created",
-        "description": "\tThis is to verify that the user cannot use the name of a existent planet to create a moon, and that the user receives an error message",
-        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-when-i-attempt-to-use-an-already-existing-planet-name-while-attempting-to-create-a-moon-so-that-i-know-that-the-moon-was-not-created;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 111702400,
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "The user is logged in",
-            "match": {
-              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 207271800,
-              "status": "passed"
-            },
-            "line": 39,
-            "name": "The user sets the dropdown to display the moon creation menu",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 26929200,
-              "status": "passed"
-            },
-            "line": 40,
-            "name": "The user enters \"Earth\" as the Moon Name",
+            "name": "The user enters \"Earth\" as the celestial body to be deleted",
             "match": {
               "arguments": [
                 {
@@ -726,90 +165,165 @@
                   "offset": 16
                 }
               ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_as_the_celestial_body_to_be_deleted(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 25930000,
+              "duration": 19947000,
               "status": "passed"
             },
-            "line": 41,
-            "name": "The user enters \"1\" as the Orbited Planet ID",
+            "line": 24,
+            "name": "The user presses the delete button",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 532574800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user should no longer see the planet \"Earth\" within the planetarium",
             "match": {
               "arguments": [
                 {
-                  "val": "\"1\"",
+                  "val": "\"Earth\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_should_no_longer_see_the_planet_within_the_planetarium(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetDeletion"
+          },
+          {
+            "name": "@PTA-TC-74"
+          },
+          {
+            "name": "@JREQ-PTA-51"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T16:32:04.287Z",
+        "before": [
+          {
+            "result": {
+              "duration": 597686000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "As a user, I want to be able to remove planets from the planetarium by their name so that we can stop tracking them",
+        "description": "\tThis is to verify that we can remove planets if we pass in their name, spelled correctly and with the correct case. And that the user will see that the planet and it\u0027s orbiting moon is no longer within the planetarium\nThis will also act as a test to",
+        "id": "planetdeletion;as-a-user--i-want-to-be-able-to-remove-planets-from-the-planetarium-by-their-name-so-that-we-can-stop-tracking-them;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 121090200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67817400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user sets the dropdown to display the planet creation menu",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127659000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user enters \"Planet .^$*+-?()[]{}//\" as the celestial body to be deleted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planet .^$*+-?()[]{}//\"",
                   "offset": 16
                 }
               ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_as_the_celestial_body_to_be_deleted(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 15957600,
+              "duration": 27927700,
               "status": "passed"
             },
-            "line": 42,
-            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "line": 24,
+            "name": "The user presses the delete button",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"moon-1.jpg\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 20948200,
-              "status": "passed"
-            },
-            "line": 43,
-            "name": "The user clicks on the Submit Moon button",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\\Users\\rando\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52582/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dce6d350090ae1fb248be31babe416be\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed(MoonAdditionSteps.java:72)\r\n\tat ✽.The user should be informed that the moon addition failed(file:///F:/Java/planetarium-test-automation/src/test/resources/features/MoonAddition.feature:44)\r\n",
-              "duration": 5099858200,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.fail(Assert.java:96)\r\n\tat com.revature.step.PlanetDeletionSteps.the_user_should_no_longer_see_the_planet_within_the_planetarium(PlanetDeletionSteps.java:57)\r\n\tat ✽.The user should no longer see the planet \"Planet .^$*+-?()[]{}//\" within the planetarium(file:///F:/Java/planetarium-test-automation/src/test/resources/features/PlanetDeletion.feature:25)\r\n",
+              "duration": 10968300,
               "status": "failed"
             },
-            "line": 44,
-            "name": "The user should be informed that the moon addition failed",
+            "line": 25,
+            "name": "The user should no longer see the planet \"Planet .^$*+-?()[]{}//\" within the planetarium",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+              "arguments": [
+                {
+                  "val": "\"Planet .^$*+-?()[]{}//\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_should_no_longer_see_the_planet_within_the_planetarium(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@MoonAddition"
+            "name": "@PlanetDeletion"
           },
           {
-            "name": "@PTA-TC-65"
+            "name": "@PTA-TC-74"
           },
           {
-            "name": "@JREQ-PTA-65"
+            "name": "@JREQ-PTA-51"
           }
         ]
       },
       {
-        "start_timestamp": "2024-08-11T18:24:48.037Z",
+        "start_timestamp": "2024-08-12T16:32:05.251Z",
         "before": [
           {
             "result": {
-              "duration": 562072100,
+              "duration": 758806300,
               "status": "passed"
             },
             "match": {
@@ -817,19 +331,19 @@
             }
           }
         ],
-        "line": 64,
-        "name": "As a user, I want to receive an error when I attempt to use an already existing moon name while attempting to create a moon so that I know that the moon was not created",
-        "description": "\tThis is to verify that a user cannot create a multiple moons with the same name, and that the user gets an error when they attempt this.",
-        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-when-i-attempt-to-use-an-already-existing-moon-name-while-attempting-to-create-a-moon-so-that-i-know-that-the-moon-was-not-created;;2",
+        "line": 43,
+        "name": "As a user, I want to receive an error when I attempt to delete a planet using an ID that does not point to a planet, so that I know the planet was not deleted",
+        "description": "\tWe are attempting to verify that we cannot delete a planet if we use an invalid ID as input, and that the user receives an error message as a response to this invalid data.",
+        "id": "planetdeletion;as-a-user--i-want-to-receive-an-error-when-i-attempt-to-delete-a-planet-using-an-id-that-does-not-point-to-a-planet--so-that-i-know-the-planet-was-not-deleted;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 614600700,
+              "duration": 125964100,
               "status": "passed"
             },
-            "line": 54,
+            "line": 35,
             "name": "The user is logged in",
             "match": {
               "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
@@ -838,311 +352,23 @@
           },
           {
             "result": {
-              "duration": 88060800,
+              "duration": 69803700,
               "status": "passed"
             },
-            "line": 55,
-            "name": "The user sets the dropdown to display the moon creation menu",
+            "line": 36,
+            "name": "The user sets the dropdown to display the planet creation menu",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 24933200,
+              "duration": 118873600,
               "status": "passed"
             },
-            "line": 56,
-            "name": "The user enters \"Titan\" as the Moon Name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Titan\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 24933700,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "The user enters \"2\" as the Orbited Planet ID",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"2\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 14959800,
-              "status": "passed"
-            },
-            "line": 58,
-            "name": "The user uploads \"moon-1.jpg\" as Image",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"moon-1.jpg\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 17951400,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "The user clicks on the Submit Moon button",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 515621100,
-              "status": "passed"
-            },
-            "line": 60,
-            "name": "The user should be informed that the moon addition failed",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@MoonAddition"
-          },
-          {
-            "name": "@PTA-TC-68"
-          },
-          {
-            "name": "@JREQ-PTA-48"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2024-08-11T18:24:49.907Z",
-        "before": [
-          {
-            "result": {
-              "duration": 519609100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.revature.step.Hooks.beforeScenario()"
-            }
-          }
-        ],
-        "line": 65,
-        "name": "As a user, I want to receive an error when I attempt to use an already existing moon name while attempting to create a moon so that I know that the moon was not created",
-        "description": "\tThis is to verify that a user cannot create a multiple moons with the same name, and that the user gets an error when they attempt this.",
-        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-when-i-attempt-to-use-an-already-existing-moon-name-while-attempting-to-create-a-moon-so-that-i-know-that-the-moon-was-not-created;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 121548600,
-              "status": "passed"
-            },
-            "line": 54,
-            "name": "The user is logged in",
-            "match": {
-              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 197229300,
-              "status": "passed"
-            },
-            "line": 55,
-            "name": "The user sets the dropdown to display the moon creation menu",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 25930800,
-              "status": "passed"
-            },
-            "line": 56,
-            "name": "The user enters \"Luna\" as the Moon Name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Luna\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 24932900,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "The user enters \"1\" as the Orbited Planet ID",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 15957700,
-              "status": "passed"
-            },
-            "line": 58,
-            "name": "The user uploads \"moon-1.jpg\" as Image",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"moon-1.jpg\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 19184100,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "The user clicks on the Submit Moon button",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 517953100,
-              "status": "passed"
-            },
-            "line": 60,
-            "name": "The user should be informed that the moon addition failed",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@MoonAddition"
-          },
-          {
-            "name": "@PTA-TC-68"
-          },
-          {
-            "name": "@JREQ-PTA-48"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2024-08-11T18:24:51.353Z",
-        "before": [
-          {
-            "result": {
-              "duration": 447802800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.revature.step.Hooks.beforeScenario()"
-            }
-          }
-        ],
-        "line": 80,
-        "name": "As a user, I want to receive an error message when I attempt to create a moon using a planet ID that does not point to a real planet, so that I know the moon creation failed",
-        "description": "\tWe are attempting to verify that we cannot create moons while providing a planet ID for a planet that does not exist, and that the user receives an error message as a response to this invalid data.",
-        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-message-when-i-attempt-to-create-a-moon-using-a-planet-id-that-does-not-point-to-a-real-planet--so-that-i-know-the-moon-creation-failed;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 117685800,
-              "status": "passed"
-            },
-            "line": 70,
-            "name": "The user is logged in",
-            "match": {
-              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 197471800,
-              "status": "passed"
-            },
-            "line": 71,
-            "name": "The user sets the dropdown to display the moon creation menu",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 41888200,
-              "status": "passed"
-            },
-            "line": 72,
-            "name": "The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 23935200,
-              "status": "passed"
-            },
-            "line": 73,
-            "name": "The user enters \"0\" as the Orbited Planet ID",
+            "line": 37,
+            "name": "The user enters \"0\" as the celestial body to be deleted",
             "match": {
               "arguments": [
                 {
@@ -1150,71 +376,541 @@
                   "offset": 16
                 }
               ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_as_the_celestial_body_to_be_deleted(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 13963200,
+              "duration": 19946400,
               "status": "passed"
             },
-            "line": 74,
-            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "line": 38,
+            "name": "The user presses the delete button",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"moon-1.jpg\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 19945700,
+              "duration": 7979500,
               "status": "passed"
             },
-            "line": 75,
-            "name": "The user clicks on the Submit Moon button",
+            "line": 39,
+            "name": "The user should be informed that the planet deletion failed",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 509178900,
-              "status": "passed"
-            },
-            "line": 76,
-            "name": "The user should be informed that the moon addition failed",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_should_be_informed_that_the_planet_deletion_failed()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@MoonAddition"
+            "name": "@PlanetDeletion"
           },
           {
-            "name": "@PTA-TC-69"
+            "name": "@PTA-TC-78"
           },
           {
-            "name": "@JREQ-PTA-45"
+            "name": "@JREQ-PTA-74"
           }
         ]
       },
       {
-        "start_timestamp": "2024-08-11T18:24:52.729Z",
+        "start_timestamp": "2024-08-12T16:32:06.358Z",
         "before": [
           {
             "result": {
-              "duration": 505941400,
+              "duration": 635544500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "As a user, I want to receive an error when I attempt to delete a planet using an ID that does not point to a planet, so that I know the planet was not deleted",
+        "description": "\tWe are attempting to verify that we cannot delete a planet if we use an invalid ID as input, and that the user receives an error message as a response to this invalid data.",
+        "id": "planetdeletion;as-a-user--i-want-to-receive-an-error-when-i-attempt-to-delete-a-planet-using-an-id-that-does-not-point-to-a-planet--so-that-i-know-the-planet-was-not-deleted;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 116687800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66821700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "The user sets the dropdown to display the planet creation menu",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115690300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "The user enters \"1000\" as the celestial body to be deleted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_as_the_celestial_body_to_be_deleted(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19948700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "The user presses the delete button",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5983000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The user should be informed that the planet deletion failed",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_should_be_informed_that_the_planet_deletion_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetDeletion"
+          },
+          {
+            "name": "@PTA-TC-78"
+          },
+          {
+            "name": "@JREQ-PTA-74"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T16:32:07.325Z",
+        "before": [
+          {
+            "result": {
+              "duration": 619000100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "As a user, I want to receive an error when I attempt to delete a planet using an ID that does not point to a planet, so that I know the planet was not deleted",
+        "description": "\tWe are attempting to verify that we cannot delete a planet if we use an invalid ID as input, and that the user receives an error message as a response to this invalid data.",
+        "id": "planetdeletion;as-a-user--i-want-to-receive-an-error-when-i-attempt-to-delete-a-planet-using-an-id-that-does-not-point-to-a-planet--so-that-i-know-the-planet-was-not-deleted;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 115661900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62832700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "The user sets the dropdown to display the planet creation menu",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125678900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "The user enters \"1000000\" as the celestial body to be deleted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000000\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_as_the_celestial_body_to_be_deleted(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19946400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "The user presses the delete button",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6980200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The user should be informed that the planet deletion failed",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_should_be_informed_that_the_planet_deletion_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetDeletion"
+          },
+          {
+            "name": "@PTA-TC-78"
+          },
+          {
+            "name": "@JREQ-PTA-74"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T16:32:08.282Z",
+        "before": [
+          {
+            "result": {
+              "duration": 612817500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "As a user, I want to receive an error if I attempt to delete a planet while using the name of a moon, so that I know the planet deletion failed",
+        "description": "\tWe are attempting to verify that the user cannot delete a planet if they are using an existing moon name, and that they receive an error message as a response to this misuse of data.",
+        "id": "planetdeletion;as-a-user--i-want-to-receive-an-error-if-i-attempt-to-delete-a-planet-while-using-the-name-of-a-moon--so-that-i-know-the-planet-deletion-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 115691300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63828800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "The user sets the dropdown to display the planet creation menu",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28923500,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "The user enters \"Titan\" as the celestial body to be deleted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Titan\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_as_the_celestial_body_to_be_deleted(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108708700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "The user presses the delete button",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7978800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "The user should be informed that the planet deletion failed",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_should_be_informed_that_the_planet_deletion_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetDeletion"
+          },
+          {
+            "name": "@PTA-TC-79"
+          },
+          {
+            "name": "@JREQ-PTA-71"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T16:32:09.224Z",
+        "before": [
+          {
+            "result": {
+              "duration": 603570800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "As a user, I want to receive an error if I attempt to delete a planet while using the name of a moon, so that I know the planet deletion failed",
+        "description": "\tWe are attempting to verify that the user cannot delete a planet if they are using an existing moon name, and that they receive an error message as a response to this misuse of data.",
+        "id": "planetdeletion;as-a-user--i-want-to-receive-an-error-if-i-attempt-to-delete-a-planet-while-using-the-name-of-a-moon--so-that-i-know-the-planet-deletion-failed;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 123839100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60837700,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "The user sets the dropdown to display the planet creation menu",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118250600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "The user enters \"Luna\" as the celestial body to be deleted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Luna\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_as_the_celestial_body_to_be_deleted(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20945100,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "The user presses the delete button",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5983800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "The user should be informed that the planet deletion failed",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_should_be_informed_that_the_planet_deletion_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetDeletion"
+          },
+          {
+            "name": "@PTA-TC-79"
+          },
+          {
+            "name": "@JREQ-PTA-71"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T16:32:10.162Z",
+        "before": [
+          {
+            "result": {
+              "duration": 667820300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.step.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "As a user, I want to receive an error if I attempt to delete a planet without inputting a name, so that I know planet deletion failed.",
+        "description": "\tThis is to verify that no planet is deleted if the user inputs no characters for a planet name, and that they receive an error message to inform them planet deletion failed.",
+        "id": "planetdeletion;as-a-user--i-want-to-receive-an-error-if-i-attempt-to-delete-a-planet-without-inputting-a-name--so-that-i-know-planet-deletion-failed.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123934600,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "The user is logged in",
+            "match": {
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58841900,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "The user sets the dropdown to display the planet creation menu",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "The user enters nothing as the celestial body to be deleted",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_nothing_as_the_celestial_body_to_be_deleted()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20944300,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "The user presses the delete button",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8203200,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "The user should be informed that the planet deletion failed",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_should_be_informed_that_the_planet_deletion_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanetDeletion"
+          },
+          {
+            "name": "@PTA-TC-80"
+          },
+          {
+            "name": "@JREQ-PTA-69"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-12T16:32:11.044Z",
+        "before": [
+          {
+            "result": {
+              "duration": 598320100,
               "status": "passed"
             },
             "match": {
@@ -1223,18 +919,18 @@
           }
         ],
         "line": 81,
-        "name": "As a user, I want to receive an error message when I attempt to create a moon using a planet ID that does not point to a real planet, so that I know the moon creation failed",
-        "description": "\tWe are attempting to verify that we cannot create moons while providing a planet ID for a planet that does not exist, and that the user receives an error message as a response to this invalid data.",
-        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-message-when-i-attempt-to-create-a-moon-using-a-planet-id-that-does-not-point-to-a-real-planet--so-that-i-know-the-moon-creation-failed;;3",
+        "name": "As a User, I want to receive an error if I input the name for a planet that does not exist, so that I know planet deletion failed",
+        "description": "\tThis is to verify that no planet is deleted if the user inputs a name that does not point to any existing planet, and that receive an error message to inform them planet deletion failed",
+        "id": "planetdeletion;as-a-user--i-want-to-receive-an-error-if-i-input-the-name-for-a-planet-that-does-not-exist--so-that-i-know-planet-deletion-failed;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 119680800,
+              "duration": 132645700,
               "status": "passed"
             },
-            "line": 70,
+            "line": 73,
             "name": "The user is logged in",
             "match": {
               "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
@@ -1243,113 +939,77 @@
           },
           {
             "result": {
-              "duration": 196474200,
+              "duration": 61836200,
               "status": "passed"
             },
-            "line": 71,
-            "name": "The user sets the dropdown to display the moon creation menu",
+            "line": 74,
+            "name": "The user sets the dropdown to display the planet creation menu",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 26484900,
-              "status": "passed"
-            },
-            "line": 72,
-            "name": "The user enters \"A\" as the Moon Name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"A\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 27925300,
-              "status": "passed"
-            },
-            "line": 73,
-            "name": "The user enters \"1000000\" as the Orbited Planet ID",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1000000\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 12965700,
-              "status": "passed"
-            },
-            "line": 74,
-            "name": "The user uploads \"moon-1.jpg\" as Image",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"moon-1.jpg\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 18949100,
+              "duration": 127657600,
               "status": "passed"
             },
             "line": 75,
-            "name": "The user clicks on the Submit Moon button",
+            "name": "The user enters \"This planet is not real\" as the celestial body to be deleted",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+              "arguments": [
+                {
+                  "val": "\"This planet is not real\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_as_the_celestial_body_to_be_deleted(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 508597900,
+              "duration": 18949300,
               "status": "passed"
             },
             "line": 76,
-            "name": "The user should be informed that the moon addition failed",
+            "name": "The user presses the delete button",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6981500,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "The user should be informed that the planet deletion failed",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_should_be_informed_that_the_planet_deletion_failed()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@MoonAddition"
+            "name": "@PlanetDeletion"
           },
           {
-            "name": "@PTA-TC-69"
+            "name": "@PTA-TC-81"
           },
           {
-            "name": "@JREQ-PTA-45"
+            "name": "@JREQ-PTA-70"
           }
         ]
       },
       {
-        "start_timestamp": "2024-08-11T18:24:54.151Z",
+        "start_timestamp": "2024-08-12T16:32:11.995Z",
         "before": [
           {
             "result": {
-              "duration": 3331628700,
+              "duration": 636292400,
               "status": "passed"
             },
             "match": {
@@ -1358,133 +1018,97 @@
           }
         ],
         "line": 82,
-        "name": "As a user, I want to receive an error message when I attempt to create a moon using a planet ID that does not point to a real planet, so that I know the moon creation failed",
-        "description": "\tWe are attempting to verify that we cannot create moons while providing a planet ID for a planet that does not exist, and that the user receives an error message as a response to this invalid data.",
-        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-message-when-i-attempt-to-create-a-moon-using-a-planet-id-that-does-not-point-to-a-real-planet--so-that-i-know-the-moon-creation-failed;;4",
+        "name": "As a User, I want to receive an error if I input the name for a planet that does not exist, so that I know planet deletion failed",
+        "description": "\tThis is to verify that no planet is deleted if the user inputs a name that does not point to any existing planet, and that receive an error message to inform them planet deletion failed",
+        "id": "planetdeletion;as-a-user--i-want-to-receive-an-error-if-i-input-the-name-for-a-planet-that-does-not-exist--so-that-i-know-planet-deletion-failed;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 624713600,
-              "status": "passed"
-            },
-            "line": 70,
-            "name": "The user is logged in",
-            "match": {
-              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 84708600,
-              "status": "passed"
-            },
-            "line": 71,
-            "name": "The user sets the dropdown to display the moon creation menu",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 41468500,
-              "status": "passed"
-            },
-            "line": 72,
-            "name": "The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 22938600,
+              "duration": 125760000,
               "status": "passed"
             },
             "line": 73,
-            "name": "The user enters \"\" as the Orbited Planet ID",
+            "name": "The user is logged in",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
             },
-            "keyword": "When "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 12965500,
+              "duration": 59840000,
               "status": "passed"
             },
             "line": 74,
-            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "name": "The user sets the dropdown to display the planet creation menu",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"moon-1.jpg\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 17951400,
+              "duration": 127682200,
               "status": "passed"
             },
             "line": 75,
-            "name": "The user clicks on the Submit Moon button",
+            "name": "The user enters \"Neither is this one\" as the celestial body to be deleted",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
+              "arguments": [
+                {
+                  "val": "\"Neither is this one\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_as_the_celestial_body_to_be_deleted(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 525527000,
+              "duration": 19004100,
               "status": "passed"
             },
             "line": 76,
-            "name": "The user should be informed that the moon addition failed",
+            "name": "The user presses the delete button",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7923700,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "The user should be informed that the planet deletion failed",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_should_be_informed_that_the_planet_deletion_failed()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@MoonAddition"
+            "name": "@PlanetDeletion"
           },
           {
-            "name": "@PTA-TC-69"
+            "name": "@PTA-TC-81"
           },
           {
-            "name": "@JREQ-PTA-45"
+            "name": "@JREQ-PTA-70"
           }
         ]
       },
       {
-        "start_timestamp": "2024-08-11T18:24:58.818Z",
+        "start_timestamp": "2024-08-12T16:32:12.977Z",
         "before": [
           {
             "result": {
-              "duration": 542579700,
+              "duration": 684545000,
               "status": "passed"
             },
             "match": {
@@ -1492,16 +1116,16 @@
             }
           }
         ],
-        "line": 96,
-        "name": "As a user, I want to receive an error when I do not include a moon name when attempting to create a moon so that I know mood addition failed",
-        "description": "\tWe are attempting to verify that we cannot create moons without providing a name for the moon, and that the user receives an error message as a response to this invalid data.",
-        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-when-i-do-not-include-a-moon-name-when-attempting-to-create-a-moon-so-that-i-know-mood-addition-failed;;2",
+        "line": 95,
+        "name": "As a user, I want to be able to see that once I remove a planet from the planetarium, that it\u0027s orbiting moons are removed as well, so that we are no longer tracking them",
+        "description": "\tThis is to verify that moons are not left orphaned when we are removing their parent planet.",
+        "id": "planetdeletion;as-a-user--i-want-to-be-able-to-see-that-once-i-remove-a-planet-from-the-planetarium--that-it-s-orbiting-moons-are-removed-as-well--so-that-we-are-no-longer-tracking-them;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 622374800,
+              "duration": 121674800,
               "status": "passed"
             },
             "line": 87,
@@ -1513,95 +1137,87 @@
           },
           {
             "result": {
-              "duration": 88763000,
+              "duration": 63829100,
               "status": "passed"
             },
             "line": 88,
-            "name": "The user sets the dropdown to display the moon creation menu",
+            "name": "The user sets the dropdown to display the planet creation menu",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 23935900,
+              "duration": 121283600,
               "status": "passed"
             },
             "line": 89,
-            "name": "The user enters \"1\" as the Orbited Planet ID",
+            "name": "The user enters \"Earth\" as the celestial body to be deleted",
             "match": {
               "arguments": [
                 {
-                  "val": "\"1\"",
+                  "val": "\"Earth\"",
                   "offset": 16
                 }
               ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_as_the_celestial_body_to_be_deleted(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 12964700,
+              "duration": 19462500,
               "status": "passed"
             },
             "line": 90,
-            "name": "The user uploads \"moon-1.jpg\" as Image",
+            "name": "The user presses the delete button",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"moon-1.jpg\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 18949500,
+              "duration": 529921100,
               "status": "passed"
             },
             "line": 91,
-            "name": "The user clicks on the Submit Moon button",
+            "name": "The user should no longer see \"Earth\" and \"Luna\" within the planetarium",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 509883900,
-              "status": "passed"
-            },
-            "line": 92,
-            "name": "The user should be informed that the moon addition failed",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+              "arguments": [
+                {
+                  "val": "\"Earth\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Luna\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_should_no_longer_see_and_within_the_planetarium(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@MoonAddition"
+            "name": "@PlanetDeletion"
           },
           {
-            "name": "@PTA-TC-70"
+            "name": "@PTA-TC-82"
           },
           {
-            "name": "@JREQ-PTA-28"
+            "name": "@JREQ-PTA-77"
           }
         ]
       },
       {
-        "start_timestamp": "2024-08-11T18:25:00.642Z",
+        "start_timestamp": "2024-08-12T16:32:14.521Z",
         "before": [
           {
             "result": {
-              "duration": 544253700,
+              "duration": 539635000,
               "status": "passed"
             },
             "match": {
@@ -1609,19 +1225,19 @@
             }
           }
         ],
-        "line": 97,
-        "name": "As a user, I want to receive an error when I do not include a moon name when attempting to create a moon so that I know mood addition failed",
-        "description": "\tWe are attempting to verify that we cannot create moons without providing a name for the moon, and that the user receives an error message as a response to this invalid data.",
-        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-when-i-do-not-include-a-moon-name-when-attempting-to-create-a-moon-so-that-i-know-mood-addition-failed;;3",
+        "line": 108,
+        "name": "As a user, I want to be able to remove planets from the planetarium which contain numbers within their name, so that we can stop tracking them",
+        "description": "\tThis is to verify that we can remove planets who\u0027s names are either partly or fully made up of numbers",
+        "id": "planetdeletion;as-a-user--i-want-to-be-able-to-remove-planets-from-the-planetarium-which-contain-numbers-within-their-name--so-that-we-can-stop-tracking-them;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 120677700,
+              "duration": 121288000,
               "status": "passed"
             },
-            "line": 87,
+            "line": 100,
             "name": "The user is logged in",
             "match": {
               "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
@@ -1630,230 +1246,83 @@
           },
           {
             "result": {
-              "duration": 210943300,
+              "duration": 61834400,
               "status": "passed"
             },
-            "line": 88,
-            "name": "The user sets the dropdown to display the moon creation menu",
+            "line": 101,
+            "name": "The user sets the dropdown to display the planet creation menu",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 24932700,
-              "status": "passed"
-            },
-            "line": 89,
-            "name": "The user enters \"2\" as the Orbited Planet ID",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"2\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 13962300,
-              "status": "passed"
-            },
-            "line": 90,
-            "name": "The user uploads \"moon-1.jpg\" as Image",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"moon-1.jpg\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 20944400,
-              "status": "passed"
-            },
-            "line": 91,
-            "name": "The user clicks on the Submit Moon button",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 507722000,
-              "status": "passed"
-            },
-            "line": 92,
-            "name": "The user should be informed that the moon addition failed",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@MoonAddition"
-          },
-          {
-            "name": "@PTA-TC-70"
-          },
-          {
-            "name": "@JREQ-PTA-28"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2024-08-11T18:25:02.090Z",
-        "before": [
-          {
-            "result": {
-              "duration": 431551900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.revature.step.Hooks.beforeScenario()"
-            }
-          }
-        ],
-        "line": 112,
-        "name": "As a user, I want to receive an error message if I attempt to add a moon within a name that is longer than thirty characters long, so that I know moon addition failed",
-        "description": "\tThis is used to verify that the user cannot create a moon where it\u0027s name is too long and that the user receives an appropriate error message",
-        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-message-if-i-attempt-to-add-a-moon-within-a-name-that-is-longer-than-thirty-characters-long--so-that-i-know-moon-addition-failed;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 649347300,
+              "duration": 115239800,
               "status": "passed"
             },
             "line": 102,
-            "name": "The user is logged in",
+            "name": "The user enters \"1\" as the celestial body to be deleted",
             "match": {
-              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_as_the_celestial_body_to_be_deleted(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 90756700,
+              "duration": 20944300,
               "status": "passed"
             },
             "line": 103,
-            "name": "The user sets the dropdown to display the moon creation menu",
+            "name": "The user presses the delete button",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
             },
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 41426700,
+              "duration": 1032613400,
               "status": "passed"
             },
             "line": 104,
-            "name": "The user enters \"ThisCelestialBodyNameIsTooLong!\" as the Moon Name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ThisCelestialBodyNameIsTooLong!\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 23935000,
-              "status": "passed"
-            },
-            "line": 105,
-            "name": "The user enters \"1\" as the Orbited Planet ID",
+            "name": "The user should no longer see the planet \"1\" within the planetarium",
             "match": {
               "arguments": [
                 {
                   "val": "\"1\"",
-                  "offset": 16
+                  "offset": 41
                 }
               ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 13963500,
-              "status": "passed"
-            },
-            "line": 106,
-            "name": "The user uploads \"moon-1.jpg\" as Image",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"moon-1.jpg\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 17952000,
-              "status": "passed"
-            },
-            "line": 107,
-            "name": "The user clicks on the Submit Moon button",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 510634600,
-              "status": "passed"
-            },
-            "line": 108,
-            "name": "The user should be informed that the moon addition failed",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_should_no_longer_see_the_planet_within_the_planetarium(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@MoonAddition"
+            "name": "@PlanetDeletion"
           },
           {
-            "name": "@PTA-TC-72"
+            "name": "@PTA-TC-83"
           },
           {
-            "name": "@JREQ-PTA-37"
+            "name": "@JREQ-PTA-73"
           }
         ]
       },
       {
-        "start_timestamp": "2024-08-11T18:25:03.873Z",
+        "start_timestamp": "2024-08-12T16:32:16.418Z",
         "before": [
           {
             "result": {
-              "duration": 520945400,
+              "duration": 567892600,
               "status": "passed"
             },
             "match": {
@@ -1861,19 +1330,19 @@
             }
           }
         ],
-        "line": 127,
-        "name": "As a user, I want to receive an error message when attempting to create a moon with a picture that is too large to persist within our database so that I know the moon addition failed",
-        "description": "\tThis is to verify that a user cannot add an image that is too large to our database, and that the user receives an appropriate error message as a result",
-        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-message-when-attempting-to-create-a-moon-with-a-picture-that-is-too-large-to-persist-within-our-database-so-that-i-know-the-moon-addition-failed;;2",
+        "line": 109,
+        "name": "As a user, I want to be able to remove planets from the planetarium which contain numbers within their name, so that we can stop tracking them",
+        "description": "\tThis is to verify that we can remove planets who\u0027s names are either partly or fully made up of numbers",
+        "id": "planetdeletion;as-a-user--i-want-to-be-able-to-remove-planets-from-the-planetarium-which-contain-numbers-within-their-name--so-that-we-can-stop-tracking-them;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 632349600,
+              "duration": 136396400,
               "status": "passed"
             },
-            "line": 117,
+            "line": 100,
             "name": "The user is logged in",
             "match": {
               "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
@@ -1882,251 +1351,86 @@
           },
           {
             "result": {
-              "duration": 84356200,
+              "duration": 62832400,
               "status": "passed"
             },
-            "line": 118,
-            "name": "The user sets the dropdown to display the moon creation menu",
+            "line": 101,
+            "name": "The user sets the dropdown to display the planet creation menu",
             "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_sets_the_dropdown_to_display_the_planet_creation_menu()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 38650500,
+              "duration": 121049200,
               "status": "passed"
             },
-            "line": 119,
-            "name": "The user enters \"ThisIsTheSupererestMoonName!!!\" as the Moon Name",
+            "line": 102,
+            "name": "The user enters \"Planet123\" as the celestial body to be deleted",
             "match": {
               "arguments": [
                 {
-                  "val": "\"ThisIsTheSupererestMoonName!!!\"",
+                  "val": "\"Planet123\"",
                   "offset": 16
                 }
               ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_enters_as_the_celestial_body_to_be_deleted(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 24933500,
+              "duration": 18949700,
               "status": "passed"
             },
-            "line": 120,
-            "name": "The user enters \"1\" as the Orbited Planet ID",
+            "line": 103,
+            "name": "The user presses the delete button",
+            "match": {
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_presses_the_delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 520386400,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "The user should no longer see the planet \"Planet123\" within the planetarium",
             "match": {
               "arguments": [
                 {
-                  "val": "\"1\"",
-                  "offset": 16
+                  "val": "\"Planet123\"",
+                  "offset": 41
                 }
               ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 13962600,
-              "status": "passed"
-            },
-            "line": 121,
-            "name": "The user uploads \"Large-picture.jpg\" as Image",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Large-picture.jpg\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 17951800,
-              "status": "passed"
-            },
-            "line": 122,
-            "name": "The user clicks on the Submit Moon button",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 521143900,
-              "status": "passed"
-            },
-            "line": 123,
-            "name": "The user should be informed that the moon addition failed",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
+              "location": "com.revature.step.PlanetDeletionSteps.the_user_should_no_longer_see_the_planet_within_the_planetarium(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@MoonAddition"
+            "name": "@PlanetDeletion"
           },
           {
-            "name": "@PTA-TC-73"
+            "name": "@PTA-TC-83"
           },
           {
-            "name": "@JREQ-PTA-36"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2024-08-11T18:25:05.730Z",
-        "before": [
-          {
-            "result": {
-              "duration": 530334400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.revature.step.Hooks.beforeScenario()"
-            }
-          }
-        ],
-        "line": 128,
-        "name": "As a user, I want to receive an error message when attempting to create a moon with a picture that is too large to persist within our database so that I know the moon addition failed",
-        "description": "\tThis is to verify that a user cannot add an image that is too large to our database, and that the user receives an appropriate error message as a result",
-        "id": "moonaddition;as-a-user--i-want-to-receive-an-error-message-when-attempting-to-create-a-moon-with-a-picture-that-is-too-large-to-persist-within-our-database-so-that-i-know-the-moon-addition-failed;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 125175900,
-              "status": "passed"
-            },
-            "line": 117,
-            "name": "The user is logged in",
-            "match": {
-              "location": "com.revature.step.PlanetAdditionSteps.the_user_is_logged_in()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 191177400,
-              "status": "passed"
-            },
-            "line": 118,
-            "name": "The user sets the dropdown to display the moon creation menu",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_sets_the_dropdown_to_display_the_moon_creation_menu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 26927700,
-              "status": "passed"
-            },
-            "line": 119,
-            "name": "The user enters \"A\" as the Moon Name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"A\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Moon_Name(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 23935500,
-              "status": "passed"
-            },
-            "line": 120,
-            "name": "The user enters \"2\" as the Orbited Planet ID",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"2\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_enters_as_the_Orbited_Planet_ID(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 13511200,
-              "status": "passed"
-            },
-            "line": 121,
-            "name": "The user uploads \"Large-picture.jpg\" as Image",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Large-picture.jpg\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.revature.step.MoonAdditionSteps.the_user_uploads_as_Image(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 16955100,
-              "status": "passed"
-            },
-            "line": 122,
-            "name": "The user clicks on the Submit Moon button",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_clicks_on_the_Submit_Moon_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 518612100,
-              "status": "passed"
-            },
-            "line": 123,
-            "name": "The user should be informed that the moon addition failed",
-            "match": {
-              "location": "com.revature.step.MoonAdditionSteps.the_user_should_be_informed_that_the_moon_addition_failed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@MoonAddition"
-          },
-          {
-            "name": "@PTA-TC-73"
-          },
-          {
-            "name": "@JREQ-PTA-36"
+            "name": "@JREQ-PTA-73"
           }
         ]
       }
     ],
-    "name": "MoonAddition",
+    "name": "PlanetDeletion",
     "description": "",
-    "id": "moonaddition",
+    "id": "planetdeletion",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/MoonAddition.feature",
+    "uri": "file:src/test/resources/features/PlanetDeletion.feature",
     "tags": [
       {
-        "name": "@MoonAddition",
+        "name": "@PlanetDeletion",
         "type": "Tag",
         "location": {
           "line": 1,
