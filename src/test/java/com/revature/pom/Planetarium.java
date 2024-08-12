@@ -87,8 +87,4 @@ public class Planetarium {
 
     public void clickDeleteInput(){ deleteInput.click();}
 
-    public void checkIfContains(String toCheck){
-        celestialTable.findElement(By.partialLinkText())
-    }
-
 }

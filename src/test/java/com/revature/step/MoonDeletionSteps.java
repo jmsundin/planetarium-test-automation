@@ -3,7 +3,9 @@ package com.revature.step;
 import io.cucumber.java.en.Given;
 import org.junit.Assert;
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.revature.TestRunner;
@@ -37,12 +39,19 @@ public class MoonDeletionSteps {
             TestRunner.driver.switchTo().alert().accept();
         }catch (TimeoutException e){
         }
-        TestRunner.wait.until(ExpectedConditions.titleIs("Home"));
-        Assert.assertTrue(true);
+
+        try{
+            String xpath = "//tr[td[1][text()='planet'] and td[3][text()='%s']]".formatted(moonName);
+            WebElement moon = TestRunner.wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+            Assert.assertTrue(moon.isDisplayed());
+        }catch (TimeoutException e){
+            Assert.assertFalse(false);
+        }
+
     }
 
     @Then("An error message should be displayed and no moon should be deleted")
-    public void an_error_message_should_be_displayed_and_no_moon_should_be_deleted(){
+    public void an_error_message_should_be_displayed_and_no_moon_should_be_deleted(String moonName){
         try{
             TestRunner.wait.until(ExpectedConditions.alertIsPresent());
         }catch (TimeoutException e){
@@ -50,6 +59,8 @@ public class MoonDeletionSteps {
         }
         String alert = TestRunner.driver.switchTo().alert().getText();
         TestRunner.driver.switchTo().alert().accept();
-        Assert.assertTrue(alert.contains("Failed to delete"));
+        String xpath = "//tr[td[1][text()='planet'] and td[3][text()='%s']]".formatted(moonName);
+        WebElement moon = TestRunner.wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+        Assert.assertTrue(alert.contains("Failed to delete") && moon.isDisplayed());
     }
 }
