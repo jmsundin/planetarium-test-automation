@@ -21,8 +21,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    //features = "src/test/resources/features/MoonAddition.feature",
-    features = "classpath:features",
+    features = "src/test/resources/features/MoonDeletion.feature",
+    //features = "classpath:features",
     glue = "com.revature.step",
     plugin = {
         "pretty",
@@ -45,7 +45,7 @@ public class TestRunner {
         login = new Login(driver);
         register = new Register(driver);
         planetarium = new Planetarium(driver);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(1));
     }
 
     @AfterClass

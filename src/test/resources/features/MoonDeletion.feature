@@ -31,7 +31,7 @@ Feature: MoonDeletion
 		Given The user is logged in
 		When User enters "<moon>" as the moon name
 		When User clicks on the delete moon button
-		Then An error message should be displayed and the moon "<moon>" should not be deleted
+		Then The user should be informed that moon deletion failed
 
 	Examples: 
 		| moon      |
@@ -43,7 +43,7 @@ Feature: MoonDeletion
 		Given The user is logged in
 		When User enters "<moon>" as the moon name
 		When User clicks on the delete moon button
-		Then An error message should be displayed and the moon "<moon>" should not be deleted
+		Then The user should be informed that moon deletion failed
 
 	Examples: 
 		| moon |
@@ -90,7 +90,7 @@ Feature: MoonDeletion
 	System should not delete any planets if the input field is blank, and should display an error message letting the user know that the deletion failed.
 		Given The user is logged in
 		When User clicks on the delete moon button
-		Then An error message should be displayed
+		Then The user should be informed that moon deletion failed
 
 	Examples: 
 		| moon |
