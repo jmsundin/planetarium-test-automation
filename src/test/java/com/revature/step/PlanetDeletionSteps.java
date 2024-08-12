@@ -2,15 +2,12 @@ package com.revature.step;
 
 import com.revature.TestRunner;
 
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-
-import java.util.List;
 
 public class PlanetDeletionSteps {
 
@@ -49,16 +46,18 @@ public class PlanetDeletionSteps {
 
     @Then("The user should no longer see the planet {string} within the planetarium")
     public void the_user_should_no_longer_see_the_planet_within_the_planetarium(String string) {
-        String xpath = "//tr[td[1][text()='planet'] and td[3][text()='" + string + "']]";
+        try {
+            TestRunner.driver.switchTo().alert().accept();
+            Assert.fail();
+        } catch (NoAlertPresentException ignored){
+
+        }
+
 
         try{
-            try {
-                TestRunner.driver.switchTo().alert().accept();
-                Assert.fail();
-            } catch (NoAlertPresentException e){
 
-            }
 
+            String xpath = "//tr[td[1][text()='planet'] and td[3][text()='" + string + "']]";
             WebElement element = TestRunner.driver.findElement(By.xpath(xpath));
             TestRunner.wait.until(ExpectedConditions.invisibilityOf(element));
         } catch (TimeoutException e) {
@@ -85,7 +84,7 @@ public class PlanetDeletionSteps {
 
         try{
             WebElement planetElement = TestRunner.driver.findElement(By.xpath(planetXpath));
-            WebElement moonElement = TestRunner.driver.findElement(By.xpath(planetXpath));
+            WebElement moonElement = TestRunner.driver.findElement(By.xpath(moonXpath));
 
             TestRunner.wait.until(ExpectedConditions.invisibilityOf(planetElement));
             TestRunner.wait.until(ExpectedConditions.invisibilityOf(moonElement));
