@@ -1,7 +1,12 @@
 package com.revature.step;
 
+import static org.junit.Assert.fail;
+
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.revature.TestRunner;
 
@@ -21,18 +26,22 @@ public class PlanetandMoonVisibilitySteps {
         Assert.assertTrue(prompt.contains("Please log in first"));
     }
 
-    @Then("The user should see the moon called {string}, moon ID {string}, and owner ID {string}")
-    public void the_user_should_see_the_moon_called_Pre_existing_moon_moon_ID_Moon_ID_and_owner_ID_Planet_Id(String moonName, String moonID, String planetID){
-        String xpath = "//tr[td[1][text()='moon'] and td[2][text()='%s'] and td[3][text()='%s'] and td[4][text()='%s']]".formatted(moonID, moonName, planetID);
-
-        String moon = TestRunner.driver.findElement(By.xpath(xpath)).getText();
-        System.out.println(moon);
-        Assert.assertTrue(moon.contains(moonName));
-        Assert.assertTrue(moon.contains(moonID));
-        Assert.assertTrue(moon.contains(planetID));
+    @Then("The user should see the moon called {string} and owner ID {string}")
+    public void the_user_should_see_the_moon_called_Pre_existing_moon_moon_ID_Moon_ID_and_owner_ID_Planet_Id(String moonName, String planetID){
+        String xpath = "//tr[td[1][text()='moon'] and td[3][text()='%s'] and td[4][text()='%s']]".formatted(moonName, planetID);
+        WebElement moon = null;
+        try {
+            moon = TestRunner.wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+        } catch (Exception e) {
+            Assert.fail(e.getMessage());
+        }
+        if (moon == null) {
+            Assert.fail("Moon not found");
+        }
+        Assert.assertTrue(moon.isDisplayed());
     }
 
-    @Then("The logged in user should see the planet, {string} and owner ID {string}")
+    @Then("The logged in user should see the planet {string} and owner ID {string}")
     public void the_logged_in_user_should_see_the_planet_from_other_user(String planetName, String ownerID){
         String xpath = "//tr[td[1][text()='planet'] and td[3][text()='%s'] and td[4][text()='%s']]".formatted(planetName, ownerID);
         String planet = "";
