@@ -105,5 +105,5 @@ This will also act as a test to
 
 	Examples:
 		| Planet number names |
-		| 1                   |
+		| 2                   |
 		| Planet123           |
