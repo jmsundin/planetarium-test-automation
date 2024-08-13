@@ -5,6 +5,9 @@ import java.time.Duration;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
+
+import io.cucumber.java.Before;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -18,6 +21,9 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+    //features = "src/test/resources/features/MoonAddition.feature",
+    //features = "src/test/resources/features/PlanetDeletion.feature",
+    // features = "src/test/resources/features/PlanetandMoonVisibility.feature",
     features = "classpath:features",
     glue = "com.revature.step",
     plugin = {
@@ -35,7 +41,7 @@ public class TestRunner {
 
     @BeforeClass
     public static void setup(){
-        Setup.resetTestDatabase();
+        //Setup.resetTestDatabase();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         login = new Login(driver);
@@ -49,5 +55,6 @@ public class TestRunner {
         if(driver != null){
             driver.quit();
         }
-    };
+    }
+
 }
