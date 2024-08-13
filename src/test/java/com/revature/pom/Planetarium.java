@@ -2,6 +2,7 @@ package com.revature.pom;
 
 import java.io.File;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -30,6 +31,8 @@ public class Planetarium {
     private WebElement orbitedPlanetInput;
     @FindBy(id = "moonImageInput")
     private WebElement moonImageInput;
+    @FindBy(id = "celestialTable")
+    private WebElement celestialTable;
 
     @FindBy(xpath = "//*[@id=\"inputContainer\"]/button")
     private WebElement submitButton;
@@ -81,5 +84,7 @@ public class Planetarium {
     public void clickSubmitButton(){
         submitButton.click();
     }
+
+    public void clickDeleteInput(){ deleteInput.click();}
 
 }
