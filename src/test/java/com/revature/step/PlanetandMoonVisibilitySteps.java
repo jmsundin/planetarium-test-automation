@@ -17,6 +17,7 @@ public class PlanetandMoonVisibilitySteps {
    
     @When("The user directly goes to the Home page of Planetarium {string}")
     public void the_user_directly_goes_to_the_home_page_of_planetarium(String url){
+        TestRunner.setup();
         TestRunner.driver.get(url);
     }
 
