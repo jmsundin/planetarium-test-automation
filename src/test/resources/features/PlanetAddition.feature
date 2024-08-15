@@ -15,7 +15,7 @@ Feature: PlanetAddition
 		| New planet names | Celestial body file name |
 		| Earth            | planet-1.jpg             |
 
-	@PTA-TC-62 @JREQ-PTA-66
+	@PTA-TC-62 @JREQ-PTA-105 @JREQ-PTA-66
 	Scenario Outline: As a user, I want to receive an error message if I attempt to add a planet with an already existing moon name, so that I am aware that the planet addition failed
 	The system should check if the name already exists for a moon and provide a user-friendly error message if it is.
 		Given The user is logged in
@@ -73,7 +73,7 @@ Feature: PlanetAddition
 		| Planet .^$*+-?()[]{}\|         | planet-1.jpg             |
 		| 1                              | planet-1.jpg             |
 
-	@PTA-TC-67 @JREQ-PTA-46
+	@PTA-TC-67 @JREQ-PTA-104 @JREQ-PTA-46
 	Scenario Outline: As a user, I should be able to add planets with a valid planet name without an image, so it will visible in the Planetarium
 	Users should be able to input a valid planet name without an image to add a planet to the planetarium
 		Given The user is logged in
