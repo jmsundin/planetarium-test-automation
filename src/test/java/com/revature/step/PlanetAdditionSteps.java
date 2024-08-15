@@ -1,15 +1,10 @@
 package com.revature.step;
 
-import com.revature.Setup;
-
 import static org.junit.Assert.fail;
 
 import org.junit.Assert;
-import org.junit.Before;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
