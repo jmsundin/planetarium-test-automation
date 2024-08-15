@@ -1,8 +1,16 @@
 package com.revature.step;
 
 import com.revature.Setup;
+
+import static org.junit.Assert.fail;
+
 import org.junit.Assert;
 import org.junit.Before;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.UnhandledAlertException;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.revature.TestRunner;
@@ -45,10 +53,32 @@ public class PlanetAdditionSteps {
 
     @Then("The user should be informed that the planet addition failed")
     public void the_user_should_be_informed_that_the_planet_addition_failed() {
-        TestRunner.wait.until(ExpectedConditions.alertIsPresent());
-        String alert = TestRunner.driver.switchTo().alert().getText();
-        TestRunner.driver.switchTo().alert().accept();
-        Assert.assertTrue(alert.contains("please try again"));
+        try{
+            TestRunner.wait.until(ExpectedConditions.alertIsPresent());
+            String alert = TestRunner.driver.switchTo().alert().getText();
+            TestRunner.driver.switchTo().alert().accept();
+            Assert.assertTrue(alert.contains("please try again"));
+        } catch (TimeoutException e) {
+            Assert.fail(e.getMessage());
+        }
+    }
+
+    @Then("The planet {string} should be added to the Planetarium")
+    public void the_planet_should_be_added_to_the_Planetarium(String planetName) {
+        String xpath = "//tr[td[1][text()='planet'] and td[3][text()='%s']]".formatted(planetName);
+        try{
+            try {
+                TestRunner.wait.until(ExpectedConditions.alertIsPresent());
+                TestRunner.driver.switchTo().alert().accept();
+                fail();
+            } catch (TimeoutException e){
+
+            }
+            WebElement planet = TestRunner.wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+            Assert.assertTrue(planet.isDisplayed());;
+        } catch (TimeoutException e) {
+            Assert.fail(e.getMessage());
+        } 
     }
 
 }
