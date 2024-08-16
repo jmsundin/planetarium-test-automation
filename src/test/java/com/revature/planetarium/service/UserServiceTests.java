@@ -10,8 +10,6 @@ import org.junit.After;
 import org.junit.BeforeClass;
 import org.junit.AfterClass;
 import org.junit.Test;
-import org.mockito.Mock;
-import org.mockito.Mockito;
 import java.util.Optional;
 
 import com.revature.planetarium.entities.User;
@@ -25,21 +23,24 @@ public class UserServiceTests {
     private UserDao userDao;
     private UserService userService;
 
-    private int id1 = 1;
-    private String validUsername1 = "Planets and Moons are awesomee";
-    private String validPassword1 = "Planets and Moons are awesomee";
-
-    private String existingUsername = "Batman";
-
-    @BeforeClass
-    public static void setup(){
-        // TODO
-    }
+    private User validUser;
+    private User existingUser;
+    private User userWithNoUsername;
+    private User userWithNoPassword;
+    private User userWithUsernameTooLong;
+    private User userWithPasswordTooLong;
 
     @Before
-    public void beforeEach(){
+    public void setup(){
         userDao = mock(UserDao.class);
         userService = new UserServiceImp(userDao);
+
+        validUser = new User(1, "Planets and Moons are awesomee", "Planets and Moons are awesomee");
+        existingUser = new User(2, "Batman", "I am the night");
+        userWithNoUsername = new User(3, "", "Planets and Moons are awesomee");
+        userWithNoPassword = new User(4, "Planets and Moons are awesomee", "");
+        userWithUsernameTooLong = new User(5, "Planets and Moons are awesomee and I like to write long sentences", "Planets and Moons are awesomee");
+        userWithPasswordTooLong = new User(6, "Planets and Moons are awesomee", "Planets and Moons are awesomee and I like to write long sentences");
     }
 
     /*
@@ -47,10 +48,7 @@ public class UserServiceTests {
     */
     @Test
     public void createUserSuccessTest(){
-        User newUser = new User(id1, validUsername1, validPassword1);
-
-        when(userDao.findUserByUsername(validUsername1)).thenReturn(Optional.empty());
-        when(userDao.createUser(newUser)).thenReturn(Optional.of(newUser));
+        when(userDao.createUser(validUser)).thenReturn(Optional.of(validUser));
 
         String result = userService.createUser(newUser);
         assertEquals("Created user with username " + validUsername1 + " and password " + validPassword1, result);
