@@ -23,6 +23,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
     //features = "src/test/resources/features/MoonAddition.feature",
     //features = "src/test/resources/features/PlanetDeletion.feature",
+    // features = "src/test/resources/features/PlanetandMoonVisibility.feature",
     features = "classpath:features",
     glue = "com.revature.step",
     plugin = {
@@ -42,7 +43,7 @@ public class TestRunner {
     public static void setup(){
         //Setup.resetTestDatabase();
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         login = new Login(driver);
         register = new Register(driver);
         planetarium = new Planetarium(driver);
