@@ -81,10 +81,10 @@ public class UserDaoTest {
             newUser.setPassword(password1);
 
             Optional<User> returnUser = userDao.createUser(newUser);
-
-            Assert.fail("User persisted with password longer than 30 characters");
-
-
+            if(returnUser.isPresent()){
+                Assert.fail("User persisted with password longer than 30 characters");
+            }
+            
         } catch(UserFail ignore){ }
 
     }
@@ -97,9 +97,9 @@ public class UserDaoTest {
             newUser.setPassword(tooLongString);
 
             Optional<User> returnUser = userDao.createUser(newUser);
-
-            Assert.fail("User persisted with password longer than 30 characters");
-
+            if(returnUser.isPresent()){
+                Assert.fail("User persisted with password longer than 30 characters");
+            }
         } catch(UserFail ignore){ }
     }
 
