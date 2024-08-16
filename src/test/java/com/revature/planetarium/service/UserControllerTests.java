@@ -1,17 +1,43 @@
 package com.revature.planetarium.service;
 
-import org.junit.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
+import org.junit.Before;
+import org.junit.After;
+import org.junit.BeforeClass;
+import org.junit.AfterClass;
+import org.junit.Test;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import java.util.Optional;
+
+import com.revature.planetarium.entities.User;
+import com.revature.planetarium.exceptions.UserFail;
+import com.revature.planetarium.repository.user.UserDao;
+import com.revature.planetarium.service.user.UserService;
+import com.revature.planetarium.service.user.UserServiceImp;
 
 public class UserControllerTests {
-    
+
+    private UserDao userDao;
+    private UserService userService;
+
+    private int id1 = 1;
+    private String validUsername1 = "Planets and Moons are awesomee";
+    private String validPassword1 = "Planets and Moons are awesomee";
+
     @BeforeClass
     public static void setup(){
-        System.out.println("This runs before all tests");
+        // TODO
     }
 
     @Before
     public void beforeEach(){
-        System.out.println("This runs before each test");
+        userDao = mock(UserDao.class);
+        userService = new UserServiceImp(userDao);
     }
 
     /*
@@ -19,12 +45,23 @@ public class UserControllerTests {
     */
     @Test
     public void createUserSuccessTest(){
-        // TODO
+        User newUser = new User(id1, validUsername1, validPassword1);
+
+        when(userDao.findUserByUsername(validUsername1)).thenReturn(Optional.empty());
+        when(userDao.createUser(newUser)).thenReturn(Optional.of(newUser));
+
+        String result = userService.createUser(newUser);
+        assertEquals("Created user with username " + validUsername1 + " and password " + validPassword1, result);
     }
 
     @Test
     public void createUserFailTest(){
-        // TODO
+        User newUser = new User(id1, validUsername1, validPassword1);
+        when(userDao.findUserByUsername(validUsername1)).thenReturn(Optional.empty());
+        when(userDao.createUser(newUser)).thenReturn(Optional.empty());
+
+        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(newUser));
+        assertEquals("Failed to create user, please try again", exception.getMessage());
     }
 
     @Test
@@ -59,11 +96,11 @@ public class UserControllerTests {
 
     @After
     public void afterEach(){
-        System.out.println("This runs after each test");
+        // TODO
     }
 
     @AfterClass
     public static void afterAll(){
-        System.out.println("This runs after all tests");
+        // TODO
     }
 }
