@@ -1,34 +1,28 @@
 package com.revature;
 
-import org.sqlite.SQLiteConfig;
+import com.revature.planetarium.utility.DatabaseConnector;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Base64;
 import java.util.stream.Stream;
 
 public class Setup {
+
     public static void main(String[] args) {
         resetTestDatabase();
     }
-
-    public static Connection getConnection() throws SQLException {
-        SQLiteConfig config = new SQLiteConfig();
-        config.enforceForeignKeys(true);
-        String url = System.getenv("PLANETARIUM");
-        return DriverManager.getConnection(url, config.toProperties());
-    }
-
-    public static byte[] convertImgToByteArray(String filePath) throws IOException {
-        return Files.readAllBytes(Paths.get(filePath));
-    }
-
     public static void resetTestDatabase() {
         Path sql = Path.of("src/test/resources/setup-reset.sql");
         StringBuilder sqlBuilder = new StringBuilder();
-        try (Connection conn = getConnection(); Stream<String> lines = Files.lines(sql)) {
+        try (Connection conn = DatabaseConnector.getConnection(); Stream<String> lines = Files.lines(sql)) {
             conn.setAutoCommit(false);
             lines.forEach(sqlBuilder::append);
             String sqlString = sqlBuilder.toString();
@@ -48,10 +42,23 @@ public class Setup {
                         stmt.executeUpdate(sqlStatement);
                     }
                 }
+
             }
             conn.commit();
         } catch (IOException | SQLException e) {
             System.out.println("Error: " +e.getMessage());
         }
+    }
+
+    public static String convertToBase64(String filePath) throws IOException {
+        try (FileInputStream fis = new FileInputStream(filePath)) {
+            byte[] fileBytes = fis.readAllBytes();
+            return Base64.getEncoder().encodeToString(fileBytes);
+        }
+    }
+
+    public static byte[] convertImgToByteArray(String filePath) throws IOException {
+        byte[] imageBytes = Files.readAllBytes(Paths.get(filePath));
+        return imageBytes;
     }
 }

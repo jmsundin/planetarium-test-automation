@@ -68,7 +68,9 @@ public class MoonAdditionSteps {
 
         try {
             try {
+
                 TestRunner.driver.switchTo().alert().accept();
+                Assert.fail();
             } catch (NoAlertPresentException e){
 
             }

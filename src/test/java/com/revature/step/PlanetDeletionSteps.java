@@ -35,10 +35,10 @@ public class PlanetDeletionSteps {
     @Then("The planet with the id {string} should be deleted from the Planetarium")
     public void the_planet_with_the_id_should_be_deleted_from_the_Planetarium(String string) {
         String xpath = "//tr[td[1][text()='planet'] and td[2][text()='" + string + "']]";
-        WebElement element = TestRunner.driver.findElement(By.xpath(xpath));
+        // WebElement element = TestRunner.driver.findElement(By.xpath(xpath));
 
         try{
-            TestRunner.wait.until(ExpectedConditions.invisibilityOf(element));
+            TestRunner.wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(xpath)));
         } catch (TimeoutException e) {
             Assert.fail(e.getMessage());
         }
@@ -47,19 +47,16 @@ public class PlanetDeletionSteps {
     @Then("The user should no longer see the planet {string} within the planetarium")
     public void the_user_should_no_longer_see_the_planet_within_the_planetarium(String string) {
         try {
+            TestRunner.wait.until(ExpectedConditions.alertIsPresent());
             TestRunner.driver.switchTo().alert().accept();
             Assert.fail();
-        } catch (NoAlertPresentException ignored){
-
-        }
-
+        } catch (TimeoutException ignored){}
 
         try{
-
-
             String xpath = "//tr[td[1][text()='planet'] and td[3][text()='" + string + "']]";
-            WebElement element = TestRunner.driver.findElement(By.xpath(xpath));
-            TestRunner.wait.until(ExpectedConditions.invisibilityOf(element));
+            //WebElement element = TestRunner.driver.findElement(By.xpath(xpath));
+            TestRunner.wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(xpath)));
+
         } catch (TimeoutException e) {
             Assert.fail(e.getMessage());
         }
@@ -67,6 +64,8 @@ public class PlanetDeletionSteps {
 
     @Then("The user should be informed that the planet deletion failed")
     public void the_user_should_be_informed_that_the_planet_deletion_failed() {
+
+
         try {
             TestRunner.wait.until(ExpectedConditions.alertIsPresent());
             String alertText = TestRunner.driver.switchTo().alert().getText();
@@ -79,16 +78,21 @@ public class PlanetDeletionSteps {
 
     @Then("The user should no longer see {string} and {string} within the planetarium")
     public void the_user_should_no_longer_see_and_within_the_planetarium(String string, String string2) {
+        try {
+            TestRunner.wait.until(ExpectedConditions.alertIsPresent());
+            TestRunner.driver.switchTo().alert().accept();
+            Assert.fail();
+        } catch (NoAlertPresentException | TimeoutException ignored){
+
+        }
+
         String planetXpath = "//tr[td[1][text()='planet'] and td[3][text()='" + string + "']]";
         String moonXpath = "//tr[td[1][text()='moon'] and td[3][text()='" + string2 + "']]";
 
         try{
-            WebElement planetElement = TestRunner.driver.findElement(By.xpath(planetXpath));
-            WebElement moonElement = TestRunner.driver.findElement(By.xpath(moonXpath));
 
-            TestRunner.wait.until(ExpectedConditions.invisibilityOf(planetElement));
-            TestRunner.wait.until(ExpectedConditions.invisibilityOf(moonElement));
-
+            TestRunner.wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(planetXpath)));
+            TestRunner.wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(moonXpath)));
 
         } catch (TimeoutException e){
             Assert.fail(e.getMessage());
