@@ -6,13 +6,9 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 import org.junit.Before;
-import org.junit.After;
-import org.junit.BeforeClass;
-import org.junit.AfterClass;
 import org.junit.Test;
 import java.util.Optional;
 
-import com.revature.Setup;
 import com.revature.planetarium.entities.User;
 import com.revature.planetarium.exceptions.UserFail;
 import com.revature.planetarium.repository.user.UserDao;
@@ -25,6 +21,7 @@ public class UserServiceTests {
     private UserService userService;
 
     private User validUser;
+    private User invalidUser;
     private User existingUser;
     private User userWithNoUsername;
     private User userWithNoPassword;
@@ -37,13 +34,12 @@ public class UserServiceTests {
         userService = new UserServiceImp(userDao);
 
         validUser = new User(1, "Planets and Moons are awesomee", "Planets and Moons are awesomee");
+        invalidUser = new User(1, "Batman", "Batman");
         existingUser = new User(2, "Batman", "I am the night");
         userWithNoUsername = new User(3, "", "Planets and Moons are awesomee");
         userWithNoPassword = new User(4, "Planets and Moons are awesomee", "");
         userWithUsernameTooLong = new User(5, "Planets and Moons are awesomee and I like to write long sentences", "Planets and Moons are awesomee");
         userWithPasswordTooLong = new User(6, "Planets and Moons are awesomee", "Planets and Moons are awesomee and I like to write long sentences");
-
-
     }
 
     /*
@@ -55,6 +51,15 @@ public class UserServiceTests {
 
         String result = userService.createUser(validUser);
         assertEquals("Created user with username " + validUser.getUsername() + " and password " + validUser.getPassword(), result);
+    }
+
+    @Test
+    public void createUserFailTest(){
+        when(userDao.findUserByUsername(invalidUser.getUsername())).thenReturn(Optional.empty());
+        when(userDao.createUser(invalidUser)).thenReturn(Optional.empty());
+
+        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(invalidUser));
+        assertEquals("Failed to create user, please try again", exception.getMessage());
     }
 
     @Test
@@ -91,16 +96,14 @@ public class UserServiceTests {
 
     @Test
     public void authenticateSuccessTest(){
-        // TODO
+        when(userDao.findUserByUsername(validUser.getUsername())).thenReturn(Optional.of(validUser));
+        assertEquals(validUser, userService.authenticate(validUser));
     }
 
-    @After
-    public void afterEach(){
-        // TODO
-    }
-
-    @AfterClass
-    public static void afterAll(){
-        // TODO
+    @Test
+    public void authenticateFailTest(){
+        when(userDao.findUserByUsername(invalidUser.getUsername())).thenReturn(Optional.empty());
+        Exception exception = assertThrows(UserFail.class, () -> userService.authenticate(validUser));
+        assertEquals("Username and/or password do not match", exception.getMessage());
     }
 }
