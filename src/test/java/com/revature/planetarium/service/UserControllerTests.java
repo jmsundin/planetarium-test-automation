@@ -90,7 +90,10 @@ public class UserControllerTests {
 
     @Test
     public void passwordTooLongTest(){
-        // TODO
+        int id = 5;
+        User newUser = new User(id, validUsername1, "a".repeat(31));
+        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(newUser));
+        assertEquals("Password must be between 1 and 30 characters", exception.getMessage());
     }
 
     @Test
