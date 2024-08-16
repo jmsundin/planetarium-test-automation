@@ -66,7 +66,10 @@ public class UserControllerTests {
 
     @Test
     public void usernameTooShortTest(){
-        // TODO
+        int id = 2;
+        User newUser = new User(id, "", validPassword1);
+        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(newUser));
+        assertEquals("Username must be between 1 and 30 characters", exception.getMessage());
     }
 
     @Test
