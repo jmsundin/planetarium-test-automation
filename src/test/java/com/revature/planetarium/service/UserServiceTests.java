@@ -20,7 +20,7 @@ import com.revature.planetarium.repository.user.UserDao;
 import com.revature.planetarium.service.user.UserService;
 import com.revature.planetarium.service.user.UserServiceImp;
 
-public class UserControllerTests {
+public class UserServiceTests {
 
     private UserDao userDao;
     private UserService userService;
