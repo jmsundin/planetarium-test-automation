@@ -29,6 +29,8 @@ public class UserControllerTests {
     private String validUsername1 = "Planets and Moons are awesomee";
     private String validPassword1 = "Planets and Moons are awesomee";
 
+    private String existingUsername = "Batman";
+
     @BeforeClass
     public static void setup(){
         // TODO
@@ -98,7 +100,12 @@ public class UserControllerTests {
 
     @Test
     public void usernameAlreadyExistsTest(){
-        // TODO
+        int id = 6;
+        User newUser = new User(id, existingUsername, validPassword1);
+        when(userDao.findUserByUsername(existingUsername)).thenReturn(Optional.of(newUser));
+
+        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(newUser));
+        assertEquals("Username is already in use", exception.getMessage());
     }
 
     @Test
