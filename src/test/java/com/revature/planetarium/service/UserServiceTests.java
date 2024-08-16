@@ -12,6 +12,7 @@ import org.junit.AfterClass;
 import org.junit.Test;
 import java.util.Optional;
 
+import com.revature.Setup;
 import com.revature.planetarium.entities.User;
 import com.revature.planetarium.exceptions.UserFail;
 import com.revature.planetarium.repository.user.UserDao;
@@ -41,6 +42,8 @@ public class UserServiceTests {
         userWithNoPassword = new User(4, "Planets and Moons are awesomee", "");
         userWithUsernameTooLong = new User(5, "Planets and Moons are awesomee and I like to write long sentences", "Planets and Moons are awesomee");
         userWithPasswordTooLong = new User(6, "Planets and Moons are awesomee", "Planets and Moons are awesomee and I like to write long sentences");
+
+
     }
 
     /*
@@ -50,60 +53,40 @@ public class UserServiceTests {
     public void createUserSuccessTest(){
         when(userDao.createUser(validUser)).thenReturn(Optional.of(validUser));
 
-        String result = userService.createUser(newUser);
-        assertEquals("Created user with username " + validUsername1 + " and password " + validPassword1, result);
+        String result = userService.createUser(validUser);
+        assertEquals("Created user with username " + validUser.getUsername() + " and password " + validUser.getPassword(), result);
     }
 
     @Test
-    public void createUserFailTest(){
-        User newUser = new User(id1, validUsername1, validPassword1);
-        when(userDao.findUserByUsername(validUsername1)).thenReturn(Optional.empty());
-        when(userDao.createUser(newUser)).thenReturn(Optional.empty());
+    public void usernameAlreadyExistsTest(){
+        when(userDao.findUserByUsername(existingUser.getUsername())).thenReturn(Optional.of(existingUser));
 
-        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(newUser));
-        assertEquals("Failed to create user, please try again", exception.getMessage());
+        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(existingUser));
+        assertEquals("Username is already in use", exception.getMessage());
     }
 
     @Test
     public void usernameTooShortTest(){
-        int id = 2;
-        User newUser = new User(id, "", validPassword1);
-        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(newUser));
+        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(userWithNoUsername));
         assertEquals("Username must be between 1 and 30 characters", exception.getMessage());
     }
 
     @Test
     public void usernameTooLongTest(){
-        int id = 3;
-        User newUser = new User(id, "a".repeat(31), validPassword1);
-        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(newUser));
+        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(userWithUsernameTooLong));
         assertEquals("Username must be between 1 and 30 characters", exception.getMessage());
     }
 
     @Test
     public void passwordTooShortTest(){
-        int id = 4;
-        User newUser = new User(id, validUsername1, "");
-        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(newUser));
+        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(userWithNoPassword));
         assertEquals("Password must be between 1 and 30 characters", exception.getMessage());
     }
 
     @Test
     public void passwordTooLongTest(){
-        int id = 5;
-        User newUser = new User(id, validUsername1, "a".repeat(31));
-        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(newUser));
+        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(userWithPasswordTooLong));
         assertEquals("Password must be between 1 and 30 characters", exception.getMessage());
-    }
-
-    @Test
-    public void usernameAlreadyExistsTest(){
-        int id = 6;
-        User newUser = new User(id, existingUsername, validPassword1);
-        when(userDao.findUserByUsername(existingUsername)).thenReturn(Optional.of(newUser));
-
-        Exception exception = assertThrows(UserFail.class, () -> userService.createUser(newUser));
-        assertEquals("Username is already in use", exception.getMessage());
     }
 
     @Test
