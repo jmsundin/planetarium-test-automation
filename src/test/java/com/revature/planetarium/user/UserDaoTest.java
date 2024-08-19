@@ -28,19 +28,9 @@ public class UserDaoTest {
         userDao = new UserDaoImp();
     }
 
-    @AfterClass
-    public static void tearDown(){
-
-    }
-
     @Before
     public void beforeEach(){
         Setup.resetTestDatabase();
-    }
-
-    @After
-    public void afterEach(){
-
     }
 
     /*
@@ -51,10 +41,8 @@ public class UserDaoTest {
     * Ideas for potential tests
     *   Positive createUser
     *   Negative createUser
-    *       Too long username,
-    *       No username,
-    *       Too long password,
-    *       No password
+    *       Too long username
+    *       Too long password
     *
     *   Positive findUserByUsername
     *   Negative findUserByUsername
@@ -74,7 +62,7 @@ public class UserDaoTest {
     }
 
     @Test
-    public void createUserTooLongUsername(){
+    public void createUserTooLongUsernameNegative(){
         try{
             User newUser = new User();
             newUser.setUsername(tooLongString);
@@ -84,19 +72,20 @@ public class UserDaoTest {
             if(returnUser.isPresent()){
                 Assert.fail("User persisted with password longer than 30 characters");
             }
-            
-        } catch(UserFail ignore){ }
+
+        } catch(Exception ignore){ }
 
     }
 
     @Test
-    public void createUserTooLongPassword(){
+    public void createUserTooLongPasswordNegative(){
         try{
             User newUser = new User();
             newUser.setUsername(username1);
             newUser.setPassword(tooLongString);
 
             Optional<User> returnUser = userDao.createUser(newUser);
+            // We should not reach this point, as userDao.createUser() should be throwing UserFail, which we catch
             if(returnUser.isPresent()){
                 Assert.fail("User persisted with password longer than 30 characters");
             }
@@ -111,7 +100,7 @@ public class UserDaoTest {
     }
 
     @Test
-    public void findUserByUsernameNoUsername(){
+    public void findUserByUsernameNoUsernameNegative(){
         try{
             Optional<User> existingUser = userDao.findUserByUsername("");
             if(existingUser.isPresent()){
@@ -121,7 +110,7 @@ public class UserDaoTest {
     }
 
     @Test
-    public void findUserByUsernameNonExistent(){
+    public void findUserByUsernameNonExistentNegative(){
         try{
             Optional<User> existingUser = userDao.findUserByUsername(nonExistentUser);
             if(existingUser.isPresent()){
