@@ -50,7 +50,6 @@ import static org.mockito.Mockito.when;
  *   ~Negative ID does not exist
  *   ~Negative name of length zero
  *   ~Negative name length greater than 30
- *   ~Negative empty optional sent
  *   ~Negative not unique planet names used
  *
  * deletePlanet
@@ -194,7 +193,7 @@ public class PlanetServiceTest {
 
     @Test
     public void selectPlanetNonExistentIDNegative(){
-        when(mockDao.readPlanet(anyString())).thenReturn(Optional.empty());
+        when(mockDao.readPlanet(anyInt())).thenReturn(Optional.empty());
 
         Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.selectPlanet(not_real_id));
         Assert.assertEquals("Planet not found", e.getMessage());
@@ -269,33 +268,68 @@ public class PlanetServiceTest {
     }
 
     @Test
-    public void updatePlanetNonExistentID(){
-        Assert.fail("Not implemented");
-
-    }
-
-    @Test
     public void updatePlanetZeroNameNegative(){
-        Assert.fail("Not implemented");
+        when(mockDao.readPlanet(anyInt())).thenReturn(Optional.of(planet_to_return));
+
+        // Define data entree parameters
+        Planet updatingPlanet = new Planet();
+        updatingPlanet.setPlanetName(empty_string);
+        updatingPlanet.setPlanetId(1);
+        updatingPlanet.setOwnerId(1);
+
+        // Call methods
+        Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.updatePlanet(updatingPlanet));
+        Assert.assertEquals("Planet name must be between 1 and 30 characters, could not update", e.getMessage());
 
     }
 
     @Test
     public void updatePlanetLongNameNegative(){
-        Assert.fail("Not implemented");
+        when(mockDao.readPlanet(anyInt())).thenReturn(Optional.of(planet_to_return));
+
+        // Define data entree parameters
+        Planet updatingPlanet = new Planet();
+        updatingPlanet.setPlanetName(longer_than_thirty_length_string);
+        updatingPlanet.setPlanetId(1);
+        updatingPlanet.setOwnerId(1);
+
+        // Call methods
+        Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.updatePlanet(updatingPlanet));
+        Assert.assertEquals("Planet name must be between 1 and 30 characters, could not update", e.getMessage());
 
     }
 
     @Test
-    public void updatePlanetEmptyOptionalNegative(){
-        Assert.fail("Not implemented");
+    public void updatePlanetNonExistentIDNegative(){
+        when(mockDao.readPlanet(anyInt())).thenReturn(Optional.empty());
 
+        // Define data entree parameters
+        Planet updatingPlanet = new Planet();
+        updatingPlanet.setPlanetName(thirty_length_string);
+        updatingPlanet.setPlanetId(1);
+        updatingPlanet.setOwnerId(1);
+
+        // Call methods
+        Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.updatePlanet(updatingPlanet));
+        Assert.assertEquals("Planet not found, could not update", e.getMessage());
     }
 
     @Test
     public void updatePlanetNonUniqueNameNegative(){
-        Assert.fail("Not implemented");
+        // Set the "Old planet" to a name that is different from what we are comparing to
+        Planet old_planet = new Planet();
+        old_planet.setPlanetId(1);
+        old_planet.setPlanetName("Crab");
+        when(mockDao.readPlanet(anyInt())).thenReturn(Optional.of(old_planet));
 
+        // Set up a planet with a different ID than old planet with the name we are trying to update the planet too
+        Planet diff_ID_matching_name_planet = new Planet();
+        diff_ID_matching_name_planet.setPlanetId(2);
+        diff_ID_matching_name_planet.setPlanetName(existing_planet_name);
+        when(mockDao.readPlanet(anyString())).thenReturn(Optional.of(diff_ID_matching_name_planet));
+
+        Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.updatePlanet(planet_to_return));
+        Assert.assertEquals("Planet name must be unique, could not update", e.getMessage());
     }
 
     // deletePlanet
