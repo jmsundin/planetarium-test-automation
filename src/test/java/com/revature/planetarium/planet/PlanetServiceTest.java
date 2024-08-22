@@ -206,7 +206,8 @@ public class PlanetServiceTest {
     // Select all planets
     @Test
     public void selectAllPlanetsPositive(){
-        Assert.fail("Not implemented");
+        realService.selectAllPlanets();
+        verify(mockDao).readAllPlanets();
 
     }
 
