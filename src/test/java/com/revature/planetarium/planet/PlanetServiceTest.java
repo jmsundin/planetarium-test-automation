@@ -53,7 +53,9 @@ import static org.mockito.Mockito.when;
  *   ~Negative not unique planet names used
  *
  * deletePlanet
- *   ~Positive
+ *   Positive
+ *      By integer
+ *      By string
  *   ~Negative String Name doesn't exist
  *   ~Negative ID does not exist
  *   ~Negative non float/ string passed in
@@ -334,26 +336,40 @@ public class PlanetServiceTest {
 
     // deletePlanet
     @Test
-    public void deletePlanetPositive(){
-        Assert.fail("Not implemented");
+    public void deletePlanetByIDPositive(){
+        when(mockDao.deletePlanet(anyInt())).thenReturn(true);
 
+        Assert.assertEquals("Planet deleted successfully", realService.deletePlanet(existing_id));
     }
 
     @Test
-    public void deletePlanetNonExistentStringNameNegative(){
-        Assert.fail("Not implemented");
+    public void deletePlanetByStringPositive(){
+        when(mockDao.deletePlanet(anyString())).thenReturn(true);
 
+        Assert.assertEquals("Planet deleted successfully", realService.deletePlanet(existing_planet_name));
     }
 
     @Test
     public void deletePlanetNonExistentIDNegative(){
-        Assert.fail("Not implemented");
+        when(mockDao.deletePlanet(anyInt())).thenReturn(false);
 
+        Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.deletePlanet(not_real_id));
+        Assert.assertEquals("Planet delete failed, please try again", e.getMessage());
+    }
+
+    @Test
+    public void deletePlanetNonExistentStringNameNegative(){
+        when(mockDao.deletePlanet(anyString())).thenReturn(false);
+
+        Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.deletePlanet(not_real_planet_name));
+        Assert.assertEquals("Planet delete failed, please try again", e.getMessage());
     }
 
     @Test
     public void deletePlanetNeitherStringNorIntNegative(){
-        Assert.fail("Not implemented");
+        // No mock needed - we are testing data types
 
+        Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.deletePlanet(Math.PI));
+        Assert.assertEquals("identifier must be an Integer or String", e.getMessage());
     }
 }
