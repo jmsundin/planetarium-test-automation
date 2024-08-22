@@ -1,8 +1,6 @@
 package com.revature.step;
 
-import io.cucumber.java.en.Given;
 import org.junit.Assert;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
