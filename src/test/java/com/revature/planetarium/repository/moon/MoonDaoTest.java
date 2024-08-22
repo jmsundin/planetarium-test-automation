@@ -123,6 +123,17 @@ public class MoonDaoTest {
         }
     }
 
+     @Test
+    public void testGetAllMoonsByPlanetIdPositive(){
+        Assert.assertEquals(1, moonDao.readMoonsByPlanet(1).size());
+    }
+
+    @Test
+    public void testGetAllMoonsByPlanetIdNegative(){
+        Assert.assertEquals(0, moonDao.readMoonsByPlanet(100).size());
+    }
+
+
 
 
 
