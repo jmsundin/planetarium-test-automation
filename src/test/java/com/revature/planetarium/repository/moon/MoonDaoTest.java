@@ -151,6 +151,20 @@ public class MoonDaoTest {
         Assert.assertSame(Optional.empty(),moonDao.updateMoon(moon));
     }
 
+    @Test
+    public void testDeleteMoonByIDPositive(){
+        Assert.assertTrue(moonDao.deleteMoon(1));
+        Assert.assertEquals(3, moonDao.readAllMoons().size());
+        Assert.assertSame(Optional.empty(),moonDao.readMoon(1));
+    }
+
+    @Test
+    public void testDeleteMoonByIDNegative(){
+        Assert.assertFalse(moonDao.deleteMoon(100));
+        Assert.assertEquals(4, moonDao.readAllMoons().size());
+    }
+
+
 
 
 
