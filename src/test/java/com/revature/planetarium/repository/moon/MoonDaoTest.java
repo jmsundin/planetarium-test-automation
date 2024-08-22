@@ -164,6 +164,20 @@ public class MoonDaoTest {
         Assert.assertEquals(4, moonDao.readAllMoons().size());
     }
 
+    @Test
+    public void testDeleteMoonByNamePositive(){
+        Assert.assertTrue(moonDao.deleteMoon("Luna"));
+        Assert.assertEquals(3, moonDao.readAllMoons().size());
+        Assert.assertSame(Optional.empty(),moonDao.readMoon(1));
+    }
+
+    @Test
+    public void testDeleteMoonByNameNegative(){
+        Assert.assertFalse(moonDao.deleteMoon("Not a Moon"));
+        Assert.assertEquals(4, moonDao.readAllMoons().size());
+    }
+
+
 
 
 
