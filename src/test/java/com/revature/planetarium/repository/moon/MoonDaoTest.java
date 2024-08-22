@@ -71,4 +71,18 @@ public class MoonDaoTest {
         });
     }
 
+    @Test
+    public void testReadMoonIDPositive(){
+        Optional<Moon> checkMoon = moonDao.readMoon(1);
+        Assert.assertNotNull(checkMoon);
+        Assert.assertEquals(existingMoon, checkMoon.get());
+    }
+
+    @Test
+    public void testReadMoonIDNegative(){
+        Optional<Moon> notExistingMoon = moonDao.readMoon(100);
+        Assert.assertFalse(notExistingMoon.isPresent());
+    }
+
+
 }
