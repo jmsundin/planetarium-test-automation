@@ -84,5 +84,21 @@ public class MoonDaoTest {
         Assert.assertFalse(notExistingMoon.isPresent());
     }
 
+    @Test
+    public void testReadMoonNamePositive(){
+        Optional<Moon> checkMoon = moonDao.readMoon("Luna");
+        Assert.assertNotNull(checkMoon);
+        Assert.assertEquals(existingMoon, checkMoon.get());
+
+    }
+
+    @Test
+    public void testReadMoonNameNegative(){
+        Optional<Moon> notExistingMoon = moonDao.readMoon("Not a Moon");
+        Assert.assertFalse(notExistingMoon.isPresent());
+    }
+
+
+
 
 }
