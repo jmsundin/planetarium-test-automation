@@ -1,6 +1,9 @@
 package com.revature.planetarium.repository.moon;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Optional;
 
 import org.junit.Assert;
@@ -11,6 +14,7 @@ import org.junit.Test;
 import com.revature.Setup;
 import com.revature.planetarium.entities.Moon;
 import com.revature.planetarium.exceptions.MoonFail;
+import com.revature.planetarium.utility.DatabaseConnector;
 
 
 public class MoonDaoTest {
@@ -97,6 +101,28 @@ public class MoonDaoTest {
         Optional<Moon> notExistingMoon = moonDao.readMoon("Not a Moon");
         Assert.assertFalse(notExistingMoon.isPresent());
     }
+
+     @Test
+    public void testGetAllMoonsPositive(){
+        Assert.assertTrue(moonDao.readAllMoons().size() >= 4);
+    }
+
+    @Test
+    public void testGetAllMoonsNegative(){
+        deleteMoonsForNegativeGetAllMoonsTest();
+        Assert.assertEquals(0, moonDao.readAllMoons().size());
+    }
+
+    public void deleteMoonsForNegativeGetAllMoonsTest() {
+        try(Connection connection = DatabaseConnector.getConnection()){
+            String sql = "delete from moons";
+            Statement statement = connection.createStatement();
+            statement.executeUpdate(sql);
+        } catch (SQLException e){
+            throw new AssertionError("Could not delete moons");
+        }
+    }
+
 
 
 
