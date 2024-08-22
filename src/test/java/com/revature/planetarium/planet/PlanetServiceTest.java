@@ -9,6 +9,9 @@ import com.revature.planetarium.service.planet.PlanetService;
 import com.revature.planetarium.service.planet.PlanetServiceImp;
 import org.junit.*;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 
 import static org.mockito.ArgumentMatchers.*;
@@ -74,6 +77,8 @@ public class PlanetServiceTest {
     public static int not_real_id = 0;
 
     public static Planet planet_to_return = new Planet();
+
+    public static List<Planet> planetList = new ArrayList<>(Arrays.asList(planet_to_return, planet_to_return, planet_to_return));
 
     @BeforeClass
     public static void setup(){
@@ -206,15 +211,19 @@ public class PlanetServiceTest {
     // Select all planets
     @Test
     public void selectAllPlanetsPositive(){
-        realService.selectAllPlanets();
-        verify(mockDao).readAllPlanets();
+        when(mockDao.readAllPlanets()).thenReturn(planetList);
 
+        List<Planet> returnedList = realService.selectAllPlanets();
+        Assert.assertEquals(planetList, returnedList);
     }
 
     // selectByOwner
     @Test
     public void selectByOwnerPositive(){
-        Assert.fail("Not implemented");
+        when(mockDao.readPlanetsByOwner(anyInt())).thenReturn(planetList);
+
+        List<Planet> returnedList = realService.selectByOwner(existing_id);
+        Assert.assertEquals(planetList, returnedList);
 
     }
 
