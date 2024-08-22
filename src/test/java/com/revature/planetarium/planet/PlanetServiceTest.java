@@ -20,7 +20,7 @@ import static org.mockito.Mockito.when;
 
 public class PlanetServiceTest {
     /*
-    * CreatePlanet
+    * createPlanet
     *   Positive
     *       ~Name length of one
     *       ~Name length of thirty
@@ -28,11 +28,13 @@ public class PlanetServiceTest {
     *   ~Negative name length greater than 30
     *   ~Negative not unique planet names used
     *
-    * SelectPlanet
+    * selectPlanet
     *   ~Positive
+    *       By string
+    *       By int
     *   ~Negative String Name doesn't exist
     *   ~Negative ID does not exist
-    *   ~Negative non float/ string passed in
+    *   ~Negative non int/ string passed in
     *
     * selectAllPlanets
     *   ~Positive test
@@ -66,6 +68,10 @@ public class PlanetServiceTest {
     public static String thirty_length_string = "000111222333444555666777888999";
     public static String longer_than_thirty_length_string = "This one is WAAAAYYYY TOO LONG!";
     public static String existing_planet_name = "Earth";
+    public static String not_real_planet_name = "I am not real";
+
+    public static int existing_id = 1;
+    public static int not_real_id = 0;
 
     public static Planet planet_to_return = new Planet();
 
@@ -98,9 +104,11 @@ public class PlanetServiceTest {
     public void createPlanetThirtyLengthNamePositive(){
         // Set up out mock methods
         when(mockDao.createPlanet((Planet) notNull())).thenReturn(Optional.ofNullable(planet_to_return));
+
         // Create the moon to pass into the service
         Planet newPlanet = new Planet();
         newPlanet.setPlanetName(thirty_length_string);
+
         // Call the create planet method
         realService.createPlanet(newPlanet);
         verify(mockDao).createPlanet(newPlanet);
@@ -110,9 +118,11 @@ public class PlanetServiceTest {
     public void createPlanetZeroNameNegative(){
         // Set up out mock methods
         when(mockDao.createPlanet((Planet) notNull())).thenReturn(Optional.ofNullable(planet_to_return));
+
         // Create the moon to pass into the service
         Planet noNamePlanet = new Planet();
         noNamePlanet.setPlanetName(empty_string);
+
         // Call the create planet method
         Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.createPlanet(noNamePlanet));
         Assert.assertEquals("Planet name must be between 1 and 30 characters", e.getMessage());
@@ -122,9 +132,11 @@ public class PlanetServiceTest {
     public void createPlanetLongNameNegative(){
         // Set up out mock methods
         when(mockDao.createPlanet((Planet) notNull())).thenReturn(Optional.ofNullable(planet_to_return));
+
         // Create the moon to pass into the service
         Planet longNamePlanet = new Planet();
         longNamePlanet.setPlanetName(longer_than_thirty_length_string);
+
         // Call the create planet method
         Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.createPlanet(longNamePlanet));
         Assert.assertEquals("Planet name must be between 1 and 30 characters", e.getMessage());
@@ -140,6 +152,7 @@ public class PlanetServiceTest {
         // Create the moon to pass into the service
         Planet earthPlanet = new Planet();
         earthPlanet.setPlanetName(existing_planet_name);
+
         // Call the create planet method
         Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.createPlanet(earthPlanet));
         Assert.assertEquals("Planet name must be unique", e.getMessage());
@@ -148,26 +161,45 @@ public class PlanetServiceTest {
 
     // Select planet
     @Test
-    public void selectPlanetPositive(){
-        Assert.fail("Not implemented");
+    public void selectPlanetByStringPositive(){
+        when(mockDao.readPlanet(anyString())).thenReturn(Optional.ofNullable(planet_to_return));
 
+        Planet returnedPlanet = realService.selectPlanet(existing_planet_name);
+
+        Assert.assertNotNull(returnedPlanet);
+    }
+
+    @Test
+    public void selectPlanetByIntPositive(){
+        when(mockDao.readPlanet(anyInt())).thenReturn(Optional.ofNullable(planet_to_return));
+
+        Planet returnedPlanet = realService.selectPlanet(existing_id);
+
+        Assert.assertNotNull(returnedPlanet);
     }
 
     @Test
     public void selectPlanetNonExistentStringNameNegative(){
-        Assert.fail("Not implemented");
+        when(mockDao.readPlanet(anyString())).thenReturn(Optional.empty());
 
+        Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.selectPlanet(not_real_planet_name));
+        Assert.assertEquals("Planet not found", e.getMessage());
     }
 
     @Test
     public void selectPlanetNonExistentIDNegative(){
-        Assert.fail("Not implemented");
+        when(mockDao.readPlanet(anyString())).thenReturn(Optional.empty());
 
+        Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.selectPlanet(not_real_id));
+        Assert.assertEquals("Planet not found", e.getMessage());
     }
 
     @Test
     public void selectPlanetNeitherStringNorIntNegative(){
-        Assert.fail("Not implemented");
+        // No need to mock any methods
+
+        Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.selectPlanet(Math.PI));
+        Assert.assertEquals("identifier must be an Integer or String", e.getMessage());
 
     }
 
