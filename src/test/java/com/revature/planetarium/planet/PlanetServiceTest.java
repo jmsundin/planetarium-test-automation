@@ -20,48 +20,49 @@ import static org.mockito.Mockito.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+/*
+ * createPlanet
+ *   Positive
+ *       ~Name length of one
+ *       ~Name length of thirty
+ *   ~Negative name of length zero
+ *   ~Negative name length greater than 30
+ *   ~Negative not unique planet names used
+ *
+ * selectPlanet
+ *   ~Positive
+ *       By string
+ *       By int
+ *   ~Negative String Name doesn't exist
+ *   ~Negative ID does not exist
+ *   ~Negative non int/ string passed in
+ *
+ * selectAllPlanets
+ *   ~Positive test
+ *
+ * selectByOwner
+ *   ~Positive test
+ *
+ * updatePlanet(?)
+ *   ~Positive test
+ *       ~Name length of one
+ *       ~Name length of thirty
+ *   ~Negative ID does not exist
+ *   ~Negative name of length zero
+ *   ~Negative name length greater than 30
+ *   ~Negative empty optional sent
+ *   ~Negative not unique planet names used
+ *
+ * deletePlanet
+ *   ~Positive
+ *   ~Negative String Name doesn't exist
+ *   ~Negative ID does not exist
+ *   ~Negative non float/ string passed in
+ *
+ * */
+
 
 public class PlanetServiceTest {
-    /*
-    * createPlanet
-    *   Positive
-    *       ~Name length of one
-    *       ~Name length of thirty
-    *   ~Negative name of length zero
-    *   ~Negative name length greater than 30
-    *   ~Negative not unique planet names used
-    *
-    * selectPlanet
-    *   ~Positive
-    *       By string
-    *       By int
-    *   ~Negative String Name doesn't exist
-    *   ~Negative ID does not exist
-    *   ~Negative non int/ string passed in
-    *
-    * selectAllPlanets
-    *   ~Positive test
-    *
-    * selectByOwner
-    *   ~Positive test
-    *
-    * updatePlanet(?)
-    *   ~Positive test
-    *       ~Name length of one
-    *       ~Name length of thirty
-    *   ~Negative ID does not exist
-    *   ~Negative name of length zero
-    *   ~Negative name length greater than 30
-    *   ~Negative empty optional sent
-    *   ~Negative not unique planet names used
-    *
-    * deletePlanet
-    *   ~Positive
-    *   ~Negative String Name doesn't exist
-    *   ~Negative ID does not exist
-    *   ~Negative non float/ string passed in
-    *
-    * */
 
     public static PlanetDao mockDao;
     public static PlanetService realService;
@@ -78,7 +79,7 @@ public class PlanetServiceTest {
 
     public static Planet planet_to_return = new Planet();
 
-    public static List<Planet> planetList = new ArrayList<>(Arrays.asList(planet_to_return, planet_to_return, planet_to_return));
+    public static List<Planet> planetList = new ArrayList<>(Arrays.asList(new Planet(), new Planet(), new Planet()));
 
     @BeforeClass
     public static void setup(){
@@ -205,7 +206,6 @@ public class PlanetServiceTest {
 
         Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.selectPlanet(Math.PI));
         Assert.assertEquals("identifier must be an Integer or String", e.getMessage());
-
     }
 
     // Select all planets
@@ -224,19 +224,47 @@ public class PlanetServiceTest {
 
         List<Planet> returnedList = realService.selectByOwner(existing_id);
         Assert.assertEquals(planetList, returnedList);
-
     }
 
     // updatePlanet
     @Test
     public void updatePlanetOneLengthNamePositive(){
-        Assert.fail("Not implemented");
+        // Mock methods
+        when(mockDao.readPlanet(anyInt())).thenReturn(Optional.of(planet_to_return));
+        when(mockDao.readPlanet(anyString())).thenReturn(Optional.empty()); // Empty since we aren't testing matching names
+        when(mockDao.updatePlanet((Planet) notNull())).thenReturn(Optional.of(planet_to_return));
 
+        // Define data entree parameters
+        Planet updatingPlanet = new Planet();
+        updatingPlanet.setPlanetName(one_length_string);
+        updatingPlanet.setPlanetId(1);
+        updatingPlanet.setOwnerId(1);
+
+        // Call methods
+        Planet returnedPlanet = realService.updatePlanet(updatingPlanet);
+
+        // Check output
+        Assert.assertNotNull(returnedPlanet);
     }
 
     @Test
     public void updatePlanetThirtyLengthNamePositive(){
-        Assert.fail("Not implemented");
+        // Mock methods
+        when(mockDao.readPlanet(anyInt())).thenReturn(Optional.of(planet_to_return));
+        when(mockDao.readPlanet(anyString())).thenReturn(Optional.empty()); // Empty since we aren't testing matching names
+        when(mockDao.updatePlanet((Planet) notNull())).thenReturn(Optional.of(planet_to_return));
+
+        // Define data entree parameters
+        Planet updatingPlanet = new Planet();
+        updatingPlanet.setPlanetName(thirty_length_string);
+        updatingPlanet.setPlanetId(1);
+        updatingPlanet.setOwnerId(1);
+
+        // Call methods
+        Planet returnedPlanet = realService.updatePlanet(updatingPlanet);
+
+        // Check output
+        Assert.assertNotNull(returnedPlanet);
 
     }
 
