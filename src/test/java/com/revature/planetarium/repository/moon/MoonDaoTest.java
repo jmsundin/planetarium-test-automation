@@ -1,12 +1,16 @@
 package com.revature.planetarium.repository.moon;
 
 import java.io.IOException;
+import java.util.Optional;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Test;
 
 import com.revature.Setup;
 import com.revature.planetarium.entities.Moon;
+import com.revature.planetarium.exceptions.MoonFail;
 
 
 public class MoonDaoTest {
@@ -43,4 +47,28 @@ public class MoonDaoTest {
         existingMoon = new Moon(1,"Luna",1);
         existingMoon.setImageData(moonImage);
     }
+
+    @Test
+    public void testCreateMoonWithImagePositive(){
+        validMoon.setImageData(moonImage);
+        Optional<Moon> newMoon = moonDao.createMoon(validMoon);
+        Assert.assertNotNull(newMoon);
+        Assert.assertEquals("Triton", newMoon.get().getMoonName());
+    }
+
+    @Test
+    public void testCreateMoonNoImagePositive(){
+        Optional<Moon> newMoon = moonDao.createMoon(validMoon);
+        Assert.assertNotNull(newMoon);
+        Assert.assertEquals("Triton", newMoon.get().getMoonName());
+    }
+
+    @Test
+    public void testCreateMoonNegative(){
+        Moon moon = new Moon();
+        Assert.assertThrows(MoonFail.class, ()->{
+            moonDao.createMoon(moon);
+        });
+    }
+
 }
