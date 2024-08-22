@@ -133,6 +133,25 @@ public class MoonDaoTest {
         Assert.assertEquals(0, moonDao.readMoonsByPlanet(100).size());
     }
 
+    @Test
+    public void testUpdateMoonNamePositive(){
+        existingMoon.setMoonName("Luna2");
+        Assert.assertSame(existingMoon, moonDao.updateMoon(existingMoon).get());
+    }
+
+    @Test
+    public void testUpdateMoonPlanetPositive(){
+        existingMoon.setOwnerId(2);
+        Assert.assertSame(existingMoon, moonDao.updateMoon(existingMoon).get());
+    }
+
+    @Test
+    public void testUpdateMoonNegative(){
+        Moon moon = new Moon();
+        Assert.assertSame(Optional.empty(),moonDao.updateMoon(moon));
+    }
+
+
 
 
 
