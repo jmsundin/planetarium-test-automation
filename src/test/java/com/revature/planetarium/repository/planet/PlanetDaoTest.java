@@ -23,5 +23,14 @@ public class PlanetDaoTest {
     static String planetImage;
     private Planet validPlanet;
     private Planet existingPlanet;
+
+    @BeforeClass
+    public static void imageSetup(){
+        try{
+            planetImage = Setup.convertToBase64("src/test/resources/Celestial-Images/planet-1.jpg");
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+    }
     
 }
