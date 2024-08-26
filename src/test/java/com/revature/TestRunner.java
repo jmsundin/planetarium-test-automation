@@ -6,8 +6,6 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
-import io.cucumber.java.Before;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -29,7 +27,7 @@ import io.cucumber.junit.CucumberOptions;
     plugin = {
         "pretty",
         "html:src/test/resources/reports/html-report.html",
-        "json:src/test/resources/reports/json-report.json"
+        "json:src/test/resources/reports/json-report.json"   
     }
 )
 public class TestRunner {
