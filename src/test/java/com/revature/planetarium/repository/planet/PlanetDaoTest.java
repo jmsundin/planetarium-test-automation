@@ -32,5 +32,25 @@ public class PlanetDaoTest {
             e.printStackTrace();
         }
     }
+
+    @Before
+    public void setup(){
+        Setup.resetTestDatabase();
+        planetDao = new PlanetDaoImp();
+        createValidPlanet();
+        createExistingPlanet();
+    }
+
+    public void createValidPlanet(){
+        validPlanet = new Planet();
+        validPlanet.setPlanetName("Earth");
+        validPlanet.setOwnerId(1);
+    }
+
+    public void createExistingPlanet(){
+        existingPlanet = new Planet();
+        existingPlanet.setPlanetName("Earth");
+        existingPlanet.setOwnerId(1);
+    }
     
 }
