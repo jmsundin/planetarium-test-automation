@@ -12,10 +12,9 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.revature.Setup;
-import com.revature.planetarium.entities.Moon;
 import com.revature.planetarium.entities.Planet;
 import com.revature.planetarium.exceptions.PlanetFail;
-import com.revature.planetarium.repository.moon.MoonDao;
+import com.revature.planetarium.repository.planet.PlanetDao;
 import com.revature.planetarium.utility.DatabaseConnector;
 
 public class PlanetDaoTest {
