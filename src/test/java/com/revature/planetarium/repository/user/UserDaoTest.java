@@ -28,6 +28,7 @@ public class UserDaoTest {
         userDao = new UserDaoImp();
     }
 
+
     @Before
     public void beforeEach(){
         Setup.resetTestDatabase();
@@ -43,6 +44,7 @@ public class UserDaoTest {
     *   Negative createUser
     *       Too long username
     *       Too long password
+
     *
     *   Positive findUserByUsername
     *   Negative findUserByUsername
@@ -69,6 +71,7 @@ public class UserDaoTest {
             newUser.setPassword(password1);
 
             Optional<User> returnUser = userDao.createUser(newUser);
+          
             if(returnUser.isPresent()){
                 Assert.fail("User persisted with password longer than 30 characters");
             }
