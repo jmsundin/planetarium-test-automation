@@ -80,7 +80,12 @@
             <input type="text" id="deleteInput" placeholder="name for celestial body to be deleted">
             <button id="deleteButton" onclick="deleteCelestial()">Delete</button>
         </div>
-        <div id="inputContainer"></div>        
+        <div id="inputContainer">
+            <input type="text" id="moonNameInput" name="Moon Name" placeholder="Enter Moon Name">
+            <input type="text" id="orbitedPlanetInput" name="Orbited Planet" placeholder="Enter Orbited Planet Id">
+            <input type="file" id="moonImageInput" name="Moon Image" accept="image/*" placeholder="Upload Moon Image">
+            <button class="submit-button" onclick="createMoon()">Submit Moon</button>
+        </div>        
     </div>
     <div class="center" style="border: 3px solid black;">
         <table id="celestialTable">
