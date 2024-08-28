@@ -20,12 +20,12 @@ import com.revature.planetarium.utility.DatabaseConnector;
 public class PlanetDaoTest {
 
     private PlanetDao planetDao;
-    static String planetImage;
+    private static String planetImage;
     private Planet validPlanet;
     private Planet existingPlanet;
 
     @BeforeClass
-    public static void imageSetup(){
+    public static void beforeClassSetup(){
         try{
             planetImage = Setup.convertToBase64("src/test/resources/Celestial-Images/planet-1.jpg");
         }catch(IOException e){
@@ -43,29 +43,44 @@ public class PlanetDaoTest {
 
     public void createValidPlanet(){
         validPlanet = new Planet();
-        validPlanet.setPlanetName("Earth");
+        validPlanet.setPlanetId(7);
+        validPlanet.setPlanetName("Saturn");
         validPlanet.setOwnerId(1);
+        validPlanet.setImageData(planetImage);
     }
 
     public void createExistingPlanet(){
         existingPlanet = new Planet();
+        existingPlanet.setPlanetId(1);
         existingPlanet.setPlanetName("Earth");
         existingPlanet.setOwnerId(1);
+        existingPlanet.setImageData(planetImage);
+    }
+
+
+    // helper method for negative getAllPlanets test
+    public void deletePlanetsForNegativeGetAllPlanetsTest() {
+        try(Connection connection = DatabaseConnector.getConnection()){
+            String sql = "DELETE FROM planets";
+            Statement statement = connection.createStatement();
+            statement.executeUpdate(sql);
+        } catch (SQLException e){
+            throw new AssertionError("Could not delete planets");
+        }
     }
 
     @Test
     public void testCreatePlanetWithImagePositive(){
-        validPlanet.setImageData(planetImage);
         Optional<Planet> newPlanet = planetDao.createPlanet(validPlanet);
         Assert.assertNotNull(newPlanet);
-        Assert.assertEquals("Triton", newPlanet.get().getPlanetName());
+        Assert.assertEquals("Saturn", newPlanet.get().getPlanetName());
     }
 
     @Test
     public void testCreatePlanetNoImagePositive(){
         Optional<Planet> newPlanet = planetDao.createPlanet(validPlanet);
         Assert.assertNotNull(newPlanet);
-        Assert.assertEquals("Triton", newPlanet.get().getPlanetName());
+        Assert.assertEquals("Saturn", newPlanet.get().getPlanetName());
     }
 
     @Test
@@ -94,7 +109,6 @@ public class PlanetDaoTest {
         Optional<Planet> checkPlanet = planetDao.readPlanet("Earth");
         Assert.assertNotNull(checkPlanet);
         Assert.assertEquals(existingPlanet, checkPlanet.get());
-
     }
 
     @Test
@@ -112,17 +126,6 @@ public class PlanetDaoTest {
     public void testGetAllPlanetsNegative(){
         deletePlanetsForNegativeGetAllPlanetsTest();
         Assert.assertEquals(0, planetDao.readAllPlanets().size());
-    }
-
-    // helper method for negative getAllPlanets test
-    public void deletePlanetsForNegativeGetAllPlanetsTest() {
-        try(Connection connection = DatabaseConnector.getConnection()){
-            String sql = "delete from planets";
-            Statement statement = connection.createStatement();
-            statement.executeUpdate(sql);
-        } catch (SQLException e){
-            throw new AssertionError("Could not delete planets");
-        }
     }
 
     @Test
@@ -146,26 +149,26 @@ public class PlanetDaoTest {
     @Test
     public void testDeletePlanetByIDPositive(){
         Assert.assertTrue(planetDao.deletePlanet(1));
-        Assert.assertEquals(3, planetDao.readAllPlanets().size());
+        Assert.assertEquals(5, planetDao.readAllPlanets().size());
         Assert.assertSame(Optional.empty(),planetDao.readPlanet(1));
     }
 
     @Test
     public void testDeletePlanetByIDNegative(){
         Assert.assertFalse(planetDao.deletePlanet(100));
-        Assert.assertEquals(4, planetDao.readAllPlanets().size());
+        Assert.assertEquals(6, planetDao.readAllPlanets().size());
     }
 
     @Test
     public void testDeletePlanetByNamePositive(){
         Assert.assertTrue(planetDao.deletePlanet("Earth"));
-        Assert.assertEquals(3, planetDao.readAllPlanets().size());
+        Assert.assertEquals(5, planetDao.readAllPlanets().size());
         Assert.assertSame(Optional.empty(),planetDao.readPlanet(1));
     }
 
     @Test
     public void testDeletePlanetByNameNegative(){
         Assert.assertFalse(planetDao.deletePlanet("Not a Planet"));
-        Assert.assertEquals(4, planetDao.readAllPlanets().size());
+        Assert.assertEquals(6, planetDao.readAllPlanets().size());
     }
 }
