@@ -1,0 +1,687 @@
+{
+	"id": "eec0b023-80ac-403b-baa3-bd1184bc365b",
+	"name": "User Controller",
+	"timestamp": "2024-08-28T15:47:39.772Z",
+	"collection_id": "37926476-d6fe266f-3ed1-4da1-81fa-8307a401a06a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 40,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-08-28T15:47:37.728Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "99b6f343-20b3-4804-b66e-74cb4c59bf93",
+			"name": "Login positive",
+			"url": "http://localhost:8080/login",
+			"time": 4,
+			"responseCode": {
+				"code": 202,
+				"name": "Accepted"
+			},
+			"tests": {
+				"Status code is 202": true,
+				"Returned body contains user id": true,
+				"Returned body contains username": true,
+				"Returned body contains user password": true
+			},
+			"testPassFailCounts": {
+				"Status code is 202": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returned body contains user id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returned body contains username": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returned body contains user password": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 202": true,
+					"Returned body contains user id": true,
+					"Returned body contains username": true,
+					"Returned body contains user password": true
+				}
+			]
+		},
+		{
+			"id": "7c0bd121-c842-4628-8840-473901711735",
+			"name": "Login negative non-existent username",
+			"url": "http://localhost:8080/login",
+			"time": 3,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Body is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Body is correct": true
+				}
+			]
+		},
+		{
+			"id": "26e70082-6267-4291-bff4-293e59ce4b8d",
+			"name": "Login negative real username bad password",
+			"url": "http://localhost:8080/login",
+			"time": 3,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Body is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Body is correct": true
+				}
+			]
+		},
+		{
+			"id": "b19ab12c-248c-40e7-9bff-0059a73080a5",
+			"name": "Login negative no username",
+			"url": "http://localhost:8080/login",
+			"time": 3,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Body is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Body is correct": true
+				}
+			]
+		},
+		{
+			"id": "efcd2cc2-fe67-452c-a472-97fc4c638baa",
+			"name": "Login negative no password",
+			"url": "http://localhost:8080/login",
+			"time": 3,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Body is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Body is correct": true
+				}
+			]
+		},
+		{
+			"id": "cc445a8c-9494-4234-a3c5-209e2af0bdbe",
+			"name": "Register positive",
+			"url": "http://localhost:8080/register",
+			"time": 90,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				90
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "c09230a3-804b-408c-b9de-bf75b637755f",
+			"name": "Register negative no username",
+			"url": "http://localhost:8080/register",
+			"time": 2,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "bdd2a8ab-347e-4c70-98d5-44df3255d6b0",
+			"name": "Register negative no password",
+			"url": "http://localhost:8080/register",
+			"time": 2,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "69d59943-8e39-4631-85c0-39f66e329276",
+			"name": "Register negative too long username",
+			"url": "http://localhost:8080/register",
+			"time": 2,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "8670fd66-1b3b-4ffe-b1a9-731ef74f5607",
+			"name": "Register negative too long password",
+			"url": "http://localhost:8080/register",
+			"time": 2,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "676ef607-d552-4d37-b040-480fd1d6b86f",
+			"name": "Logout positive",
+			"url": "http://localhost:8080/logout",
+			"time": 3,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "1bfcf517-0ba0-4613-92c3-8b2658f61634",
+			"name": "planetarium/ authenticate   user positive",
+			"url": "http://localhost:8080/planetarium",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "17d3956c-9ac8-44f8-b083-0bf153530d40",
+			"name": "planetarium/ authenticate   user negative not logged in",
+			"url": "http://localhost:8080/planetarium",
+			"time": 2,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "f12ae342-2e8a-44f5-a9ed-7b670c3baf86",
+			"name": "planetarium/planet Authenticate user positive",
+			"url": "http://localhost:8080/planetarium/planet",
+			"time": 55,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Planet ID is 1": true,
+				"Planet name is Earth": true,
+				"Owner ID is 1": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Planet ID is 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Planet name is Earth": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Owner ID is 1": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				55
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Planet ID is 1": true,
+					"Planet name is Earth": true,
+					"Owner ID is 1": true
+				}
+			]
+		},
+		{
+			"id": "22a73db4-adc7-465f-aa18-ee3980e07e4d",
+			"name": "planetarium/planet Authenticate user negative not logged in",
+			"url": "http://localhost:8080/planetarium/planet",
+			"time": 2,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "59f43731-5b0a-4593-b3d6-a94076b88161",
+			"name": "planetarium/planet/owner/* Authenticate user positive",
+			"url": "http://localhost:8080/planetarium/planet/owner/1",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Planet ID is 1": true,
+				"Planet name is Earth": true,
+				"Owner ID is 1": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Planet ID is 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Planet name is Earth": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Owner ID is 1": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Planet ID is 1": true,
+					"Planet name is Earth": true,
+					"Owner ID is 1": true
+				}
+			]
+		},
+		{
+			"id": "193627d6-2b56-445d-981e-ff0cf31ed593",
+			"name": "planetarium/planet/owner/* Authenticate user negative not logged in",
+			"url": "http://localhost:8080/planetarium/planet/owner/1",
+			"time": 2,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Body matches string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 185,
+	"collection": {
+		"requests": [
+			{
+				"id": "99b6f343-20b3-4804-b66e-74cb4c59bf93",
+				"method": "POST"
+			},
+			{
+				"id": "7c0bd121-c842-4628-8840-473901711735",
+				"method": "POST"
+			},
+			{
+				"id": "26e70082-6267-4291-bff4-293e59ce4b8d",
+				"method": "POST"
+			},
+			{
+				"id": "b19ab12c-248c-40e7-9bff-0059a73080a5",
+				"method": "POST"
+			},
+			{
+				"id": "efcd2cc2-fe67-452c-a472-97fc4c638baa",
+				"method": "POST"
+			},
+			{
+				"id": "cc445a8c-9494-4234-a3c5-209e2af0bdbe",
+				"method": "POST"
+			},
+			{
+				"id": "c09230a3-804b-408c-b9de-bf75b637755f",
+				"method": "POST"
+			},
+			{
+				"id": "bdd2a8ab-347e-4c70-98d5-44df3255d6b0",
+				"method": "POST"
+			},
+			{
+				"id": "69d59943-8e39-4631-85c0-39f66e329276",
+				"method": "POST"
+			},
+			{
+				"id": "8670fd66-1b3b-4ffe-b1a9-731ef74f5607",
+				"method": "POST"
+			},
+			{
+				"id": "676ef607-d552-4d37-b040-480fd1d6b86f",
+				"method": "POST"
+			},
+			{
+				"id": "1bfcf517-0ba0-4613-92c3-8b2658f61634",
+				"method": "GET"
+			},
+			{
+				"id": "17d3956c-9ac8-44f8-b083-0bf153530d40",
+				"method": "GET"
+			},
+			{
+				"id": "f12ae342-2e8a-44f5-a9ed-7b670c3baf86",
+				"method": "GET"
+			},
+			{
+				"id": "22a73db4-adc7-465f-aa18-ee3980e07e4d",
+				"method": "GET"
+			},
+			{
+				"id": "59f43731-5b0a-4593-b3d6-a94076b88161",
+				"method": "GET"
+			},
+			{
+				"id": "193627d6-2b56-445d-981e-ff0cf31ed593",
+				"method": "GET"
+			}
+		]
+	}
+}
