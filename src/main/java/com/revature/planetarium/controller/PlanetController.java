@@ -3,6 +3,7 @@ package com.revature.planetarium.controller;
 import java.util.List;
 
 import com.revature.planetarium.entities.Planet;
+import com.revature.planetarium.exceptions.MoonFail;
 import com.revature.planetarium.exceptions.PlanetFail;
 import com.revature.planetarium.service.planet.PlanetService;
 
@@ -76,10 +77,10 @@ public class PlanetController {
         try {
             String identifier = ctx.pathParam("identifier");
             String responseMessage;
-            if(identifier.matches("^[0-9]+$")) {
-                responseMessage = planetService.deletePlanet(Integer.parseInt(identifier));
-            } else {
+            try{
                 responseMessage = planetService.deletePlanet(identifier);
+            }catch(PlanetFail e){
+                responseMessage = planetService.deletePlanet(Integer.parseInt(identifier));
             }
             ctx.json(responseMessage);
             ctx.status(200);

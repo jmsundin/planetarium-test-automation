@@ -2,7 +2,7 @@
 -- NOTE: if executing these statements manually, the image data is encoded in base64
 -- before being passed into the database: you will need to do this manually or leave it off
 -- needed for referential integrity enforcement if executing the queries manually
-PRAGMA foreign_keys = ON;
+-- PRAGMA foreign_keys = ON;
 
 drop table if exists moons;
 
@@ -11,7 +11,7 @@ drop table if exists planets;
 drop table if exists users;
 
 create table users(
-	id integer primary key,
+	id serial primary key,
 	username text unique not null check (length(username) <= 30),
 	password text not null check (length(password) <= 30)
 );
@@ -20,10 +20,10 @@ insert into users (username, password) values ('Batman', 'I am the night');
 insert into users (username, password) values ('The Joker', 'Smile for me');
 
 create table planets(
-	id integer primary key,
+	id serial primary key,
 	name text not null check (length(name) <= 30),
 	ownerId integer not null,
-	image blob,
+	image bytea,
 	foreign key(ownerId) references users(id) on delete cascade
 );
 
@@ -34,12 +34,11 @@ insert into planets (name, ownerId, image) values ('Planet123', 2, ?);
 insert into planets (name, ownerId, image) values ('2', 2, ?);
 insert into planets (name, ownerId, image) values ('Jupiter', 2, ?);
 
-
 create table moons(
-	id integer primary key,
+	id serial primary key,
 	name text not null check (length(name) <= 30),
 	myPlanetId integer not null,
-	image blob,
+	image bytea,
 	foreign key(myPlanetId) references planets(id) on delete cascade
 );
 

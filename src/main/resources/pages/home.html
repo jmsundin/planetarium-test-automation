@@ -80,7 +80,12 @@
             <input type="text" id="deleteInput" placeholder="name for celestial body to be deleted">
             <button id="deleteButton" onclick="deleteCelestial()">Delete</button>
         </div>
-        <div id="inputContainer"></div>        
+        <div id="inputContainer">
+            <input type="text" id="moonNameInput" name="Moon Name" placeholder="Enter Moon Name">
+            <input type="text" id="orbitedPlanetInput" name="Orbited Planet" placeholder="Enter Orbited Planet Id">
+            <input type="file" id="moonImageInput" name="Moon Image" accept="image/*" placeholder="Upload Moon Image">
+            <button class="submit-button" onclick="createMoon()">Submit Moon</button>
+        </div>        
     </div>
     <div class="center" style="border: 3px solid black;">
         <table id="celestialTable">
@@ -265,7 +270,12 @@
         async function createPlanet(){
             let planetName = document.getElementById('planetNameInput').value;
             let planetImageInput = document.getElementById('planetImageInput');
-            let imageData = await convertToBase64(planetImageInput);
+            let imageData = null;
+            if(planetImageInput.files.length > 0){
+                imageData = await convertToBase64(planetImageInput);
+            }else{
+                imageData = await fetchDefaultImage('planet');
+            }
             const bodyData = {
                     "planetName": planetName,
                     "ownerId": sessionStorage.getItem("userId"),
@@ -289,11 +299,23 @@
                 }  
         }
 
+        async function fetchDefaultImage(celestialBody) {
+            const response = await fetch(`/${celestialBody}-1.jpg`);
+            const blob = await response.blob();
+            const file = new File([blob], `/${celestialBody}-1.jpg`, { type: 'image/jpg' });
+            return await convertToBase64({ files: [file] });
+        }
+
         async function createMoon(){
             let moonName = document.getElementById('moonNameInput').value;
             let orbitedPlanet = document.getElementById('orbitedPlanetInput').value;
             let moonImageInput = document.getElementById('moonImageInput');
-            let imageData = await convertToBase64(moonImageInput);
+            let imageData = null;
+            if(moonImageInput.files.length > 0){
+                imageData = await convertToBase64(moonImageInput);
+            }else{
+                imageData = await fetchDefaultImage('moon');
+            }
             const bodyData = {
                 moonName: moonName,
                 ownerId: orbitedPlanet,
