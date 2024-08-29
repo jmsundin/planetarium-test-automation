@@ -1,0 +1,189 @@
+{
+	"id": "35be523c-0ab4-4f76-b265-415dbd369704",
+	"name": "Planetarium Collection",
+	"timestamp": "2024-08-27T20:30:51.113Z",
+	"collection_id": "35113229-16ebf91b-2760-425c-94b3-bb0a02dc78fa",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 7,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-08-27T20:30:49.957Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c12b4c16-a7d1-4480-9aa7-4c8ce6156ba7",
+			"name": "View HomePagePositive",
+			"url": "http://localhost:8080/planetarium",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c18d1b25-aeef-4f3b-b45b-110387df6890",
+			"name": "View HomePageNegative",
+			"url": "http://localhost:8080/planetarium",
+			"time": 5,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "d0fffa17-5e81-4295-81ef-3a9a49706a79",
+			"name": "View LoginPagePositive",
+			"url": "http://localhost:8080/",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "69dd7b53-b30b-48ea-b330-7f503abdb53d",
+			"name": "View RegisterPagePositive",
+			"url": "http://localhost:8080/register",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d8cd541c-15c3-4c97-9728-3156617c3cbd",
+			"name": "View BackgroundPositive",
+			"url": "http://localhost:8080/background",
+			"time": 177,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				177
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 201,
+	"collection": {
+		"requests": [
+			{
+				"id": "c12b4c16-a7d1-4480-9aa7-4c8ce6156ba7",
+				"method": "GET"
+			},
+			{
+				"id": "c18d1b25-aeef-4f3b-b45b-110387df6890",
+				"method": "GET"
+			},
+			{
+				"id": "d0fffa17-5e81-4295-81ef-3a9a49706a79",
+				"method": "GET"
+			},
+			{
+				"id": "69dd7b53-b30b-48ea-b330-7f503abdb53d",
+				"method": "GET"
+			},
+			{
+				"id": "d8cd541c-15c3-4c97-9728-3156617c3cbd",
+				"method": "GET"
+			}
+		]
+	}
+}

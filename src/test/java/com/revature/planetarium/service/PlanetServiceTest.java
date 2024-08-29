@@ -93,7 +93,6 @@ public class PlanetServiceTest {
         planet_to_return.setOwnerId(1);
     }
 
-
     // Create planet
     @Test
     public void createPlanetOneLengthNamePositive(){
@@ -372,6 +371,5 @@ public class PlanetServiceTest {
         Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.deletePlanet(Math.PI));
         Assert.assertEquals("identifier must be an Integer or String", e.getMessage());
     }
-
-
 }
+

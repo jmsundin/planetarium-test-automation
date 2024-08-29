@@ -8,6 +8,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Javalin app = Javalin.create(config ->{
+			config.staticFiles.add("/images");
 			config.bundledPlugins.enableCors(cors -> {
 				cors.addRule(it -> {
 					it.anyHost();

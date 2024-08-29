@@ -1,4 +1,4 @@
-package com.revature.planetarium.user;
+package com.revature.planetarium.repository.user;
 
 import com.revature.Setup;
 import com.revature.planetarium.entities.User;
