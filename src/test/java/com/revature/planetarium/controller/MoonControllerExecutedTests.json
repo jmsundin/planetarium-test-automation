@@ -1,0 +1,415 @@
+{
+	"id": "502ce205-8488-450b-bcde-b363c083f904",
+	"name": "Integration testing basics",
+	"timestamp": "2024-08-29T17:18:20.417Z",
+	"collection_id": "19655015-7b15f41b-4f07-4dc3-a5ae-3b949e4bf34e",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 28,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-08-29T17:18:19.696Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "40f7ee46-b3aa-49bc-b6eb-b7333a813285",
+			"name": "findAllMoonsPositiveTest",
+			"url": "http://localhost:8080/planetarium/moon",
+			"time": 35,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Length of Moons list is greater than 0": true,
+				"Testing items in response data": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of Moons list is greater than 0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Testing items in response data": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Length of Moons list is greater than 0": true,
+					"Testing items in response data": true
+				}
+			]
+		},
+		{
+			"id": "3a35fda3-64de-4106-975a-e3adbf091e47",
+			"name": "findAllMoonsByPlanetIdPositiveTest",
+			"url": "http://localhost:8080/planetarium/moon/owner/1",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Length of Moons list is greater than 0": true,
+				"Testing properties of Moons list": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of Moons list is greater than 0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Testing properties of Moons list": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Length of Moons list is greater than 0": true,
+					"Testing properties of Moons list": true
+				}
+			]
+		},
+		{
+			"id": "044bedf8-54fb-4ba8-84b6-eb75de990d12",
+			"name": "findAllMoonsByPlanetIdNegativeTest",
+			"url": "http://localhost:8080/planetarium/moon/owner/10",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Body is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Body is correct": true
+				}
+			]
+		},
+		{
+			"id": "3cef4368-605f-4588-84ba-4723ac8a9ed5",
+			"name": "findMoonByIdentifierPositiveTest",
+			"url": "http://localhost:8080/planetarium/moon/1",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Returns 200 OK status": true,
+				"Response time is less than 200ms": true,
+				"Testing properties of Moons list": true
+			},
+			"testPassFailCounts": {
+				"Returns 200 OK status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Testing properties of Moons list": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Returns 200 OK status": true,
+					"Response time is less than 200ms": true,
+					"Testing properties of Moons list": true
+				}
+			]
+		},
+		{
+			"id": "b3a8e80e-85f6-401f-a200-2a8b97aa9d91",
+			"name": "findMoonByIdentifierNegativeTest",
+			"url": "http://localhost:8080/planetarium/moon/10",
+			"time": 3,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Returns 404 Not Found status": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Returns 404 Not Found status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Returns 404 Not Found status": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "4ec86a0a-cb15-45d9-96d6-9791e240f9da",
+			"name": "createMoonPositiveTest",
+			"url": "http://localhost:8080/planetarium/moon",
+			"time": 6,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 200ms": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "0f57e8af-c20d-4ff5-8547-a6c35e9734f5",
+			"name": "createMoonNegativeTest",
+			"url": "http://localhost:8080/planetarium/moon",
+			"time": 3,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 200ms": true,
+				"Body matches string: Moon name must be unique": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string: Moon name must be unique": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 200ms": true,
+					"Body matches string: Moon name must be unique": true
+				}
+			]
+		},
+		{
+			"id": "3bd38faa-cf15-4b25-93c4-69e607ca3f2d",
+			"name": "deleteMoonPositiveTest",
+			"url": "http://localhost:8080/planetarium/moon/5",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Body matches string: Moon deleted successfully": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string: Moon deleted successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Body matches string: Moon deleted successfully": true
+				}
+			]
+		},
+		{
+			"id": "e7e6a5c4-8fb7-4e24-83c0-de583dfa737b",
+			"name": "deleteMoonNegativeTest",
+			"url": "http://localhost:8080/planetarium/moon/10",
+			"time": 3,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 200ms": true,
+				"Body matches string: Moon delete failed, please try again": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string: Moon delete failed, please try again": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 200ms": true,
+					"Body matches string: Moon delete failed, please try again": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 76,
+	"collection": {
+		"requests": [
+			{
+				"id": "40f7ee46-b3aa-49bc-b6eb-b7333a813285",
+				"method": "GET"
+			},
+			{
+				"id": "3a35fda3-64de-4106-975a-e3adbf091e47",
+				"method": "GET"
+			},
+			{
+				"id": "044bedf8-54fb-4ba8-84b6-eb75de990d12",
+				"method": "GET"
+			},
+			{
+				"id": "3cef4368-605f-4588-84ba-4723ac8a9ed5",
+				"method": "GET"
+			},
+			{
+				"id": "b3a8e80e-85f6-401f-a200-2a8b97aa9d91",
+				"method": "GET"
+			},
+			{
+				"id": "4ec86a0a-cb15-45d9-96d6-9791e240f9da",
+				"method": "POST"
+			},
+			{
+				"id": "0f57e8af-c20d-4ff5-8547-a6c35e9734f5",
+				"method": "POST"
+			},
+			{
+				"id": "3bd38faa-cf15-4b25-93c4-69e607ca3f2d",
+				"method": "DELETE"
+			},
+			{
+				"id": "e7e6a5c4-8fb7-4e24-83c0-de583dfa737b",
+				"method": "DELETE"
+			}
+		]
+	}
+}
