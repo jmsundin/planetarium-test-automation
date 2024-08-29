@@ -1,4 +1,4 @@
-package com.revature.planetarium.planet;
+package com.revature.planetarium.service;
 
 import com.revature.planetarium.entities.Planet;
 import com.revature.planetarium.exceptions.PlanetFail;
@@ -372,4 +372,6 @@ public class PlanetServiceTest {
         Exception e = Assert.assertThrows(PlanetFail.class, () -> realService.deletePlanet(Math.PI));
         Assert.assertEquals("identifier must be an Integer or String", e.getMessage());
     }
+
+
 }
