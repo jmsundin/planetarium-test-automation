@@ -1,11 +1,6 @@
 package com.revature.step;
 
-import com.revature.Setup;
-
 import org.junit.Assert;
-import org.junit.Before;
-
-import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
@@ -14,8 +9,6 @@ import com.revature.TestRunner;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
-import java.io.File;
 
 public class MoonAdditionSteps {
 
